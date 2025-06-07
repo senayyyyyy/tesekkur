@@ -1,14 +1,14 @@
 import requests
 import re
 
-def find_working_sporcafe(start=5, end=8):
+def find_working_sporcafe(start=1825, end=1850):
     print("🧭 Sporcafe domainleri taranıyor...")
     headers = {
         "User-Agent": "Mozilla/5.0"
     }
 
     for i in range(start, end + 1):
-        url = f"https://www.sporcafe{i}.xyz/"
+        url = f"https://www.selcuksportshd{i}.xyz/"
         print(f"🔍 Sporcafe taranıyor: {url}")
         try:
             response = requests.get(url, headers=headers, timeout=5)
@@ -60,11 +60,11 @@ def write_m3u_file(m3u8_links, filename="selcuk1.m3u"):
 
 # 🔧 Ayarlar
 channel_ids = [
-    "sbeinsports-1",
-    "sbeinsports-2",
-    "sbeinsports-3",
-    "sbeinsports-4",
-    "sbeinsports-5"
+    "selcukssport1",
+    "selcukssport2",
+    "selcukssport3",
+    "selcukssport4",
+    "selcukssport5"
 ]
 
 # ▶️ Ana işlem akışı
