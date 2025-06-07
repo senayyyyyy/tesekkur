@@ -2,7 +2,7 @@ import requests
 import re
 
 BASE_DOMAIN = "https://www.sporcafe{}.xyz/"
-MAX_INDEX = 1000  # 1-1000 arası denenecek
+MAX_INDEX = 10  # 1-1000 arası denenecek
 M3U_FILENAME = "selcuk.m3u"
 
 def get_all_dynamic_links():
