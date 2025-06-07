@@ -1,71 +1,129 @@
-import re
-from httpx import Client
-from Kekik.cli import konsol as log  
 
-class MonoTV:
+
+from Kekik.cli import konsol
+from httpx     import Client
+from parsel    import Selector
+import re
+
+class TRGoals:
     def __init__(self, m3u_dosyasi):
         self.m3u_dosyasi = m3u_dosyasi
-        self.httpx = Client(
-            timeout=10,
-            headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36"
-            }
-        )
+        self.httpx       = Client(timeout=10, verify=False)
 
-    def yayin_urlini_al(self):
-        json_endpoint = "https://vavoo.vercel.app/api/stream.js?url=https://main.uxsyplayer425b9907af.click&referer=https://www.xyzsports246.xyz/&useragent=okhttp/4.12.0"
-       
+    def referer_domainini_al(self):
+        referer_deseni = r'#EXTVLCOPT:http-referrer=(https?://[^/]*atomsportv[^/]*\.[^\s/]+)'
+        with open(self.m3u_dosyasi, "r") as dosya:
+            icerik = dosya.read()
+
+        if eslesme := re.search(referer_deseni, icerik):
+            return eslesme[1]
+        else:
+            raise ValueError("M3U dosyasında 'atomsportv' içeren referer domain bulunamadı!")
+
+    def trgoals_domaini_al(self):
+        redirect_url = "https://url24.link/AtomSporTV"
+        deneme = 0
+        while "url24.link" in redirect_url and deneme < 5:
+            try:
+                redirect_url = self.redirect_gec(redirect_url)
+            except Exception as e:
+                konsol.log(f"[red][!] redirect_gec hata: {e}")
+                break
+            deneme += 1
+
+        if "bit.ly" in redirect_url or "error" in redirect_url:
+            konsol.log("[yellow][!] 5 denemeden sonra bit.ly çözülemedi, yedek linke geçiliyor...")
+            try:
+                redirect_url = self.redirect_gec("http://www.freelink1.online/atomspor")
+            except Exception as e:
+                raise ValueError(f"Yedek linkten de domain alınamadı: {e}")
+
+        return redirect_url
+
+    def redirect_gec(self, redirect_url: str):
+        konsol.log(f"[cyan][~] redirect_gec çağrıldı: {redirect_url}")
         try:
-            response = self.httpx.get(json_endpoint)
-            json_data = response.json()
-            yayin_url = json_data["baseurl"].replace("\\/", "/").rstrip("/")
-            log.log(f"[green][+] Yayın URL bulundu: {yayin_url}")
-            return yayin_url
+            response = self.httpx.get(redirect_url, follow_redirects=True)
         except Exception as e:
-            raise ValueError(f"Yayın URL'si alınamadı: {e}")
+            raise ValueError(f"Redirect sırasında hata oluştu: {e}")
+
+        
+        tum_url_listesi = [str(r.url) for r in response.history] + [str(response.url)]
+
+        
+        for url in tum_url_listesi[::-1]:  
+            if "trgoals" in url:
+                return url.strip("/")
+
+        raise ValueError("Redirect zincirinde 'atomsportv' içeren bir link bulunamadı!")
+
+    def yeni_domaini_al(self, eldeki_domain: str) -> str:
+        def check_domain(domain: str) -> str:
+            if domain == "https://url24.link/AtomSporTV":
+                raise ValueError("Yeni domain alınamadı")
+            return domain
+
+        try:
+            
+            yeni_domain = check_domain(self.redirect_gec(eldeki_domain))
+        except Exception:
+            konsol.log("[red][!] `redirect_gec(eldeki_domain)` fonksiyonunda hata oluştu.")
+            try:
+                
+                yeni_domain = check_domain(self.trgoals_domaini_al())
+            except Exception:
+                konsol.log("[red][!] `atomsportv_domaini_al` fonksiyonunda hata oluştu.")
+                try:
+                    
+                    yeni_domain = check_domain(self.redirect_gec("https://t.co/MTLoNVkGQN"))
+                except Exception:
+                    konsol.log("[red][!] `redirect_gec('https://t.co/MTLoNVkGQN')` fonksiyonunda hata oluştu.")
+                    
+                    rakam = int(eldeki_domain.split("trgoals")[1].split(".")[0]) + 1
+                    yeni_domain = f"https://atomsportv55{rakam}.site"
+
+        return yeni_domain
 
     def m3u_guncelle(self):
-        with open(self.m3u_dosyasi, "r", encoding="utf-8") as f:
-            m3u_icerik = f.read()
+        eldeki_domain = self.referer_domainini_al()
+        konsol.log(f"[yellow][~] Bilinen Domain : {eldeki_domain}")
 
-        yeni_yayin_url = self.yayin_urlini_al()
+        yeni_domain = self.yeni_domaini_al(eldeki_domain)
+        konsol.log(f"[green][+] Yeni Domain    : {yeni_domain}")
 
-        pattern = re.compile(
-            r'(#EXTVLCOPT:http-referrer=(https?://[^/]*xyzsports[^/]*\.[^\s/]+).+?\n)(https?://[^ \n\r]+)',
-            re.IGNORECASE
-        )
+        kontrol_url = f"{yeni_domain}/channel.html?id=yayin1"
 
-        eslesmeler = list(pattern.finditer(m3u_icerik))
+        with open(self.m3u_dosyasi, "r") as dosya:
+            m3u_icerik = dosya.read()
 
-        if not eslesmeler:
-            raise ValueError("Referer'i xyzsports olan yayınlar bulunamadı!")
+        if not (eski_yayin_url := re.search(r'https?:\/\/[^\/]+\.(workers\.dev|shop|click|lat)\/?', m3u_icerik)):
+            raise ValueError("M3U dosyasında eski yayın URL'si bulunamadı!")
 
-        log.log(f"[yellow][~] Toplam {len(eslesmeler)} adet yayın bulundu, kontrol ediliyor...")
+        eski_yayin_url = eski_yayin_url[0]
+        konsol.log(f"[yellow][~] Eski Yayın URL : {eski_yayin_url}")
 
-        degisti_mi = False
-        yeni_icerik = m3u_icerik
+        
+        response = self.httpx.get(kontrol_url, follow_redirects=True)
 
-        for eslesme in eslesmeler:
-            eski_link = eslesme[3]
-            
-            path_kismi = '/' + '/'.join(eski_link.split('/')[3:])  
-            yeni_link = yeni_yayin_url + path_kismi
-            
-            yeni_link = re.sub(r'(?<!:)//+', '/', yeni_link)
-            if eski_link != yeni_link:
-                log.log(f"[blue]• Güncellendi: {eski_link} → {yeni_link}")
-                yeni_icerik = yeni_icerik.replace(eski_link, yeni_link)
-                degisti_mi = True
+        if not (yayin_ara := re.search(r'(?:var|let|const)\s+baseurl\s*=\s*"(https?://[^"]+)"', response.text)):
+            secici = Selector(response.text)
+            baslik = secici.xpath("//title/text()").get()
+            if baslik == "404 Not Found":
+                yeni_domain = eldeki_domain
+                yayin_ara   = [None, eski_yayin_url]
             else:
-                log.log(f"[gray]• Zaten güncel: {eski_link}")
+                konsol.print(response.text)
+                raise ValueError("Base URL bulunamadı!")
 
-        if degisti_mi:
-            with open(self.m3u_dosyasi, "w", encoding="utf-8") as f:
-                f.write(yeni_icerik)
-            log.log(f"[green][✓] M3U dosyası güncellendi.")
-        else:
-            log.log(f"[green][✓] Tüm yayınlar zaten günceldi, dosya yazılmadı.")
+        yayin_url = yayin_ara[1]
+        konsol.log(f"[green][+] Yeni Yayın URL : {yayin_url}")
+
+        yeni_m3u_icerik = m3u_icerik.replace(eski_yayin_url, yayin_url)
+        yeni_m3u_icerik = yeni_m3u_icerik.replace(eldeki_domain, yeni_domain)
+
+        with open(self.m3u_dosyasi, "w") as dosya:
+            dosya.write(yeni_m3u_icerik)
 
 if __name__ == "__main__":
-    guncelle = MonoTV("selcuk.m3u")
-    guncelle.m3u_guncelle()
+    guncelleyici = TRGoals("selcuk.m3u")
+    guncelleyici.m3u_guncelle()
