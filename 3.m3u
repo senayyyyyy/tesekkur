@@ -1,9 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="Ulusal",TRT 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports1/playlist.m3u8
-
 #EXTVLCOPT:http-referer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports2/playlist.m3u8
 #EXTVLCOPT:http-referer= https://www.selcuksportshd1825.xyz/
