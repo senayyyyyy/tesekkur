@@ -1,12 +1,65 @@
 import requests
 import re
 
-# Tarayacağımız ana domainlerin formatı
-SPORCAFE_BASE = "https://www.sporcafe{}.xyz/"
-MAX_SPORCAFE = 10  # Kaç tane sporcafe adresi denensin
+def find_working_sporcafe(start=5, end=8):
+    print("🧭 Sporcafe domainleri taranıyor...")
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
 
-# Yayın ID'leri
-CHANNEL_IDS = [
+    for i in range(start, end + 1):
+        url = f"https://www.sporcafe{i}.xyz/"
+        print(f"🔍 Sporcafe taranıyor: {url}")
+        try:
+            response = requests.get(url, headers=headers, timeout=5)
+            if response.status_code == 200 and "uxsyplayer" in response.text:
+                print(f"✅ Aktif domain bulundu: {url}")
+                return response.text, url
+        except requests.RequestException:
+            print(f"⚠️ Erişim hatası, geçiliyor: {url}")
+
+    print("❌ Aktif Sporcafe domaini bulunamadı.")
+    return None, None
+
+def find_dynamic_player_domain(page_html):
+    # iframe veya direkt bağlantıdan yayın domainini çek
+    match = re.search(r'https?://(main\.uxsyplayer[0-9a-zA-Z\-]+\.click)', page_html)
+    if match:
+        return f"https://{match.group(1)}"
+    return None
+
+def fetch_m3u8_links(base_url, channel_ids, referer):
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Referer": referer
+    }
+    m3u8_links = []
+
+    for cid in channel_ids:
+        url = f"{base_url}/index.php?id={cid}"
+        print(f"🎥 Yayın kontrol ediliyor: {url}")
+        try:
+            response = requests.get(url, headers=headers, timeout=5)
+            match = re.search(r'(https?://[^"\']+\.m3u8)', response.text)
+            if match:
+                print(f"✅ M3U8 bulundu: {match.group(1)}")
+                m3u8_links.append((cid, match.group(1)))
+            else:
+                print(f"❌ M3U8 bulunamadı: {url}")
+        except:
+            print(f"⚠️ Hata oluştu: {url}")
+    
+    return m3u8_links
+
+def write_m3u_file(m3u8_links, filename="selcuk1.m3u"):
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for name, url in m3u8_links:
+            f.write(f"#EXTINF:-1,{name}\n{url}\n")
+    print(f"\n💾 M3U dosyası oluşturuldu: {filename}")
+
+# 🔧 Ayarlar
+channel_ids = [
     "sbeinsports-1",
     "sbeinsports-2",
     "sbeinsports-3",
@@ -14,79 +67,18 @@ CHANNEL_IDS = [
     "sbeinsports-5"
 ]
 
-OUTPUT_FILE = "selcuk.m3u"
-
-def find_working_sporcafe():
-    for i in range(1, MAX_SPORCAFE + 1):
-        url = SPORCAFE_BASE.format(i)
-        try:
-            print(f"🔍 Sporcafe taranıyor: {url}")
-            response = requests.get(url, timeout=10)
-            if response.status_code == 200:
-                return response.text
-        except:
-            continue
-    return None
-
-def find_dynamic_player_domain(page_html):
-    # Önce doğrudan HTML içinde ara
-    matches = re.findall(r'https?://main\.uxsyplayer[0-9a-zA-Z]+\.click', page_html)
-    if matches:
-        return matches[0]
-    
-    # Eğer doğrudan bulunamazsa, iframe içinden dene
-    iframe_matches = re.findall(
-        r'<iframe[^>]+src="(https?://main\.uxsyplayer[0-9a-zA-Z]+\.click.*?)"',
-        page_html
-    )
-    if iframe_matches:
-        return iframe_matches[0]
-    
-    return None
-
-
-def get_m3u8_from_page(full_url):
-    try:
-        r = requests.get(full_url, timeout=5)
-        if r.status_code == 200:
-            matches = re.findall(r'(https?://[^\s"\']+\.m3u8)', r.text)
-            if matches:
-                return matches[0]
-    except:
-        pass
-    return None
-
-def create_m3u_file(base_stream_url, channel_ids, output_file):
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for cid in channel_ids:
-            full_url = f"{base_stream_url}/index.php?id={cid}"
-            print(f"🎯 Yayın kontrol ediliyor: {cid}")
-            m3u8_link = get_m3u8_from_page(full_url)
-            if m3u8_link:
-                f.write(f"#EXTINF:-1,{cid}\n{m3u8_link}\n")
-                print(f"✅ Yayın eklendi: {m3u8_link}")
-            else:
-                print(f"❌ Yayın bulunamadı: {cid}")
-    print(f"\n📁 M3U dosyası hazır: {output_file}")
-
-def main():
-    print("🧭 Sporcafe domainleri taranıyor...")
-    html = find_working_sporcafe()
-
-    if not html:
-        print("❌ Hiçbir sporcafe adresi erişilebilir değil.")
-        return
-
-    print("🔍 Yayın domaini aranıyor...")
-    base_stream_url = find_dynamic_player_domain(html)
-
-    if not base_stream_url:
+# ▶️ Ana işlem akışı
+html, referer_url = find_working_sporcafe()
+if html:
+    stream_domain = find_dynamic_player_domain(html)
+    if stream_domain:
+        print(f"\n🔗 Yayın adresi bulundu: {stream_domain}")
+        m3u8_list = fetch_m3u8_links(stream_domain, channel_ids, referer_url)
+        if m3u8_list:
+            write_m3u_file(m3u8_list)
+        else:
+            print("❌ Hiçbir M3U8 yayını bulunamadı.")
+    else:
         print("❌ Yayın domaini bulunamadı.")
-        return
-
-    print(f"📡 Yayın domaini bulundu: {base_stream_url}")
-    create_m3u_file(base_stream_url, CHANNEL_IDS, OUTPUT_FILE)
-
-if __name__ == "__main__":
-    main()
+else:
+    print("⛔ Yayın alınacak site bulunamadı.")
