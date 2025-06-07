@@ -125,5 +125,5 @@ class TRGoals:
             dosya.write(yeni_m3u_icerik)
 
 if __name__ == "__main__":
-    guncelleyici = TRGoals("trgoals.m3u")
+    guncelleyici = TRGoals("selcuk.m3u")
     guncelleyici.m3u_guncelle()
