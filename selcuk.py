@@ -14,13 +14,13 @@ class UXSYPlayer:
 
         if eslesme := re.search(desen, icerik):
             return eslesme[1]
-        raise ValueError("Referer içinde 'uxsyplayer' geçen bir domain bulunamadı!")
+        raise ValueError("Referer içinde 'sporcafe' geçen bir domain bulunamadı!")
 
     def yayin_urlini_al(self):
         api_url = (
             "https://vavoo.vercel.app/api/stream.js?"
             "url=https://main.uxsyplayer425b9907af.click/index.php"
-            "&referer=https://main.uxsyplayer425b9907af.click"
+            "&referer=https://www.sporcafe6.xyz/"
             "&useragent=okhttp/4.12.0"
         )
         konsol.log(f"[cyan][~] API çağrısı yapılıyor: {api_url}")
@@ -59,5 +59,5 @@ class UXSYPlayer:
         konsol.log(f"[green][✓] M3U dosyası başarıyla güncellendi.")
 
 if __name__ == "__main__":
-    guncelleyici = UXSYPlayer("selcuk.m3u")
+    guncelleyici = CAFE("selcuk.m3u")
     guncelleyici.m3u_guncelle()
