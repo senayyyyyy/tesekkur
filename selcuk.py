@@ -14,7 +14,7 @@ class MonoTV:
        
 
     def yayin_urlini_al(self):
-        json_endpoint = "https://vavoo.vercel.app/api/stream.js?url=https://amp.selcuksportshdamp10.xyz/amp.html&referer=https://amp.selcuksportshdamp10.xyz&useragent=okhttp/4.12.0"
+        json_endpoint = "https://vavoo.vercel.app/api/stream.js?url=https://amp.selcuksportshdamp10.xyz/amp.html&referer=https://www.selcuksportshd1826.xyz&useragent=okhttp/4.12.0"
         log.log(f"[cyan][~] amp.html çağrılıyor: {json_endpoint}")
         try:
             response = self.httpx.get(json_endpoint)
