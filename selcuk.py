@@ -40,14 +40,55 @@ def build_m3u8_links(base_stream_url, channel_ids):
         m3u8_links.append((cid, full_url))
     return m3u8_links
 
-def write_m3u_file(m3u8_links, filename="5.m3u", referer=""):
+def update_m3u_file_with_referer_and_links(m3u8_links, filename="5.m3u", referer=""):
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except FileNotFoundError:
+        lines = ["#EXTM3U\n"]
+
+    updated_lines = []
+    i = 0
+    total_channels = len(m3u8_links)
+
+    while i < len(lines):
+        line = lines[i]
+        if line.startswith("#EXTINF:-1"):
+            updated_lines.append(line)
+            i += 1
+            # Eski URL ve Referer satırlarını atla
+            while i < len(lines) and (lines[i].startswith("http") or lines[i].startswith("# Referer:")):
+                i += 1
+
+            kanal_adi = line.strip().split(',', 1)[1].strip()
+            url_to_write = None
+            for cid, url in m3u8_links:
+                if cid.lower() in kanal_adi.lower():
+                    url_to_write = url
+                    break
+
+            if url_to_write:
+                updated_lines.append(f"# Referer: {referer}\n")
+                updated_lines.append(f"{url_to_write}\n")
+            else:
+                updated_lines.append("\n")
+        else:
+            updated_lines.append(line)
+            i += 1
+
+    # Yeni kanalları ekle
+    existing_channels = [l for l in updated_lines if l.startswith("#EXTINF:-1")]
+    for cid, url in m3u8_links:
+        if not any(cid.lower() in l.lower() for l in existing_channels):
+            updated_lines.append(f"#EXTINF:-1,{cid}\n")
+            updated_lines.append(f"# Referer: {referer}\n")
+            updated_lines.append(f"{url}\n")
+
     with open(filename, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for name, url in m3u8_links:
-            f.write(f"#EXTINF:-1,{name}\n")
-            f.write(f"# Referer: {referer}\n")
-            f.write(f"{url}\n")
-    print(f"\n💾 M3U dosyası oluşturuldu: {filename}")
+        f.writelines(updated_lines)
+
+    print(f"\n💾 M3U dosyası güncellendi: {filename}")
+
 
 # Kanal ID'leri
 channel_ids = [
