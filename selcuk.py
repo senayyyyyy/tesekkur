@@ -40,15 +40,35 @@ def fetch_m3u8_links(base_url, channel_ids, referer):
         print(f"🎥 Yayın kontrol ediliyor: {url}")
         try:
             response = requests.get(url, headers=headers, timeout=5)
-            match = re.search(r'(https?://[^"\']+\.m3u8)', response.text)
+            html = response.text
+
+            # 1. Direkt m3u8 linki ara
+            match = re.search(r'(https?://[^"\']+\.m3u8)', html)
             if match:
-                print(f"✅ M3U8 bulundu: {match.group(1)}")
+                print(f"✅ M3U8 bulundu (doğrudan): {match.group(1)}")
                 m3u8_links.append((cid, match.group(1)))
-            else:
-                print(f"❌ M3U8 bulunamadı: {url}")
-        except:
-            print(f"⚠️ Hata oluştu: {url}")
-    
+                continue
+
+            # 2. iframe var mı kontrol et
+            iframe_match = re.search(r'<iframe[^>]+src="([^"]+)"', html)
+            if iframe_match:
+                iframe_url = iframe_match.group(1)
+                if not iframe_url.startswith('http'):
+                    # göreceli linkse tam URL yap
+                    iframe_url = base_url + iframe_url if iframe_url.startswith('/') else f"{base_url}/{iframe_url}"
+                print(f"   🔄 iframe bulundu, içeriği kontrol ediliyor: {iframe_url}")
+                iframe_resp = requests.get(iframe_url, headers=headers, timeout=5)
+                iframe_html = iframe_resp.text
+                iframe_m3u8_match = re.search(r'(https?://[^"\']+\.m3u8)', iframe_html)
+                if iframe_m3u8_match:
+                    print(f"✅ M3U8 bulundu (iframe): {iframe_m3u8_match.group(1)}")
+                    m3u8_links.append((cid, iframe_m3u8_match.group(1)))
+                    continue
+
+            print(f"❌ M3U8 bulunamadı: {url}")
+        except Exception as e:
+            print(f"⚠️ Hata oluştu: {url} - {e}")
+
     return m3u8_links
 
 def write_m3u_file(m3u8_links, filename="selcuk1.m3u"):
