@@ -8,7 +8,7 @@ class UXSYPlayer:
         self.httpx = Client(timeout=10)
 
     def referer_domainini_al(self):
-        desen = r'#EXTVLCOPT:http-referrer=(https?://[^/]*uxsyplayer[^/]*\.[^\s/]+)'
+        desen = r'#EXTVLCOPT:http-referrer=(https?://[^/]*sporcafe6[^/]*\.[^\s/]+)'
         with open(self.m3u_dosyasi, "r") as f:
             icerik = f.read()
 
@@ -51,7 +51,7 @@ class UXSYPlayer:
         konsol.log(f"[yellow][~] Eski Yayın URL: {eski_yayin_url}")
 
         yeni_icerik = icerik.replace(eski_yayin_url, yeni_baseurl)
-        yeni_icerik = yeni_icerik.replace(eski_referer, "https://main.uxsyplayer425b9907af.click")
+        yeni_icerik = yeni_icerik.replace(eski_referer, "https://www.sporcafe6.xyz/")
 
         with open(self.m3u_dosyasi, "w", encoding="utf-8") as f:
             f.write(yeni_icerik)
