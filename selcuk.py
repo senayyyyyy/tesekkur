@@ -18,8 +18,7 @@ class UXSYPlayer:
 
     def yayin_urlini_al(self):
         api_url = (
-            "https://vavoo.vercel.app/api/stream.js?"
-            "url=https://main.uxsyplayer425b9907af.click/index.php"
+            "url=https://main.uxsyplayer425b9907af.click/index.php?id="
             "&referer=https://www.sporcafe6.xyz/"
             "&useragent=okhttp/4.12.0"
         )
