@@ -22,7 +22,6 @@ def find_working_sporcafe(start=1825, end=1850):
     return None, None
 
 def find_dynamic_player_domain(page_html):
-    # iframe veya direkt bağlantıdan yayın domainini çek
     match = re.search(r'https?://(main\.uxsyplayer[0-9a-zA-Z\-]+\.click)', page_html)
     if match:
         return f"https://{match.group(1)}"
@@ -42,30 +41,16 @@ def fetch_m3u8_links(base_url, channel_ids, referer):
             response = requests.get(url, headers=headers, timeout=5)
             html = response.text
 
-            # 1. Direkt m3u8 linki ara
-            match = re.search(r'(https?://[^"\']+\.m3u8)', html)
-            if match:
-                print(f"✅ M3U8 bulundu (doğrudan): {match.group(1)}")
-                m3u8_links.append((cid, match.group(1)))
-                continue
-
-            # 2. iframe var mı kontrol et
-            iframe_match = re.search(r'<iframe[^>]+src="([^"]+)"', html)
-            if iframe_match:
-                iframe_url = iframe_match.group(1)
-                if not iframe_url.startswith('http'):
-                    # göreceli linkse tam URL yap
-                    iframe_url = base_url + iframe_url if iframe_url.startswith('/') else f"{base_url}/{iframe_url}"
-                print(f"   🔄 iframe bulundu, içeriği kontrol ediliyor: {iframe_url}")
-                iframe_resp = requests.get(iframe_url, headers=headers, timeout=5)
-                iframe_html = iframe_resp.text
-                iframe_m3u8_match = re.search(r'(https?://[^"\']+\.m3u8)', iframe_html)
-                if iframe_m3u8_match:
-                    print(f"✅ M3U8 bulundu (iframe): {iframe_m3u8_match.group(1)}")
-                    m3u8_links.append((cid, iframe_m3u8_match.group(1)))
-                    continue
-
-            print(f"❌ M3U8 bulunamadı: {url}")
+            # Burada alt domain kısmını sayfa içinde regex ile ara
+            # Örnek: https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports1/playlist.m3u8
+            subdomain_match = re.search(r'https://alpha\.cf-worker-([0-9a-z]+)\.workers\.dev/live/' + re.escape(cid) + r'/playlist\.m3u8', html)
+            if subdomain_match:
+                subdomain = subdomain_match.group(1)
+                m3u8_url = f"https://alpha.cf-worker-{subdomain}.workers.dev/live/{cid}/playlist.m3u8"
+                print(f"✅ M3U8 linki bulundu: {m3u8_url}")
+                m3u8_links.append((cid, m3u8_url))
+            else:
+                print(f"❌ M3U8 linki bulunamadı (alt domain): {url}")
         except Exception as e:
             print(f"⚠️ Hata oluştu: {url} - {e}")
 
@@ -78,7 +63,7 @@ def write_m3u_file(m3u8_links, filename="selcuk1.m3u"):
             f.write(f"#EXTINF:-1,{name}\n{url}\n")
     print(f"\n💾 M3U dosyası oluşturuldu: {filename}")
 
-# 🔧 Ayarlar
+# Kanal ID’leri
 channel_ids = [
     "selcukbeinsports1",
     "selcukbeinsports2",
@@ -87,7 +72,7 @@ channel_ids = [
     "selcukbeinsports5"
 ]
 
-# ▶️ Ana işlem akışı
+# Ana işlem
 html, referer_url = find_working_sporcafe()
 if html:
     stream_domain = find_dynamic_player_domain(html)
