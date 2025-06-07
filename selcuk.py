@@ -40,7 +40,9 @@ def build_m3u8_links(base_stream_url, channel_ids):
         m3u8_links.append((cid, full_url))
     return m3u8_links
 
-def update_m3u_file_with_referer_and_links(m3u8_links, filename="5.m3u", referer=""):
+def # m3u8_list = [(channel_id, url), ...]
+update_m3u_file_with_referer_and_links(m3u8_list, filename="5.m3u", referer=referer_url)
+
     try:
         with open(filename, "r", encoding="utf-8") as f:
             lines = f.readlines()
