@@ -11,9 +11,10 @@ class MonoTV:
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36"
             }
         )
+       
 
     def yayin_urlini_al(self):
-        json_endpoint = "https://amp.selcuksportshdamp10.xyz/amp.html"
+        json_endpoint = "https://vavoo.vercel.app/api/stream.js?url=https://amp.selcuksportshdamp10.xyz/amp.html&referer=https://amp.selcuksportshdamp10.xyz/amp.html&useragent=okhttp/4.12.0"
         log.log(f"[cyan][~] domain.php çağrılıyor: {json_endpoint}")
         try:
             response = self.httpx.get(json_endpoint)
