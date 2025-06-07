@@ -1,6 +1,16 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-name="ATV" tvg-language="Turkish" tvg-country="TR" tvg-id="ATV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/33b10329-faa9-4247-aa46-92a305ed5a92.png" group-title="Ulusal",Atv-Yedek 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referer= https://www.selcuksportshd1824.xyz/
+#EXTINF:-1,selcukbeinsports1
+# Referer: https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports1/playlist.m3u8
+#EXTINF:-1,selcukbeinsports2
+# Referer: https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports2/playlist.m3u8
+#EXTINF:-1,selcukbeinsports3
+# Referer: https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports3/playlist.m3u8
+#EXTINF:-1,selcukbeinsports4
+# Referer: https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports4/playlist.m3u8
+#EXTINF:-1,selcukbeinsports5
+# Referer: https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports5/playlist.m3u8
