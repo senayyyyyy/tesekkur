@@ -1,5 +1,6 @@
 import requests
 import re
+import json
 
 def find_working_sporcafe(start=1825, end=1850):
     print("🧭 Sporcafe domainleri taranıyor...")
@@ -27,6 +28,17 @@ def find_dynamic_player_domain(page_html):
         return f"https://{match.group(1)}"
     return None
 
+def extract_baseStreamUrl_from_page(html, channel_id):
+    """
+    Sayfa içeriğinde baseStreamUrl değerini yakalar.
+    """
+    # baseStreamUrl: "https://alpha.cf-worker-xxxx.workers.dev/live/selcukbeinsports1/playlist.m3u8"
+    pattern = re.compile(r'baseStreamUrl\s*:\s*"([^"]*' + re.escape(channel_id) + r'[^"]+\.m3u8)"')
+    match = pattern.search(html)
+    if match:
+        return match.group(1)
+    return None
+
 def fetch_m3u8_links(base_url, channel_ids, referer):
     headers = {
         "User-Agent": "Mozilla/5.0",
@@ -41,17 +53,12 @@ def fetch_m3u8_links(base_url, channel_ids, referer):
             response = requests.get(url, headers=headers, timeout=5)
             html = response.text
 
-            # Sayfa içindeki tüm alpha.cf-worker-*.workers.dev linklerini bul
-            found_links = re.findall(r'https://alpha\.cf-worker-[0-9a-z]+\.workers\.dev/live/' + re.escape(cid) + r'/playlist\.m3u8', html)
-            
-            if found_links:
-                # Listeyi set yaparak benzersiz link alabiliriz
-                unique_links = list(set(found_links))
-                for m3u8_url in unique_links:
-                    print(f"✅ M3U8 linki bulundu: {m3u8_url}")
-                    m3u8_links.append((cid, m3u8_url))
+            m3u8_url = extract_baseStreamUrl_from_page(html, cid)
+            if m3u8_url:
+                print(f"✅ baseStreamUrl bulundu: {m3u8_url}")
+                m3u8_links.append((cid, m3u8_url))
             else:
-                print(f"❌ M3U8 linki bulunamadı: {url}")
+                print(f"❌ baseStreamUrl bulunamadı: {url}")
         except Exception as e:
             print(f"⚠️ Hata oluştu: {url} - {e}")
 
@@ -81,7 +88,7 @@ if html:
         if m3u8_list:
             write_m3u_file(m3u8_list)
         else:
-            print("❌ Hiçbir M3U8 yayını bulunamadı.")
+            print("❌ Hiçbir baseStreamUrl içeren yayın bulunamadı.")
     else:
         print("❌ Yayın domaini bulunamadı.")
 else:
