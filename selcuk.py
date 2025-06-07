@@ -1,6 +1,6 @@
-import requests
-from bs4 import BeautifulSoup
 import re
+from httpx import Client
+from Kekik.cli import konsol as log 
 
 # Ana domain (subdomain kısmı dinamik)
 BASE_DOMAIN = "https://main."
