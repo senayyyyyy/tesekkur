@@ -11,19 +11,19 @@ class TRGoals:
         self.httpx       = Client(timeout=10, verify=False)
 
     def referer_domainini_al(self):
-        referer_deseni = r'#EXTVLCOPT:http-referrer=(https?://[^/]*atomsportv[^/]*\.[^\s/]+)'
+        referer_deseni = r'#EXTVLCOPT:http-referrer=(https?://[^/]*mactadi[^/]*\.[^\s/]+)'
         with open(self.m3u_dosyasi, "r") as dosya:
             icerik = dosya.read()
 
         if eslesme := re.search(referer_deseni, icerik):
             return eslesme[1]
         else:
-            raise ValueError("M3U dosyasında 'atomsportv' içeren referer domain bulunamadı!")
+            raise ValueError("M3U dosyasında 'mactadi' içeren referer domain bulunamadı!")
 
     def trgoals_domaini_al(self):
-        redirect_url = "https://url24.link/AtomSporTV"
+        redirect_url = "https://bit.ly/m/mactadi"
         deneme = 0
-        while "url24.link" in redirect_url and deneme < 5:
+        while "bit.ly" in redirect_url and deneme < 5:
             try:
                 redirect_url = self.redirect_gec(redirect_url)
             except Exception as e:
@@ -34,7 +34,7 @@ class TRGoals:
         if "bit.ly" in redirect_url or "error" in redirect_url:
             konsol.log("[yellow][!] 5 denemeden sonra bit.ly çözülemedi, yedek linke geçiliyor...")
             try:
-                redirect_url = self.redirect_gec("http://www.freelink1.online/atomspor")
+                redirect_url = self.redirect_gec("https://bit.ly/4jL8szX?r=lp&m=Mp3gjeOL6v8")
             except Exception as e:
                 raise ValueError(f"Yedek linkten de domain alınamadı: {e}")
 
@@ -55,11 +55,11 @@ class TRGoals:
             if "trgoals" in url:
                 return url.strip("/")
 
-        raise ValueError("Redirect zincirinde 'atomsportv' içeren bir link bulunamadı!")
+        raise ValueError("Redirect zincirinde 'mactadi' içeren bir link bulunamadı!")
 
     def yeni_domaini_al(self, eldeki_domain: str) -> str:
         def check_domain(domain: str) -> str:
-            if domain == "https://url24.link/AtomSporTV":
+            if domain == "https://bit.ly/m/mactadi":
                 raise ValueError("Yeni domain alınamadı")
             return domain
 
@@ -70,17 +70,17 @@ class TRGoals:
             konsol.log("[red][!] `redirect_gec(eldeki_domain)` fonksiyonunda hata oluştu.")
             try:
                 
-                yeni_domain = check_domain(self.trgoals_domaini_al())
+                yeni_domain = check_domain(self.mactadi_domaini_al())
             except Exception:
-                konsol.log("[red][!] `atomsportv_domaini_al` fonksiyonunda hata oluştu.")
+                konsol.log("[red][!] `mactadi_domaini_al` fonksiyonunda hata oluştu.")
                 try:
                     
-                    yeni_domain = check_domain(self.redirect_gec("https://t.co/MTLoNVkGQN"))
+                    yeni_domain = check_domain(self.redirect_gec("redirect.xxxx.blogspot.com"))
                 except Exception:
                     konsol.log("[red][!] `redirect_gec('https://t.co/MTLoNVkGQN')` fonksiyonunda hata oluştu.")
                     
-                    rakam = int(eldeki_domain.split("trgoals")[1].split(".")[0]) + 1
-                    yeni_domain = f"https://atomsportv55{rakam}.site"
+                    rakam = int(eldeki_domain.split("mactadi")[1].split(".")[0]) + 1
+                    yeni_domain = f"https://mactadi{rakam}.blogspot.com"
 
         return yeni_domain
 
@@ -125,5 +125,5 @@ class TRGoals:
             dosya.write(yeni_m3u_icerik)
 
 if __name__ == "__main__":
-    guncelleyici = TRGoals("selcuk.m3u")
+    guncelleyici = TRGoals("trgoals.m3u")
     guncelleyici.m3u_guncelle()
