@@ -2,7 +2,7 @@ import re
 from httpx import Client
 from Kekik.cli import konsol as log  
 
-class MonoTV:
+class SporCafeTV:
     def __init__(self, m3u_dosyasi):
         self.m3u_dosyasi = m3u_dosyasi
         self.httpx = Client(
@@ -13,7 +13,7 @@ class MonoTV:
         )
 
     def yayin_urlini_al(self):
-        json_endpoint = "https://vavoo.vercel.app/api/stream.js?url=https://royalvipcanlimac.com/domain.php&referer=https://royalvipcanlimac.com&useragent=okhttp/4.12.0"
+        json_endpoint = "https://vavoo.vercel.app/api/stream.js?url=https://www.sporcafe6.xyz/domain.php&referer=https://www.sporcafe6.xyz&useragent=okhttp/4.12.0"
         log.log(f"[cyan][~] domain.php çağrılıyor: {json_endpoint}")
         try:
             response = self.httpx.get(json_endpoint)
@@ -31,14 +31,14 @@ class MonoTV:
         yeni_yayin_url = self.yayin_urlini_al()
 
         pattern = re.compile(
-            r'(#EXTVLCOPT:http-referrer=(https?://[^/]*monotv[^/]*\.[^\s/]+).+?\n)(https?://[^ \n\r]+)',
+            r'(#EXTVLCOPT:http-referrer=(https?://[^/]*sporcafe6[^/]*\.[^\s/]+).+?\n)(https?://[^ \n\r]+)',
             re.IGNORECASE
         )
 
         eslesmeler = list(pattern.finditer(m3u_icerik))
 
         if not eslesmeler:
-            raise ValueError("Referer'i monotv olan yayınlar bulunamadı!")
+            raise ValueError("Referer'i sporcafe6 olan yayınlar bulunamadı!")
 
         log.log(f"[yellow][~] Toplam {len(eslesmeler)} adet yayın bulundu, kontrol ediliyor...")
 
@@ -47,11 +47,10 @@ class MonoTV:
 
         for eslesme in eslesmeler:
             eski_link = eslesme[3]
-            
             path_kismi = '/' + '/'.join(eski_link.split('/')[3:])  
             yeni_link = yeni_yayin_url + path_kismi
-            
             yeni_link = re.sub(r'(?<!:)//+', '/', yeni_link)
+
             if eski_link != yeni_link:
                 log.log(f"[blue]• Güncellendi: {eski_link} → {yeni_link}")
                 yeni_icerik = yeni_icerik.replace(eski_link, yeni_link)
@@ -67,5 +66,5 @@ class MonoTV:
             log.log(f"[green][✓] Tüm yayınlar zaten günceldi, dosya yazılmadı.")
 
 if __name__ == "__main__":
-    guncelle = MonoTV("Kanallar/kerim.m3u")
+    guncelle = SporCafeTV("selcuk.m3u")
     guncelle.m3u_guncelle()
