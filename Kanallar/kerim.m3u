@@ -49,7 +49,7 @@ https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 https://ottcdn.kablowebtv.net/live_turksat_sub3/tv8_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni83LzIwMjUgMzoyOTowMiBQTSZoYXNoX3ZhbHVlPWxxL0RHTGFIZjZxNi9LUVFhWE1odnc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
 
 
-#EXTINF:-1 tvg-name="TV 85" tvg-logo="https://i.ibb.co/tXKXNDz/tv8.png" group-title="Ulusal",TV 8
+#EXTINF:-1 tvg-name="TV 85" tvg-logo="https://i.ibb.co/tXKXNDz/tv8.png" group-title="Ulusal",TV 8,5
 https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8
 
 #EXTINF:-1 tvg-name="TV 85" tvg-language="Turkish" tvg-country="TR" tvg-id="TV85" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/812f4ba5-846e-4ae9-90fc-8f9f481156b5.png" group-title="Ulusal",Tv 8,5-YEDEK
