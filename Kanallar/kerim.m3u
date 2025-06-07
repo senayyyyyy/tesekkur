@@ -4,103 +4,128 @@
 
 
 
-#EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="Genel",TRT 1
+#EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="Ulusal",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-name="TRT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/14a65b49-958f-497f-be22-52d958ef8498.png" group-title="Genel",TRT 2
-https://tv-trt2.medya.trt.com.tr/master.m3u8
-
-#EXTINF:-1 tvg-name="TRT Türk" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_Turk" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/0acb34e5-4b37-434e-b555-c7eb0271ba9d.png" group-title="Genel",TRT Türk
-https://tv-trtturk.medya.trt.com.tr/master.m3u8
-
-#EXTINF:-1 tvg-name="TRT Avaz" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_Avaz" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4a3026d6-b1be-4373-bb83-447117196e55.png" group-title="Genel",TRT Avaz
-https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-
-
-#EXTINF:-1 tvg-name="TRT World" tvg-language="English" tvg-country="USA" tvg-id="TRT_World" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/acd68840-492b-43c5-9635-bbaf32148e2a.png" group-title="Genel",TRT World
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
-
-# * » Genel « * #
-#EXTINF:-1 tvg-name="Now"  tvg-language="Turkish" tvg-country="TR" tvg-id="2213" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/25c7c620-dfe4-4c78-9d9b-185d8a91885f.png" group-title="Genel",Now
-https://ottcdn.kablowebtv.net/live_turksat_sub3/now_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni83LzIwMjUgMzoyOTowMiBQTSZoYXNoX3ZhbHVlPWxxL0RHTGFIZjZxNi9LUVFhWE1odnc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
-#EXTINF:-1 tvg-name="Kanal D" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_KanalD" tvg-logo="https://seeklogo.com/images/K/kanal-d-logo-8327051372-seeklogo.com.png" group-title="Genel",Kanald
+#EXTINF:-1 tvg-name="Kanal D" tvg-language="Turkish" tvg-country="TR" tvg-id="KanalD" tvg-logo="https://seeklogo.com/images/K/kanal-d-logo-8327051372-seeklogo.com.png" group-title="Ulusal",Kanald
 https://demiroren-live.daioncdn.net/kanald/kanald_1080p.m3u8
 
-#EXTINF:-1 tvg-language="Turkish" tvg-country="TR" tvg-id="kanald" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7c5d3d5-2942-4715-872f-73be070dc201.png" group-title="Genel", Kanal D
+#EXTINF:-1 tvg-language="Turkish" tvg-country="TR" tvg-id="3207" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7c5d3d5-2942-4715-872f-73be070dc201.png" group-title="Ulusal", Kanal D-Yedek
 https://ottcdn.kablowebtv.net/live_turksat_sub3/kanald_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni83LzIwMjUgMzoyOTowMyBQTSZoYXNoX3ZhbHVlPTFtbnM5OW14UUc1bFQ4a3FTdTVXVlE9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
 
-#EXTINF:-1 tvg-name="Bein İz" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_BEİNİZ" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/beiniz.png" group-title="Genel",Bein İz
-https://kerimmkirac-dproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1691223078/index.m3u8
-
-#EXTINF:-1 tvg-name="Bein Gurme" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_BEİNGURME" tvg-logo="https://images.seeklogo.com/logo-png/36/2/bein-gurme-logo-png_seeklogo-367814.png" group-title="Genel",Bein Gurme
-https://kerimmkirac-dproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3583230858/index.m3u8
-
-#EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_ShowTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/04fb743d-4a72-4907-8c54-f53b72c3600a.png" group-title="Genel",Show TV
+#EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-country="TR" tvg-id="ShowTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/04fb743d-4a72-4907-8c54-f53b72c3600a.png" group-title="Ulusal",Show TV
 https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 
-#EXTINF:-1 tvg-name="Star TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_StarTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/4a7901e4-dbc5-491d-b014-6da6fa236e99.png" group-title="Genel",Star TV
+#EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-country="TR" tvg-id="3206" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/04fb743d-4a72-4907-8c54-f53b72c3600a.png" group-title="Ulusal",Show TV-Yedek
+https://ottcdn.kablowebtv.net/live_turksat_sub3/showtv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni83LzIwMjUgMzoyOTowMiBQTSZoYXNoX3ZhbHVlPWxxL0RHTGFIZjZxNi9LUVFhWE1odnc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
+
+#EXTINF:-1 tvg-name="ATV" tvg-language="Turkish" tvg-country="TR" tvg-id="ATV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/33b10329-faa9-4247-aa46-92a305ed5a92.png" group-title="Ulusal",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+# ? https://c.fulltvizle.com/aytv/index.m3u8
+# ? http://stream.tvcdn.net/ulusal/atv.m3u8
+
+#EXTINF:-1 tvg-name="Atv" tvg-language="Turkish" tvg-country="TR" tvg-id="2401" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/33b10329-faa9-4247-aa46-92a305ed5a92.png" group-title="Ulusal",Atv-Yedek    
+https://ottcdn.kablowebtv.net/live_turksat_sub3/atv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni83LzIwMjUgMzoyOTowMiBQTSZoYXNoX3ZhbHVlPWxxL0RHTGFIZjZxNi9LUVFhWE1odnc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
+
+
+#EXTINF:-1 tvg-name="Star TV" tvg-language="Turkish" tvg-country="TR" tvg-id="StarTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/4a7901e4-dbc5-491d-b014-6da6fa236e99.png" group-title="Ulusal",Star TV
 https://dogus-live.daioncdn.net/startv/startv.m3u8
 
-#EXTINF:-1 tvg-name="Show Max TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_ShowTVMAX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Show_MAX_logo.svg/768px-Show_MAX_logo.svg.png" group-title="Genel",Show Max TV
-https://ciner-live.daioncdn.net/showmax/showmax.m3u8
 
-#EXTINF:-1 tvg-name="TV 8" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_TV8" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ab41b407-70c4-4634-8ed4-bf9be8cf81e2.png" group-title="Genel",TV 8
+
+#EXTINF:-1 tvg-name="Now"  tvg-language="Turkish" tvg-country="TR" tvg-id="2213" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/25c7c620-dfe4-4c78-9d9b-185d8a91885f.png" group-title="Ulusal",Now
+https://ottcdn.kablowebtv.net/live_turksat_sub3/now_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni83LzIwMjUgMzoyOTowMiBQTSZoYXNoX3ZhbHVlPWxxL0RHTGFIZjZxNi9LUVFhWE1odnc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
+
+#EXTINF:-1 tvg-name="TV 8" tvg-language="Turkish" tvg-country="TR" tvg-id="TV8" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ab41b407-70c4-4634-8ed4-bf9be8cf81e2.png" group-title="Ulusal",TV 8
 https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 
-#EXTINF:-1 tvg-name="TV 85" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_TV85" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/812f4ba5-846e-4ae9-90fc-8f9f481156b5.png" group-title="Genel",Tv 8,5
+#EXTINF:-1 tvg-id="109" tvg-name="TV 8 HD" tvg-logo="https://i.ibb.co/tXKXNDz/tv8.png" group-title="Ulusal",TV 8
+https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8
+
+#EXTINF:-1 tvg-name="TV 85" tvg-language="Turkish" tvg-country="TR" tvg-id="TV85" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/812f4ba5-846e-4ae9-90fc-8f9f481156b5.png" group-title="Ulusal",Tv 8,5-YEDEK
 https://ottcdn.kablowebtv.net/live_turksat_sub3/tv8_5_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni83LzIwMjUgMzoyOTowMiBQTSZoYXNoX3ZhbHVlPWxxL0RHTGFIZjZxNi9LUVFhWE1odnc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
 
-#EXTINF:-1 tvg-name="TLC" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_TLC" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/0de9fa25-120c-4b52-b460-e078531f6988.png" group-title="Genel",TLC
+#EXTINF:-1 tvg-name="TLC" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_TLC" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/0de9fa25-120c-4b52-b460-e078531f6988.png" group-title="Ulusal",TLC
 https://dogus-live.daioncdn.net/tlc/tlc.m3u8
 
 
 
 
 
+#EXTINF:-1 tvg-name="Bein İz" tvg-language="Turkish" tvg-country="TR" tvg-id="BEİNİZ" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/beiniz.png" group-title="Ulusal",Bein İz
+https://kerimmkirac-dproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1691223078/index.m3u8
+
+#EXTINF:-1 tvg-name="Bein Gurme" tvg-language="Turkish" tvg-country="TR" tvg-id="BEİNGURME" tvg-logo="https://images.seeklogo.com/logo-png/36/2/bein-gurme-logo-png_seeklogo-367814.png" group-title="Ulusal",Bein Gurme
+https://kerimmkirac-dproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3583230858/index.m3u8
+
+#EXTINF:-1 tvg-name="TRT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/14a65b49-958f-497f-be22-52d958ef8498.png" group-title="Ulusal",TRT 2
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-name="TRT Türk" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_Turk" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/0acb34e5-4b37-434e-b555-c7eb0271ba9d.png" group-title="Ulusal",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-name="TRT Avaz" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_Avaz" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4a3026d6-b1be-4373-bb83-447117196e55.png" group-title="Ulusal",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-name="TRT World" tvg-language="English" tvg-country="USA" tvg-id="TRT_World" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/acd68840-492b-43c5-9635-bbaf32148e2a.png" group-title="Ulusal",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Tabii TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_TabiiTV" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Genel",Tabii TV
+
+
+#EXTINF:-1 tvg-name="Show Max TV" tvg-language="Turkish" tvg-country="TR" tvg-id="ShowTVMAX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Show_MAX_logo.svg/768px-Show_MAX_logo.svg.png" group-title="Ulusal",Show Max TV
+https://ciner-live.daioncdn.net/showmax/showmax.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-name="Tabii TV" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiTV" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Ulusal",Tabii TV
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
 
-#EXTINF:-1 tvg-name="Beyaz TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_BeyazTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/a92329d7-3d4c-4631-ab3e-c7d36a3f1a6f.png" group-title="Genel",Beyaz TV
+#EXTINF:-1 tvg-name="Beyaz TV" tvg-language="Turkish" tvg-country="TR" tvg-id="BeyazTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/a92329d7-3d4c-4631-ab3e-c7d36a3f1a6f.png" group-title="Ulusal",Beyaz TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
 
-#EXTINF:-1 tvg-name="TV 360" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_TV360" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/36157058-80ce-4724-a7ff-28bbad7df301.png" group-title="Genel",TV 360
+#EXTINF:-1 tvg-name="TV 360" tvg-language="Turkish" tvg-country="TR" tvg-id="TV360" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/36157058-80ce-4724-a7ff-28bbad7df301.png" group-title="Ulusal",TV 360
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 
-#EXTINF:-1 tvg-name="ATV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_ATV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/33b10329-faa9-4247-aa46-92a305ed5a92.png" group-title="Genel",ATV 1
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
-# ? https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
-# ? https://c.fulltvizle.com/aytv/index.m3u8
-# ? http://stream.tvcdn.net/ulusal/atv.m3u8
 
-#EXTINF:-1 tvg-name="Teve2" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_Teve2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/8373a6d8-d5c5-4990-8fe6-14bcde706ecd.png" group-title="Genel",Teve2
+
+#EXTINF:-1 tvg-name="Teve2" tvg-language="Turkish" tvg-country="TR" tvg-id="Teve2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/8373a6d8-d5c5-4990-8fe6-14bcde706ecd.png" group-title="Ulusal",Teve2
 https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
 
-#EXTINF:-1 tvg-name="TV 4" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_TV4" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/66c8ed0b-96b6-4476-806e-5e8e877c7fd4.png" group-title="Genel",TV 4
+#EXTINF:-1 tvg-name="TV 4" tvg-language="Turkish" tvg-country="TR" tvg-id="TV4" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/66c8ed0b-96b6-4476-806e-5e8e877c7fd4.png" group-title="Ulusal",TV 4
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
 
-#EXTINF:-1 tvg-name="A2" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_A2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/fee44d61-2476-40ae-89eb-f51a7428789d.png" group-title="Genel",A2
+#EXTINF:-1 tvg-name="A2" tvg-language="Turkish" tvg-country="TR" tvg-id="A2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/fee44d61-2476-40ae-89eb-f51a7428789d.png" group-title="Ulusal",A2
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
 
 
-#EXTINF:-1 tvg-name="GZT TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_GZTTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/694px-GZT_logo.svg.png" group-title="Genel",GZT TV
+#EXTINF:-1 tvg-name="GZT TV" tvg-language="Turkish" tvg-country="TR" tvg-id="GZTTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/694px-GZT_logo.svg.png" group-title="Ulusal",GZT TV
 https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Lalegül TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_LalegulTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8322c403-9f7c-4b5a-aef1-7c65e56ee8a6.png" group-title="Genel",Lalegül TV
+#EXTINF:-1 tvg-name="Lalegül TV" tvg-language="Turkish" tvg-country="TR" tvg-id="LalegulTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8322c403-9f7c-4b5a-aef1-7c65e56ee8a6.png" group-title="Ulusal",Lalegül TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
 
-#EXTINF:-1 tvg-name="Kanal 7" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_Kanal7" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/f218c717-723e-49e3-a3f0-428979d2fa3e.png" group-title="Genel",Kanal 7
+#EXTINF:-1 tvg-name="Kanal 7" tvg-language="Turkish" tvg-country="TR" tvg-id="Kanal7" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/f218c717-723e-49e3-a3f0-428979d2fa3e.png" group-title="Ulusal",Kanal 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 
-#EXTINF:-1 tvg-name="Life TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_LifeTV" tvg-logo="https://i.imgur.com/lWeJxm0.png" group-title="Genel",Life TV
+#EXTINF:-1 tvg-name="Life TV" tvg-language="Turkish" tvg-country="TR" tvg-id="LifeTV" tvg-logo="https://i.imgur.com/lWeJxm0.png" group-title="Ulusal",Life TV
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Cine1" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_Cine1" tvg-logo="https://i.ibb.co/zhxTBMR/cine1.png" group-title="Genel",Cine1
+#EXTINF:-1 tvg-name="Cine1" tvg-language="Turkish" tvg-country="TR" tvg-id="Cine1" tvg-logo="https://i.ibb.co/zhxTBMR/cine1.png" group-title="Ulusal",Cine1
 https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="CINE 5" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_CINE5" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/0/04/Cine5_logosu.png" group-title="Genel",CINE 5
+#EXTINF:-1 tvg-name="CINE 5" tvg-language="Turkish" tvg-country="TR" tvg-id="CINE5" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/0/04/Cine5_logosu.png" group-title="Ulusal",CINE 5
 https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/playlist.m3u8
 
 # * » Haber « * #
