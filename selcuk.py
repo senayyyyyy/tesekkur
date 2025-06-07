@@ -59,5 +59,5 @@ class UXSYPlayer:
         konsol.log(f"[green][✓] M3U dosyası başarıyla güncellendi.")
 
 if __name__ == "__main__":
-    guncelleyici = CAFE("selcuk.m3u")
+    guncelleyici = UXSYPlayer("selcuk.m3u")
     guncelleyici.m3u_guncelle()
