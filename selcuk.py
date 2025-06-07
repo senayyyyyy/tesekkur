@@ -1,7 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
 import re
-import os
 
 # Kontrol edilecek örnek sayfa (dinamik alt domain yakalamak için)
 CHECK_URL = "https://main.uxsyplayer425b9907af.click/"
