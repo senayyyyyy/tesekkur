@@ -1,16 +1,19 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="Spor_beINSPORTS1" tvg-language="Türkçe" tvg-country="Türkiye" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS 1 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinzirve.m3u8
+#EXTVLCOPT:http-referrer=https://www.sporcafe6.xyz/
+https://due.c7046811cd045e63.click/itis/8c1437d28413db5112720e3ce0579154/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Spor_beINSPORTS2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Spor ",beIN SPORTS 2 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinb2.m3u8
+#EXTVLCOPT:http-referrer=https://www.xyzsports246.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/bein-sports-2/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Spor_beINSPORTS3" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="Spor ",beIN SPORTS 3 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinb3.m3u8
+#EXTVLCOPT:http-referrer=https://www.xyzsports246.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukatv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Spor_beINSPORTS4" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="Spor ",beIN SPORTS 4 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
