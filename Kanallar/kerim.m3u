@@ -2,9 +2,21 @@
 
 # * » TRT « * #
 
-
-#EXTINF:-1,sbeinsports-1
-https://r0.4928d54d950ee70q17.lat/itis/8c1437d28413db5112720e3ce0579154/playlist.m3u8
+#EXTINF:-1,selcukbeinsports1
+# Referer: https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports1/playlist.m3u8
+#EXTINF:-1,selcukbeinsports2
+# Referer: https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports2/playlist.m3u8
+#EXTINF:-1,selcukbeinsports3
+# Referer: https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports3/playlist.m3u8
+#EXTINF:-1,selcukbeinsports4
+# Referer: https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports4/playlist.m3u8
+#EXTINF:-1,selcukbeinsports5
+# Referer: https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports5/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="Ulusal",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
