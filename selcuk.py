@@ -29,7 +29,7 @@ def find_working_sporcafe():
     return None
 
 def find_dynamic_player_domain(page_html):
-    matches = re.findall(r'https://main\.uxsyplayer[0-9a-f]+\.click', page_html)
+    matches = re.findall(r'https?://[^"\']*uxsyplayer[0-9A-Za-z-]*\.click', page_html)
     if matches:
         return matches[0]
     return None
