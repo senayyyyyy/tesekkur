@@ -44,8 +44,7 @@ def write_m3u_file(m3u8_links, filename="2.m3u", referer=""):
     with open(filename, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for name, url in m3u8_links:
-            f.write(f"#EXTINF:-1,{name}\n")
-            f.write(f"# Referer: {referer}\n")
+            f.write(f"#EXTVLCOPT:http-referer= {referer}\n")
             f.write(f"{url}\n")
     print(f"\n💾 M3U dosyası oluşturuldu: {filename}")
 
