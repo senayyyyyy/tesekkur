@@ -1,13 +1,13 @@
 import requests
 import re
 
-def find_working_sporcafe(start=1825, end=1830):
-    print("🧭 Sporcafe domainleri taranıyor...")
+def find_working_selcuksportshd(start=1825, end=1830):
+    print("🧭 selcuksportshd domainleri taranıyor...")
     headers = {"User-Agent": "Mozilla/5.0"}
 
     for i in range(start, end + 1):
-        url = f"https://www.sporcafe{i}.xyz/"
-        print(f"🔍 Sporcafe taranıyor: {url}")
+        url = f"https://www.selcuksportshd{i}.xyz/"
+        print(f"🔍 selcuksportshd taranıyor: {url}")
         try:
             response = requests.get(url, headers=headers, timeout=5)
             if "uxsyplayer" in response.text:
@@ -56,7 +56,7 @@ channel_ids = [
 ]
 
 # ▶️ Ana işlem
-html, referer = find_working_sporcafe()
+html, referer = find_working_selcuksportshd()
 if html:
     player_url = find_player_domain(html)
     if player_url:
@@ -70,4 +70,4 @@ if html:
     else:
         print("❌ Player domaini bulunamadı.")
 else:
-    print("⛔ Sporcafe aktif değil.")
+    print("⛔ selcuksportshd aktif değil.")
