@@ -1,4 +1,4 @@
-name: cafe kontrol
+name: Selcuk kontrol
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
   cancel-in-progress: true
