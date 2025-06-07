@@ -3,10 +3,7 @@ import re
 
 def find_working_sporcafe(start=1825, end=1850):
     print("🧭 Sporcafe domainleri taranıyor...")
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
-
+    headers = {"User-Agent": "Mozilla/5.0"}
     for i in range(start, end + 1):
         url = f"https://www.selcuksportshd{i}.xyz/"
         print(f"🔍 Sporcafe taranıyor: {url}")
@@ -17,7 +14,6 @@ def find_working_sporcafe(start=1825, end=1850):
                 return response.text, url
         except requests.RequestException:
             print(f"⚠️ Erişim hatası, geçiliyor: {url}")
-
     print("❌ Aktif Sporcafe domaini bulunamadı.")
     return None, None
 
@@ -27,10 +23,11 @@ def find_dynamic_player_domain(page_html):
         return f"https://{match.group(1)}"
     return None
 
-def extract_base_url(html):
-    match = re.search(r'this\.baseStreamUrl\s*=\s*"([^"]+)"', html)
+def extract_stream_url(html):
+    # baseStreamUrl veya adsBaseUrl yakala
+    match = re.search(r'this\.(baseStreamUrl|adsBaseUrl)\s*=\s*"([^"]+)"', html)
     if match:
-        return match.group(1)
+        return match.group(2)
     return None
 
 def fetch_m3u8_links(base_url, channel_ids, referer):
@@ -39,24 +36,21 @@ def fetch_m3u8_links(base_url, channel_ids, referer):
         "Referer": referer
     }
     m3u8_links = []
-
     for cid in channel_ids:
         url = f"{base_url}/index.php?id={cid}"
-        print(f"🎥 Yayın kontrol ediliyor: {url}")
+        print(f"🎥 Yayın sayfası inceleniyor: {url}")
         try:
             response = requests.get(url, headers=headers, timeout=5)
             html = response.text
-
-            base_stream_url = extract_base_url(html)
-            if base_stream_url:
-                m3u8_url = f"{base_stream_url}/live/{cid}/playlist.m3u8"
-                print(f"✅ M3U8 oluşturuldu: {m3u8_url}")
-                m3u8_links.append((cid, m3u8_url))
+            stream_url = extract_stream_url(html)
+            if stream_url:
+                full_m3u8 = f"{stream_url}/live/{cid}/playlist.m3u8"
+                print(f"✅ M3U8 linki oluşturuldu: {full_m3u8}")
+                m3u8_links.append((cid, full_m3u8))
             else:
-                print(f"❌ baseStreamUrl bulunamadı: {url}")
+                print(f"❌ Yayın stream adresi bulunamadı: {cid}")
         except Exception as e:
-            print(f"⚠️ Hata oluştu: {url} - {e}")
-
+            print(f"⚠️ Hata oluştu ({cid}): {e}")
     return m3u8_links
 
 def write_m3u_file(m3u8_links, filename="selcuk.m3u"):
@@ -75,18 +69,18 @@ channel_ids = [
     "selcukbeinsports5"
 ]
 
-# ▶️ Ana işlem akışı
+# ▶️ Ana işlem
 html, referer_url = find_working_sporcafe()
 if html:
     stream_domain = find_dynamic_player_domain(html)
     if stream_domain:
-        print(f"\n🔗 Yayın adresi bulundu: {stream_domain}")
+        print(f"\n🔗 Yayın domaini bulundu: {stream_domain}")
         m3u8_list = fetch_m3u8_links(stream_domain, channel_ids, referer_url)
         if m3u8_list:
             write_m3u_file(m3u8_list)
         else:
-            print("❌ Hiçbir M3U8 yayını oluşturulamadı.")
+            print("❌ Hiçbir yayın bağlantısı bulunamadı.")
     else:
-        print("❌ Yayın domaini bulunamadı.")
+        print("❌ Yayın domaini çözümlenemedi.")
 else:
-    print("⛔ Yayın alınacak site bulunamadı.")
+    print("⛔ Uygun yayın sayfası bulunamadı.")
