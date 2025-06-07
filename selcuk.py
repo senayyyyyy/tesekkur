@@ -60,11 +60,11 @@ def write_m3u_file(m3u8_links, filename="selcuk1.m3u"):
 
 # 🔧 Ayarlar
 channel_ids = [
-    "selcukssport1",
-    "selcukssport2",
-    "selcukssport3",
-    "selcukssport4",
-    "selcukssport5"
+    "selcukbeinsports1",
+    "selcukbeinsports2",
+    "selcukbeinsports3",
+    "selcukbeinsports4",
+    "selcukbeinsports5"
 ]
 
 # ▶️ Ana işlem akışı
