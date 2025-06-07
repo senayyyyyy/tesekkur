@@ -1,7 +1,6 @@
 import requests
 import re
 
-# Kontrol edilecek örnek sayfa (dinamik alt domain yakalamak için)
 CHECK_URL = "https://main.uxsyplayer425b9907af.click/"
 M3U_FILENAME = "selcuk.m3u"
 
@@ -9,13 +8,11 @@ def get_latest_dynamic_url():
     try:
         response = requests.get(CHECK_URL, timeout=10)
         if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            for script in soup.find_all('script'):
-                if script.string:
-                    matches = re.findall(r"https://main\.(uxsyplayer[0-9a-f]+)\.click", script.string)
-                    if matches:
-                        dynamic_part = matches[0]
-                        return f"https://main.{dynamic_part}.click"
+            # Sayfa metni içinde main.uxsyplayerXXXXX.click şeklinde geçen kısmı bul
+            matches = re.findall(r"https://main\.(uxsyplayer[0-9a-f]+)\.click", response.text)
+            if matches:
+                dynamic_part = matches[0]
+                return f"https://main.{dynamic_part}.click"
         print("Dinamik link bulunamadı.")
     except Exception as e:
         print(f"Hata oluştu: {e}")
@@ -23,7 +20,7 @@ def get_latest_dynamic_url():
 
 def extract_stream_ids(base_url):
     stream_ids = []
-    for i in range(1, 100):  # 1-100 arası ID'leri dene
+    for i in range(1, 100):
         url = f"{base_url}/index.php?id={i}"
         try:
             r = requests.head(url, allow_redirects=True, timeout=3)
