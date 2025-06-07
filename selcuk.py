@@ -29,10 +29,21 @@ def find_working_sporcafe():
     return None
 
 def find_dynamic_player_domain(page_html):
-    matches = re.findall(r'https?://[^"\']*uxsyplayer[0-9A-Za-z-]*\.click', page_html)
+    # Önce doğrudan HTML içinde ara
+    matches = re.findall(r'https?://main\.uxsyplayer[0-9a-zA-Z]+\.click', page_html)
     if matches:
         return matches[0]
+    
+    # Eğer doğrudan bulunamazsa, iframe içinden dene
+    iframe_matches = re.findall(
+        r'<iframe[^>]+src="(https?://main\.uxsyplayer[0-9a-zA-Z]+\.click.*?)"',
+        page_html
+    )
+    if iframe_matches:
+        return iframe_matches[0]
+    
     return None
+
 
 def get_m3u8_from_page(full_url):
     try:
