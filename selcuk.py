@@ -1,62 +1,84 @@
 import re
-from httpx import Client
-from Kekik.cli import konsol  # Yoksa print() ile değiştirilebilir
+import requests
+from parsel import Selector
 
-class UXSYPlayer:
-    def __init__(self, m3u_dosyasi):
+class SporCafe6Updater:
+    def __init__(self, m3u_dosyasi, site_url="https://www.sporcafe6.xyz"):
         self.m3u_dosyasi = m3u_dosyasi
-        self.httpx = Client(timeout=10)
+        self.site_url = site_url.rstrip("/")
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        })
 
-    def referer_domainini_al(self):
-        desen = r'#EXTVLCOPT:http-referrer=(https?://[^/]*sporcafe6[^/]*\.[^\s/]+)'
-        with open(self.m3u_dosyasi, "r") as f:
-            icerik = f.read()
+    def sayfa_icerigini_getir(self, path="/"):
+        url = f"{self.site_url}{path}"
+        print(f"[i] GET {url}")
+        resp = self.session.get(url, timeout=10)
+        resp.raise_for_status()
+        return resp.text
 
-        if eslesme := re.search(desen, icerik):
-            return eslesme[1]
-        raise ValueError("Referer içinde 'sporcafe' geçen bir domain bulunamadı!")
+    def yayin_linklerini_al(self, html):
+        sel = Selector(html)
+        links = set()
 
-    def yayin_urlini_al(self):
-        api_url = (
-            "url=https://main.uxsyplayer425b9907af.click/index.php?id="
-            "&referer=https://www.sporcafe6.xyz/"
-            "&useragent=okhttp/4.12.0"
-        )
-        konsol.log(f"[cyan][~] API çağrısı yapılıyor: {api_url}")
-        try:
-            response = self.httpx.get(api_url)
-            response.raise_for_status()
-            json_data = response.json()
-            baseurl = json_data["baseurl"].replace("\\/", "/").rstrip("/")
-            return baseurl
-        except Exception as e:
-            raise ValueError(f"Base URL alınamadı: {e}")
+        for iframe in sel.xpath("//iframe"):
+            src = iframe.attrib.get("src")
+            if src and src.startswith("http"):
+                links.add(src)
 
-    def m3u_guncelle(self):
+        for source in sel.xpath("//video/source"):
+            src = source.attrib.get("src")
+            if src:
+                links.add(src)
+
+        for a in sel.xpath("//a"):
+            href = a.attrib.get("href")
+            if href and (".m3u" in href or ".m3u8" in href):
+                full = href if href.startswith("http") else self.site_url + href
+                links.add(full)
+
+        return links
+
+    def m3u_guncelle(self, paths=None):
+        if paths is None:
+            paths = ["/"]
+
+        # Mevcut içerik
         with open(self.m3u_dosyasi, "r", encoding="utf-8") as f:
-            icerik = f.read()
+            m3u_icerik = f.read()
 
-        eski_referer = self.referer_domainini_al()
-        konsol.log(f"[yellow][~] Eski Referer: {eski_referer}")
+        # Tüm yeni yayın linkleri
+        yeni_linkler = set()
+        for p in paths:
+            html = self.sayfa_icerigini_getir(p)
+            alinan = self.yayin_linklerini_al(html)
+            print(f"[+] {p} → {len(alinan)} yayın bulundu.")
+            yeni_linkler |= alinan
 
-        yeni_baseurl = self.yayin_urlini_al()
-        konsol.log(f"[green][+] Yeni BaseURL: {yeni_baseurl}")
+        if not yeni_linkler:
+            print("[!] Hiç yayın linki bulunamadı, çıkılıyor.")
+            return
 
-        yayin_deseni = r'https?:\/\/[^\/]+\.(workers\.dev|shop|click|lat)\/?'
-        if not (eski_yayin := re.search(yayin_deseni, icerik)):
-            raise ValueError("M3U içinde eski yayın URL’si bulunamadı!")
+        # Her link ile m3u içinde var mı kontrol: yoksa referer satırıyla ekle
+        mevcut = set(re.findall(r'#EXTVLCOPT:http-referrer=(https?://[^\s]+)\s*\n([^\n\r]+)', m3u_icerik))
+        for ref, old_link in mevcut:
+            yeni_linkler.discard(old_link)
 
-        eski_yayin_url = eski_yayin[0]
-        konsol.log(f"[yellow][~] Eski Yayın URL: {eski_yayin_url}")
+        ekleme_satiri = ""
+        for link in yeni_linkler:
+            ekleme_satiri += f"#EXTVLCOPT:http-referrer={self.site_url}\n{link}\n"
+            print(f"[+] Eklenecek: {link}")
 
-        yeni_icerik = icerik.replace(eski_yayin_url, yeni_baseurl)
-        yeni_icerik = yeni_icerik.replace(eski_referer, "https://www.sporcafe6.xyz/")
+        if ekleme_satiri:
+            with open(self.m3u_dosyasi, "a", encoding="utf-8") as f:
+                f.write("\n" + ekleme_satiri)
+            print(f"[✓] {len(yeni_linkler)} yeni yayın eklendi.")
+        else:
+            print("[✓] Yeni eklenmesi gereken link yok, dosya güncellenmedi.")
 
-        with open(self.m3u_dosyasi, "w", encoding="utf-8") as f:
-            f.write(yeni_icerik)
-
-        konsol.log(f"[green][✓] M3U dosyası başarıyla güncellendi.")
+        # TODO: eski linkleri güncellemek için yeni referer veya base url belirlenip replace yapılabilir.
 
 if __name__ == "__main__":
-    guncelleyici = UXSYPlayer("selcuk.m3u")
-    guncelleyici.m3u_guncelle()
+    updater = SporCafe6Updater("selcuk.m3u", site_url="https://www.sporcafe6.xyz")
+    updater.m3u_guncelle(paths=["/"])
