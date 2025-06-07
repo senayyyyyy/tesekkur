@@ -41,16 +41,17 @@ def fetch_m3u8_links(base_url, channel_ids, referer):
             response = requests.get(url, headers=headers, timeout=5)
             html = response.text
 
-            # Burada alt domain kısmını sayfa içinde regex ile ara
-            # Örnek: https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports1/playlist.m3u8
-            subdomain_match = re.search(r'https://alpha\.cf-worker-([0-9a-z]+)\.workers\.dev/live/' + re.escape(cid) + r'/playlist\.m3u8', html)
-            if subdomain_match:
-                subdomain = subdomain_match.group(1)
-                m3u8_url = f"https://alpha.cf-worker-{subdomain}.workers.dev/live/{cid}/playlist.m3u8"
-                print(f"✅ M3U8 linki bulundu: {m3u8_url}")
-                m3u8_links.append((cid, m3u8_url))
+            # Sayfa içindeki tüm alpha.cf-worker-*.workers.dev linklerini bul
+            found_links = re.findall(r'https://alpha\.cf-worker-[0-9a-z]+\.workers\.dev/live/' + re.escape(cid) + r'/playlist\.m3u8', html)
+            
+            if found_links:
+                # Listeyi set yaparak benzersiz link alabiliriz
+                unique_links = list(set(found_links))
+                for m3u8_url in unique_links:
+                    print(f"✅ M3U8 linki bulundu: {m3u8_url}")
+                    m3u8_links.append((cid, m3u8_url))
             else:
-                print(f"❌ M3U8 linki bulunamadı (alt domain): {url}")
+                print(f"❌ M3U8 linki bulunamadı: {url}")
         except Exception as e:
             print(f"⚠️ Hata oluştu: {url} - {e}")
 
@@ -63,7 +64,6 @@ def write_m3u_file(m3u8_links, filename="selcuk1.m3u"):
             f.write(f"#EXTINF:-1,{name}\n{url}\n")
     print(f"\n💾 M3U dosyası oluşturuldu: {filename}")
 
-# Kanal ID’leri
 channel_ids = [
     "selcukbeinsports1",
     "selcukbeinsports2",
@@ -72,7 +72,6 @@ channel_ids = [
     "selcukbeinsports5"
 ]
 
-# Ana işlem
 html, referer_url = find_working_sporcafe()
 if html:
     stream_domain = find_dynamic_player_domain(html)
