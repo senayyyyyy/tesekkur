@@ -378,7 +378,7 @@ https://hakunamatata5.org:8088/hls/sky-f1.m3u8
 #EXTINF:-1 tvg-id="130" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/b8582c521e6d1bf91ef06f34b7c58c37.jpg" tvg-name="A Spor HD" group-title="Spor",A Spor HD [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/aspor.m3u8
+https://tv.arectv31.sbs/live/aspor.m3u8
 #EXTINF:-1 tvg-id="149" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
