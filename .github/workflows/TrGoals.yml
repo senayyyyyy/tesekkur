@@ -36,7 +36,8 @@ jobs:
       - name: MonoTV.py Çalıştır
         run: python MonoTV.py
         
-      
+      - name: selcuk.py Çalıştır
+        run: python selcuk.py
 
       - name: Alive 1
         run: curl https://kerimmkirac-dproxy.hf.space
