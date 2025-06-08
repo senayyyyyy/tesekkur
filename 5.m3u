@@ -1,9 +1,9 @@
 #EXTM3U
-#EXTINF:-1,2
+#EXTINF:-1,selcukbeinsports1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1815.xyz/
-https://alpha.cf-worker-545454545.workers.dev/live/selcukbeinsports1/playlist.m3u8
-#EXTINF:-1,3
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports1/playlist.m3u8
+#EXTINF:-1,selcukbeinsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports2/playlist.m3u8
