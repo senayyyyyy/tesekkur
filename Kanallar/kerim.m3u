@@ -22,30 +22,25 @@ https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports4/playli
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports5/playlist.m3u8
 
-#EXTINF:-1,selcukbeinsports5
+#EXTINF:-1,selcukbeinsports max1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 
-#EXTINF:-1,selcukbeinsports5
+#EXTINF:-1,selcukbeinsports max2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
 
-#EXTINF:-1,selcukbeinsports5
+#EXTINF:-1,ss
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukssport/playlist.m3u8
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1845.xyz/
+https://alpha.cf-worker-555555.workers.dev/live/selcukssport/playlist.m3u8
 
-#EXTINF:-1,selcukbeinsports5
+#EXTINF:-1,ss2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukssport2/playlist.m3u8
-
-#EXTINF:-1,selcukbeinsports5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1825.xyz/
-https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
 
 #EXTINF:-1,selcukbeinsports5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
