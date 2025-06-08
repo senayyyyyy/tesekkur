@@ -1,0 +1,53 @@
+name: Rec Tv Kontrol
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  
+  workflow_dispatch:        
+
+jobs:
+  update-rectv:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  
+
+    steps:
+      - name: Repo'yu klonla
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }} 
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Gerekli paketleri yükle
+        run: pip install requests cloudscraper
+
+      
+
+      - name: Rectv
+        run: python rectv.py
+
+      
+
+      - name: Değişiklik kontrolü
+        id: git-check
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit ve push 
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git add rectv.m3u
+          git commit -m " Rectv.m3u güncellendi - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push origin HEAD:main
