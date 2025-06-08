@@ -186,9 +186,10 @@ https://saran-live.ercdn.net/natgeowild/index.m3u8
 
 
 
-#EXTINF:-1 tvg-name="TARİH TV" tvg-id=""  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/1da9e4ec-4e08-4bc9-bf29-5060d63bca07.png" group-title="Belgesel",TARİH TV
+#EXTINF:-1 tvg-id="85" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b61d518744b390174e6f672d7171107d.png" tvg-name="TARİH TV" group-title="Belgesel",TARİH TV [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://tv1.arectv30.sbs/live/tarihtv.m3u8
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv33.sbs/live/tarihtv.m3u8
 
 
 #EXTINF:-1 tvg-name="Docubox" tvg-id=""  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/DocuBox_HD_logo.png" group-title="Belgesel",Docubox
