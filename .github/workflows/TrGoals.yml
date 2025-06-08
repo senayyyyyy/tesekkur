@@ -35,6 +35,9 @@ jobs:
         
       - name: MonoTV.py Çalıştır
         run: python MonoTV.py
+
+        - name: rectv.py Çalıştır
+        run: python rectv.py
         
       
 
