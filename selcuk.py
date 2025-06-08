@@ -40,7 +40,7 @@ def build_m3u8_links(base_stream_url, channel_ids):
         m3u8_links.append((cid, full_url))
     return m3u8_links
 
-def write_m3u_file(m3u8_links, filename="selcuksports.m3u", referer=""):
+def write_m3u_file(m3u8_links, filename="5.m3u", referer=""):
     with open(filename, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for name, url in m3u8_links:
