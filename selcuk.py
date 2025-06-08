@@ -96,11 +96,12 @@ channel_ids = [
     "selcuktivibuspor3",
     "selcuktivibuspor4",
     "selcukbeinsportshaber",
+    "selcukaspor",
     "selcukeurosport1",
     "selcukeurosport2",
     "selcuksf1",
     "selcuktabiispor",
-    "ssportplus1",
+    "ssportplus1"
     
     
 ]
