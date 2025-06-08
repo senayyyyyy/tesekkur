@@ -7,8 +7,6 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT Avaz" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_Avaz" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4a3026d6-b1be-4373-bb83-447117196e55.png" group-title="TRT",TRT Avaz
-https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-
 #EXTINF:-1 tvg-name="TRT World" tvg-language="English" tvg-country="USA" tvg-id="TRT_World" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/acd68840-492b-43c5-9635-bbaf32148e2a.png" group-title="TRT",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
