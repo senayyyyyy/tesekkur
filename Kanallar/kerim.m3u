@@ -730,11 +730,6 @@ https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/cnnturk.m3u8
-
-#EXTINF:-1 tvg-id="24" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/54ebd649dea5b3654544975b9352f100.png" tvg-name="TV 100" group-title="Haber",TV 100
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
 #EXTINF:-1 tvg-id="94" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/aa5d0e853efaf9070117c772c4db6358.jpg" tvg-name="HABER GLOBAL" group-title="Haber",HABER GLOBAL
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -815,6 +810,10 @@ https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://trtturk.blutv.com/blutv_trtturk2/live_720p2000000kbps/index.m3u8
+#EXTINF:-1 tvg-id="24" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/54ebd649dea5b3654544975b9352f100.png" tvg-name="TV 100" group-title="Ulusal",TV 100
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
 #EXTINF:-1 tvg-id="109" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/33204f43b374b3d0b662a80afa712518.jpg" tvg-name="TV 8 HD" group-title="Ulusal",TV 8 HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
