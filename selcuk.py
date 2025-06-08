@@ -119,8 +119,8 @@ if html:
             if base_stream_url:
                 m3u8_links = build_m3u8_dict(base_stream_url, channel_ids)
                 update_existing_m3u_file(
-                    input_file="5.m3u",     # El ile düzenlediğin orijinal dosya
-                    output_file="5.m3u",  # Yeni çıktı dosyası
+                    input_file="kanallar/kerim.m3u",     # El ile düzenlediğin orijinal dosya
+                    output_file="kanallar/kerim.m3u",  # Yeni çıktı dosyası
                     m3u8_links=m3u8_links,
                     referer=referer_url
                 )
