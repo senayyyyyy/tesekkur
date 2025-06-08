@@ -52,7 +52,7 @@ def fetch_m3u8_links(base_url, channel_ids, referer):
 
     return m3u8_links
 
-def update_m3u_file_with_referer_and_links(m3u8_list, filename="5.m3u", referer_url=None):
+def write_m3u_file(m3u8_links, filename="selcuksports.m3u", referer=""):
     if not referer_url:
         print("⚠️ Referer URL bulunamadı, dosya güncellenmedi.")
         return
