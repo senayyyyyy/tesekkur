@@ -30,27 +30,28 @@ def build_m3u8_links(base_stream_url, channel_ids):
     return [(cid, f"{base_stream_url}{cid}/playlist.m3u8") for cid in channel_ids]
 
 def write_m3u_file(m3u8_links, filename="5.m3u", referer=""):
-    existing_info = {}
+    existing_extinf_lines = []
     if os.path.exists(filename):
         with open(filename, "r", encoding="utf-8") as f:
             lines = f.readlines()
             for i in range(len(lines)):
                 if lines[i].startswith("#EXTINF:-1"):
-                    name_line = lines[i]
-                    name = name_line.split(",", 1)[-1].strip()
-                    # EXTINF satırını sakla
-                    existing_info[name] = name_line
+                    existing_extinf_lines.append(lines[i])
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for name, url in m3u8_links:
-            # #EXTINF satırı varsa eski haliyle yaz, yoksa standart şekilde yaz
-            extinf = existing_info.get(name, f"#EXTINF:-1,{name}\n")
+        for i, (name, url) in enumerate(m3u8_links):
+            # Varsa eski extinf satırını sıraya göre kullan, yoksa yeni yaz
+            if i < len(existing_extinf_lines):
+                extinf = existing_extinf_lines[i]
+            else:
+                extinf = f"#EXTINF:-1,{name}\n"
             f.write(extinf)
             f.write("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n")
             f.write(f"#EXTVLCOPT:http-referrer={referer}\n")
             f.write(f"{url}\n")
     print(f"✅ M3U dosyası güncellendi: {filename}")
+
 
 # Kanal ID listesi
 channel_ids = [
