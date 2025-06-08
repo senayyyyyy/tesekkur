@@ -236,37 +236,37 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/FilmScreen_stream/index.m3u8?wms
 
 
 
-#EXTINF:-1 tvg-name="Trt Çocuk" tvg-id="2212"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3261c5eb-0e08-4c96-b8fc-58211e3da29c.png" group-title="Çocuk & Eğitim",Trt Çocuk
+#EXTINF:-1 tvg-name="Trt Çocuk" tvg-id="Trt Çocuk"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3261c5eb-0e08-4c96-b8fc-58211e3da29c.png" group-title="Çocuk & Eğitim",Trt Çocuk
 https://ottcdn.kablowebtv.net/live_turksat_sub3/trtcocuk_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjMgUE0maGFzaF92YWx1ZT1NUFliUW1jS3NEQkU4V2FEVHczQ0NBPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Minika Çocuk" tvg-id="2608"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/12a9b581-f79c-41ba-b1e4-2f13f0087776.png" group-title="Çocuk & Eğitim",Minika Çocuk
+#EXTINF:-1 tvg-name="Minika Çocuk" tvg-id="Minika Çocuk"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/12a9b581-f79c-41ba-b1e4-2f13f0087776.png" group-title="Çocuk & Eğitim",Minika Çocuk
 https://ottcdn.kablowebtv.net/live_turksat_sub3/minikacocuk_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Minika Go" tvg-id="2404"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7dfb3c14-3837-4c82-9c30-88edefebe4bd.png" group-title="Çocuk & Eğitim",Minika Go
+#EXTINF:-1 tvg-name="Minika Go" tvg-id="Minika Go"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7dfb3c14-3837-4c82-9c30-88edefebe4bd.png" group-title="Çocuk & Eğitim",Minika Go
 https://ottcdn.kablowebtv.net/live_turksat_sub3/minikago_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Trt Diyanet Çocuk" tvg-id="2703"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7e733bf8-6c0e-4d6e-b18a-5864e571894b.png" group-title="Çocuk & Eğitim",Trt Diyanet Çocuk
+#EXTINF:-1 tvg-name="Trt Diyanet Çocuk" tvg-id="Trt Diyanet Çocuk"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7e733bf8-6c0e-4d6e-b18a-5864e571894b.png" group-title="Çocuk & Eğitim",Trt Diyanet Çocuk
 https://ottcdn.kablowebtv.net/live_turksat_sub3/trtdiyanetcocuk_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Spacetoon" tvg-id="3715" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1e92ccd2-d2f4-48e5-a886-164389511271.png" group-title="Çocuk & Eğitim",Spacetoon
+#EXTINF:-1 tvg-name="Spacetoon" tvg-id="Spacetoon" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1e92ccd2-d2f4-48e5-a886-164389511271.png" group-title="Çocuk & Eğitim",Spacetoon
 https://ottcdn.kablowebtv.net/live_turksat_sub3/spacetoon_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Azoomee" tvg-id="1314"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1cc6ebf5-4e01-407d-8a88-94dcdf2d5ddd.png" group-title="Çocuk & Eğitim",Azoomee
+#EXTINF:-1 tvg-name="Azoomee" tvg-id="Azoomee"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1cc6ebf5-4e01-407d-8a88-94dcdf2d5ddd.png" group-title="Çocuk & Eğitim",Azoomee
 https://ottcdn.kablowebtv.net/live_turksat_sub3/gamescreen_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Baby Tv" tvg-id="2601"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/2442b7b7-04da-41c1-a7ca-03466853040e.png" group-title="Çocuk & Eğitim",Baby Tv
+#EXTINF:-1 tvg-name="Baby Tv" tvg-id="Baby Tv"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/2442b7b7-04da-41c1-a7ca-03466853040e.png" group-title="Çocuk & Eğitim",Baby Tv
 https://ottcdn.kablowebtv.net/live_turksat_sub3/babytv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Disney Junior" tvg-id="3601"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/51d3a383-2842-4a4c-b622-20f09b309973.png" group-title="Çocuk & Eğitim",Disney Junior
+#EXTINF:-1 tvg-name="Disney Junior" tvg-id="Disney Junior"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/51d3a383-2842-4a4c-b622-20f09b309973.png" group-title="Çocuk & Eğitim",Disney Junior
 https://ottcdn.kablowebtv.net/live_turksat_sub3/disneyjunior_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Cartoon Network" tvg-id="1608"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4c47b639-2916-4563-9e40-0f2a7925b2ea.png" group-title="Çocuk & Eğitim",Cartoon Network
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-id="Cartoon Network"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4c47b639-2916-4563-9e40-0f2a7925b2ea.png" group-title="Çocuk & Eğitim",Cartoon Network
 https://ottcdn.kablowebtv.net/live_turksat_sub3/cartoonnetwork_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Duck Tv" tvg-id="1610"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/d8107e33-52b1-4ba0-a7d4-bb877d5658c4.png" group-title="Çocuk & Eğitim",Duck Tv
+#EXTINF:-1 tvg-name="Duck Tv" tvg-id="Duck Tv"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/d8107e33-52b1-4ba0-a7d4-bb877d5658c4.png" group-title="Çocuk & Eğitim",Duck Tv
 https://ottcdn.kablowebtv.net/live_turksat_sub3/ducktv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="English Club" tvg-id="2506"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/31a93dde-3b2e-4be7-b684-43ee9c2a5442.png" group-title="Çocuk & Eğitim",English Club
+#EXTINF:-1 tvg-name="English Club" tvg-id="English Club"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/31a93dde-3b2e-4be7-b684-43ee9c2a5442.png" group-title="Çocuk & Eğitim",English Club
 https://ottcdn.kablowebtv.net/live_turksat_sub3/englishclub_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Da Vinci" tvg-id="2704"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/f2ed966d-693e-40b4-a737-740817d4eb2f.png" group-title="Çocuk & Eğitim",Da Vinci
+#EXTINF:-1 tvg-name="Da Vinci" tvg-id="Da Vinci"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/f2ed966d-693e-40b4-a737-740817d4eb2f.png" group-title="Çocuk & Eğitim",Da Vinci
 https://ottcdn.kablowebtv.net/live_turksat_sub3/davinci_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="LangLab" tvg-id="3802"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/97f5f9c6-70e1-4326-a046-43d6fdd0d81c.png" group-title="Çocuk & Eğitim",LangLab
+#EXTINF:-1 tvg-name="LangLab" tvg-id="LangLab"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/97f5f9c6-70e1-4326-a046-43d6fdd0d81c.png" group-title="Çocuk & Eğitim",LangLab
 https://ottcdn.kablowebtv.net/live_turksat_sub3/langlab_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="LingoToons" tvg-id="3803"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a29ccf28-73b8-48ef-a055-ddb1820c9d57.png" group-title="Çocuk & Eğitim",LingoToons
+#EXTINF:-1 tvg-name="LingoToons" tvg-id="LingoToons"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a29ccf28-73b8-48ef-a055-ddb1820c9d57.png" group-title="Çocuk & Eğitim",LingoToons
 https://ottcdn.kablowebtv.net/live_turksat_sub3/lingotoons_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="TinyTeen" tvg-id="3801"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1b0a8967-61ef-4066-a422-2e4eccd18ec5.png" group-title="Çocuk & Eğitim",TinyTeen
+#EXTINF:-1 tvg-name="TinyTeen" tvg-id="TinyTeen"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1b0a8967-61ef-4066-a422-2e4eccd18ec5.png" group-title="Çocuk & Eğitim",TinyTeen
 https://ottcdn.kablowebtv.net/live_turksat_sub3/tinyteen_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-#EXTINF:-1 tvg-name="Trt Eba TV" tvg-id="1616"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/47fcca43-c2ac-4ab8-ae92-2b007655be9f.png" group-title="Çocuk & Eğitim",Trt Eba TV
+#EXTINF:-1 tvg-name="Trt Eba TV" tvg-id="Trt Eba TV"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/47fcca43-c2ac-4ab8-ae92-2b007655be9f.png" group-title="Çocuk & Eğitim",Trt Eba TV
 https://ottcdn.kablowebtv.net/live_turksat_sub3/trteba_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
 
 
@@ -274,100 +274,124 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/trteba_stream/index.m3u8?wmsAuth
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # * » Spor « * #
-#EXTINF:-1 tvg-name="TRT Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TRT" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/46319886-6c97-4640-8d63-8e4b11511c74.png" group-title="Spor",TRT Spor
-https://tv-trtspor1.medya.trt.com.tr/master.m3u8
-
-#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporYildiz" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/02ef58a4-349a-49a6-8df2-82fb71c6554d.png" group-title="Spor",TRT Spor Yıldız
-https://tv-trtspor2.medya.trt.com.tr/master.m3u8
-
-#EXTINF:-1 tvg-name="A Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_ASPOR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9d28401f-2d4e-4862-85e2-69773f6f45f4.png" group-title="Spor",A Spor
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
-#EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="Spor",Sports TV
-https://live.sportstv.com.tr/hls/low/sportstv.m3u8
-# ? http://stream.tvcdn.net/spor/sports-tv.m3u8/
-
-#EXTINF:-1 tvg-name="HT Spor " tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Ht_Spor" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" group-title="Spor",Ht spor
-https://ciner-live.daioncdn.net/ht-spor/ht-spor_1080p.m3u8
-
-#EXTINF:-1 tvg-name="beIN Sports Haber"  tvg-language="Turkish" tvg-country="TR" tvg-id="2114" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bc458b63-fe9e-40c2-b8a3-d56dc7189e0a.png" group-title="Spor",beIN Sports Haber
-https://ottcdn.kablowebtv.net/live_turksat_sub3/beinsportshaber_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
 
 
-
-#EXTINF:-1 tvg-name="TJK TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
-https://tjktv-live.tjk.org/tjktv/tjktv.m3u8
-
-#EXTINF:-1 tvg-name="TJK TV 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV_2" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV 2
-https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
-
-#EXTINF:-1 tvg-name="Solh Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SolhSport" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/solhsports.png" group-title="Spor",Solh Sport
-https://solhtvhls.wns.live/hls/stream.m3u8
-
-
-#EXTINF:-1 tvg-name="Nba Tv A" tvg-language="English" tvg-country="USA" tvg-id="3903" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="Spor",Nba Tv 
-https://ottcdn.kablowebtv.net/live_turksat_sub3/nbatv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-
-#EXTINF:-1 tvg-name="NBA TV B" tvg-language="English" tvg-country="USA" tvg-id="Spor_NBATVB" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/8/89/Nbatv.png" group-title="Spor",NBA TV B
+#EXTINF:-1 tvg-name="beIN SPORTS 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS1_A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinnbatv.m3u8
+https://r0.4928d54d950ee70q17.lat/yayinzirve.m3u8
 
-#EXTINF:-1 tvg-name="NBA TV C" tvg-language="English" tvg-country="USA" tvg-id="Spor_NBATVC" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/8/89/Nbatv.png" group-title="Spor",NBA TV C
+#EXTINF:-1 tvg-name="beIN SPORTS 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS1_B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS 1 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinnbatv.m3u8
+https://lll.istekbet3.tv/yayinzirve.m3u8
 
 
 
-
-#EXTINF:-1 tvg-name="Eurosport 1 A"  tvg-language="Turkish" tvg-country="TR" tvg-id="2002" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="Spor",Eurosport 1
-https://ottcdn.kablowebtv.net/live_turksat_sub3/eurosport1hd_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-
-
-#EXTINF:-1 tvg-name="Euro Sport 1 B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport1A" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="Spor",Euro Sport 1 B
+#EXTINF:-1 tvg-name="beIN SPORTS 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS2_A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Spor",beIN SPORTS 2 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayineu1.m3u8
+https://r0.4928d54d950ee70q17.lat/yayinb2.m3u8
 
-
-
-#EXTINF:-1 tvg-name="Euro Sport 1 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport1C" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="Spor",Euro Sport 1 C
+#EXTINF:-1 tvg-name="beIN SPORTS 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS2_B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Spor",beIN SPORTS 2 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayineu1.m3u8
+https://lll.istekbet3.tv/yayinb2.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Eurosport 2 A"  tvg-language="Turkish" tvg-country="TR" tvg-id="1809" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Eurosport 2
-https://ottcdn.kablowebtv.net/live_turksat_sub3/eurosport2hd_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
 
-#EXTINF:-1 tvg-name="Euro Sport 2 B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport2A" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Euro Sport 2 B
+
+#EXTINF:-1 tvg-name="beIN SPORTS 3 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS3_A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="Spor",beIN SPORTS 3 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayineu2.m3u8
+https://r0.4928d54d950ee70q17.lat/yayinb3.m3u8
 
-
-
-#EXTINF:-1 tvg-name="Euro Sport 2 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport2C" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Euro Sport 2 C
+#EXTINF:-1 tvg-name="beIN SPORTS 3 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS3_B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="Spor",beIN SPORTS 3 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayineu2.m3u8
+https://lll.istekbet3.tv/yayinb3.m3u8
 
+
+
+
+#EXTINF:-1 tvg-name="beIN SPORTS 4 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_b eINSPORTS4_A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="Spor",beIN SPORTS 4 A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
+https://r0.4928d54d950ee70q17.lat/yayinb4.m3u8
+
+#EXTINF:-1 tvg-name="beIN SPORTS 4 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_b eINSPORTS4_B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="Spor",beIN SPORTS 4 B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv523.com/
+https://lll.istekbet3.tv/yayinb4.m3u8
+
+
+
+
+#EXTINF:-1 tvg-name="beIN SPORTS 5 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS5_A" tvg-logo="https://i.imgur.com/iRKfaee.png" group-title="Spor",beIN SPORTS 5 A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
+https://r0.4928d54d950ee70q17.lat/yayinb5.m3u8
+
+#EXTINF:-1 tvg-name="beIN SPORTS 5 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS5_b" tvg-logo="https://i.imgur.com/iRKfaee.png" group-title="Spor",beIN SPORTS 5 B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv523.com/
+https://lll.istekbet3.tv/yayinb5.m3u8
+
+
+
+
+#EXTINF:-1 tvg-name="beIN SPORTS Max 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax_1A" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/BeIN_Sports_MAX.png" group-title="Spor",beIN SPORTS 1 Max A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
+https://r0.4928d54d950ee70q17.lat/yayinbm1.m3u8
+
+#EXTINF:-1 tvg-name="beIN SPORTS Max 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax_1B" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/BeIN_Sports_MAX.png" group-title="Spor",beIN SPORTS 1 Max B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv523.com/
+https://lll.istekbet3.tv/yayinbm1.m3u8
+
+
+
+#EXTINF:-1 tvg-name="beIN SPORTS Max 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax2_A" tvg-logo="https://i.imgur.com/t7U20yR.png" group-title="Spor",beIN SPORTS Max 2 A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
+https://r0.4928d54d950ee70q17.lat/yayinbm2.m3u8
+
+#EXTINF:-1 tvg-name="beIN SPORTS Max 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax2_B tvg-logo="https://i.imgur.com/t7U20yR.png" group-title="Spor",beIN SPORTS Max 2 B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv523.com/
+https://lll.istekbet3.tv/yayinbm2.m3u8
+
+
+
+#EXTINF:-1 tvg-name="S Sport 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="S Sport" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport
+https://ottcdn.kablowebtv.net/live_turksat_sub3/ssport_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
+
+#EXTINF:-1 tvg-name="S Sport 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORTB" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport 1 B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
+https://r0.4928d54d950ee70q17.lat/yayinss.m3u8
+
+
+#EXTINF:-1 tvg-name="S Sport 1 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT1C" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport 1 C
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv523.com/
+https://lll.istekbet3.tv/yayinss.m3u8
+
+#EXTINF:-1 tvg-name="S Sport 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="S Sport 2" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2
+https://ottcdn.kablowebtv.net/live_turksat_sub3/ssport2_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
+
+#EXTINF:-1 tvg-name="S Sport 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2B" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2 B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
+https://r0.4928d54d950ee70q17.lat/yayinss2.m3u8
+
+#EXTINF:-1 tvg-name="S Sport 2 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2C" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2 C
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://monotv523.com/
+https://lll.istekbet3.tv/yayinss2.m3u8
 
 
 #EXTINF:-1 tvg-name="Tivibu Spor 1 A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor1A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/qadnsi1642604437.png" group-title="Spor",Tivibu Spor 1 A
@@ -421,10 +445,6 @@ https://r0.4928d54d950ee70q17.lat/yayinsmarts.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinsmarts.m3u8   
 
-
-
-
-
 #EXTINF:-1 tvg-name="Spor Smart 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart2_A" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/SPORSMART2-gri.png" group-title="Spor",Spor Smart 2 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
@@ -436,130 +456,72 @@ https://r0.4928d54d950ee70q17.lat/yayinsms2.m3u8
 https://lll.istekbet3.tv/yayinsms2.m3u8
 
 
+#EXTINF:-1 tvg-name="Eurosport 1 A"  tvg-language="Turkish" tvg-country="TR" tvg-id="Eurosport 1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="Spor",Eurosport 1
+https://ottcdn.kablowebtv.net/live_turksat_sub3/eurosport1hd_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
 
 
-#EXTINF:-1 tvg-name="S Sport 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="1810" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport
-https://ottcdn.kablowebtv.net/live_turksat_sub3/ssport_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-
-#EXTINF:-1 tvg-name="S Sport 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORTB" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport 1 B
+#EXTINF:-1 tvg-name="Euro Sport 1 B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport1A" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="Spor",Euro Sport 1 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinss.m3u8
+https://r0.4928d54d950ee70q17.lat/yayineu1.m3u8
 
 
-#EXTINF:-1 tvg-name="S Sport 1 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT1C" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport 1 C
+
+#EXTINF:-1 tvg-name="Euro Sport 1 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport1C" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="Spor",Euro Sport 1 C
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinss.m3u8
+https://lll.istekbet3.tv/yayineu1.m3u8
 
 
 
+#EXTINF:-1 tvg-name="Eurosport 2 A"  tvg-language="Turkish" tvg-country="TR" tvg-id="Eurosport 1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Eurosport 2
+https://ottcdn.kablowebtv.net/live_turksat_sub3/eurosport2hd_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
 
-
-#EXTINF:-1 tvg-name="S Sport 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="3901" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2
-https://ottcdn.kablowebtv.net/live_turksat_sub3/ssport2_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
-
-#EXTINF:-1 tvg-name="S Sport 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2B" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2 B
+#EXTINF:-1 tvg-name="Euro Sport 2 B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport2A" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Euro Sport 2 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinss2.m3u8
+https://r0.4928d54d950ee70q17.lat/yayineu2.m3u8
 
-#EXTINF:-1 tvg-name="S Sport 2 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2C" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2 C
+
+
+#EXTINF:-1 tvg-name="Euro Sport 2 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport2C" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Euro Sport 2 C
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinss2.m3u8
+https://lll.istekbet3.tv/yayineu2.m3u8
 
 
+#EXTINF:-1 tvg-name="TRT Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TRT" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/46319886-6c97-4640-8d63-8e4b11511c74.png" group-title="Spor",TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-name="beIN SPORTS 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS1_A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS 1 A
+#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporYildiz" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/02ef58a4-349a-49a6-8df2-82fb71c6554d.png" group-title="Spor",TRT Spor Yıldız
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-name="A Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_ASPOR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9d28401f-2d4e-4862-85e2-69773f6f45f4.png" group-title="Spor",A Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+
+#EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="Spor",Sports TV
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8
+
+#EXTINF:-1 tvg-name="beIN Sports Haber"  tvg-language="Turkish" tvg-country="TR" tvg-id="beIN Sports Haber" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bc458b63-fe9e-40c2-b8a3-d56dc7189e0a.png" group-title="Spor",beIN Sports Haber
+https://ottcdn.kablowebtv.net/live_turksat_sub3/beinsportshaber_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
+
+#EXTINF:-1 tvg-name="HT Spor " tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Ht_Spor" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" group-title="Spor",Ht spor
+https://ciner-live.daioncdn.net/ht-spor/ht-spor_1080p.m3u8
+
+
+#EXTINF:-1 tvg-name="Nba Tv A" tvg-language="English" tvg-country="USA" tvg-id="Nba Tv" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="Spor",Nba Tv 
+https://ottcdn.kablowebtv.net/live_turksat_sub3/nbatv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMjUgMTI6Mjg6MjQgUE0maGFzaF92YWx1ZT1wWSsvTWY5ZU1qdWRkZ2trb0Fza2hnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
+
+#EXTINF:-1 tvg-name="NBA TV B" tvg-language="English" tvg-country="USA" tvg-id="Spor_NBATVB" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/8/89/Nbatv.png" group-title="Spor",NBA TV B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinzirve.m3u8
+https://r0.4928d54d950ee70q17.lat/yayinnbatv.m3u8
 
-#EXTINF:-1 tvg-name="beIN SPORTS 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS1_B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS 1 B
+#EXTINF:-1 tvg-name="NBA TV C" tvg-language="English" tvg-country="USA" tvg-id="Spor_NBATVC" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/8/89/Nbatv.png" group-title="Spor",NBA TV C
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinzirve.m3u8
+https://lll.istekbet3.tv/yayinnbatv.m3u8
 
-
-
-
-
-#EXTINF:-1 tvg-name="beIN SPORTS 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS2_A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Spor",beIN SPORTS 2 A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinb2.m3u8
-
-#EXTINF:-1 tvg-name="beIN SPORTS 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS2_B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Spor",beIN SPORTS 2 B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinb2.m3u8
-
-
-
-
-
-#EXTINF:-1 tvg-name="beIN SPORTS 3 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS3_A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="Spor",beIN SPORTS 3 A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinb3.m3u8
-
-
-
-#EXTINF:-1 tvg-name="beIN SPORTS 3 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS3_B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="Spor",beIN SPORTS 3 B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinb3.m3u8
-
-
-
-
-
-#EXTINF:-1 tvg-name="beIN SPORTS 4 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_b eINSPORTS4_A" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="Spor",beIN SPORTS 4 A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinb4.m3u8
-
-#EXTINF:-1 tvg-name="beIN SPORTS 4 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_b eINSPORTS4_B" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="Spor",beIN SPORTS 4 B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinb4.m3u8
-
-
-
-
-#EXTINF:-1 tvg-name="beIN SPORTS 5 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS5_A" tvg-logo="https://i.imgur.com/iRKfaee.png" group-title="Spor",beIN SPORTS 5 A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinb5.m3u8
-
-#EXTINF:-1 tvg-name="beIN SPORTS 5 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS5_b" tvg-logo="https://i.imgur.com/iRKfaee.png" group-title="Spor",beIN SPORTS 5 B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinb5.m3u8
-
-
-
-
-#EXTINF:-1 tvg-name="beIN SPORTS Max 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax_1A" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/BeIN_Sports_MAX.png" group-title="Spor",beIN SPORTS 1 Max A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinbm1.m3u8
-
-#EXTINF:-1 tvg-name="beIN SPORTS Max 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax_1B" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/BeIN_Sports_MAX.png" group-title="Spor",beIN SPORTS 1 Max B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinbm1.m3u8
-
-#EXTINF:-1 tvg-name="beIN SPORTS Max 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax2_A" tvg-logo="https://i.imgur.com/t7U20yR.png" group-title="Spor",beIN SPORTS Max 2 A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://r0.4928d54d950ee70q17.lat/yayinbm2.m3u8
-
-#EXTINF:-1 tvg-name="beIN SPORTS Max 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax2_B tvg-logo="https://i.imgur.com/t7U20yR.png" group-title="Spor",beIN SPORTS Max 2 B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://monotv523.com/
-https://lll.istekbet3.tv/yayinbm2.m3u8
 
 
 #EXTINF:-1 tvg-name="Sky Sports F1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SKYSPORTSF1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Sky_Sports_F1_logo_2020.svg/375px-Sky_Sports_F1_logo_2020.svg.png" group-title="Spor",Sky Sports f1
@@ -567,6 +529,14 @@ https://lll.istekbet3.tv/yayinbm2.m3u8
 #EXTVLCOPT:http-referrer=https://hakunamatata5.org
 https://hakunamatata5.org:8088/hls/sky-f1.m3u8
 
+#EXTINF:-1 tvg-name="TJK TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
+https://tjktv-live.tjk.org/tjktv/tjktv.m3u8
+
+#EXTINF:-1 tvg-name="TJK TV 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV_2" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV 2
+https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
+
+#EXTINF:-1 tvg-name="Solh Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SolhSport" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/solhsports.png" group-title="Spor",Solh Sport
+https://solhtvhls.wns.live/hls/stream.m3u8
 
 
 #EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43023.jpeg" group-title="Spor",Tabii Spor
