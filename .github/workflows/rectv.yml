@@ -46,4 +46,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m " Kanallar/kerim.m3u güncellendi - $(date +'%Y-%m-%d %H:%M:%S')"
-          git push origin HEAD:main
+          git push
