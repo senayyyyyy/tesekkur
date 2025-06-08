@@ -1,6 +1,136 @@
 import requests
 import re
 
+# Global referer url (bulunduğunda atanacak)
+referer_url = None
+
+def find_working_selcuksportshd(start=1825, end=1850):
+    global referer_url
+    print("🧭 Sporcafe domainleri taranıyor...")
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
+
+    for i in range(start, end + 1):
+        url = f"https://www.selcuksportshd{i}.xyz/"
+        print(f"🔍 Sporcafe taranıyor: {url}")
+        try:
+            response = requests.get(url, headers=headers, timeout=5)
+            if response.status_code == 200 and "uxsyplayer" in response.text:
+                print(f"✅ Aktif domain bulundu: {url}")
+                referer_url = url  # global olarak ata
+                return response.text
+        except requests.RequestException:
+            print(f"⚠️ Erişim hatası, geçiliyor: {url}")
+
+    print("❌ Aktif Sporcafe domaini bulunamadı.")
+    return None
+
+def find_dynamic_player_domain(page_html):
+    match = re.search(r'https?://(main\.uxsyplayer[0-9a-zA-Z\-]+\.click)', page_html)
+    if match:
+        return f"https://{match.group(1)}"
+    return None
+
+def fetch_m3u8_links(base_url, channel_ids):
+    global referer_url
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Referer": referer_url
+    }
+    m3u8_links = []
+
+    for cid in channel_ids:
+        url = f"{base_url}/index.php?id={cid}"
+        print(f"🎥 Yayın kontrol ediliyor: {url}")
+        try:
+            response = requests.get(url, headers=headers, timeout=5)
+            # baseStreamUrl veya adsBaseUrl içinden base url'yi bul
+            base_stream_url_match = re.search(r"this\.baseStreamUrl\s*=\s*'([^']+)'", response.text)
+            ads_base_url_match = re.search(r"this\.adsBaseUrl\s*=\s*'([^']+)'", response.text)
+            base_stream_url = None
+
+            if base_stream_url_match:
+                base_stream_url = base_stream_url_match.group(1)
+            elif ads_base_url_match:
+                base_stream_url = ads_base_url_match.group(1)
+
+            if base_stream_url:
+                # id'den sonra playlist.m3u8 ekle
+                m3u8_url = f"{base_stream_url}{cid}/playlist.m3u8"
+                print(f"✅ M3U8 linki oluşturuldu: {m3u8_url}")
+                m3u8_links.append((cid, m3u8_url))
+            else:
+                print(f"❌ BaseStreamUrl bulunamadı: {url}")
+
+        except Exception as e:
+            print(f"⚠️ Hata oluştu: {url} => {e}")
+    
+    return m3u8_links
+
+def update_m3u_file_with_referer_and_links(m3u8_list, filename="5.m3u"):
+    global referer_url
+    if referer_url is None:
+        print("⚠️ Referer URL bulunamadı, dosya güncellenmedi.")
+        return
+
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except FileNotFoundError:
+        print(f"❌ Dosya bulunamadı: {filename}")
+        return
+
+    with open(filename, "w", encoding="utf-8") as f:
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            if line.startswith("#EXTINF"):
+                # #EXTINF satırını olduğu gibi yaz
+                f.write(line)
+                i += 1
+                # Altındaki URL satırını yeni link ile değiştir
+                if m3u8_list:
+                    _, url = m3u8_list.pop(0)
+                    f.write(url + "\n")
+                else:
+                    # Link kalmadıysa eski URL'yi yaz
+                    if i < len(lines):
+                        f.write(lines[i])
+                        i += 1
+            else:
+                f.write(line)
+                i += 1
+
+    print(f"💾 M3U dosyası güncellendi: {filename}")
+
+# Ayarlar
+channel_ids = [
+    "selcukbeinsports1",
+    "selcukbeinsports2",
+    "selcukbeinsports3",
+    "selcukbeinsports4",
+    "selcukbeinsports5"
+]
+
+# Ana işlem akışı
+html = find_working_selcuksportshd()
+if html:
+    stream_domain = find_dynamic_player_domain(html)
+    if stream_domain:
+        print(f"\n🔗 Yayın adresi bulundu: {stream_domain}")
+        m3u8_list = fetch_m3u8_links(stream_domain, channel_ids)
+        if m3u8_list:
+            update_m3u_file_with_referer_and_links(m3u8_list, filename="selcuk1.m3u")
+        else:
+            print("❌ Hiçbir M3U8 yayını bulunamadı.")
+    else:
+        print("❌ Yayın domaini bulunamadı.")
+else:
+    print("⛔ Yayın alınacak site bulunamadı.")
+import requests
+import re
+
 def find_working_selcuksportshd(start=1825, end=1830):
     print("🧭 Sporcafe domainleri taranıyor...")
     headers = {
