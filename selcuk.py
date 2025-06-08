@@ -73,8 +73,6 @@ def update_existing_m3u_file(input_file, output_file, m3u8_links, referer):
 
         else:
             updated_lines.append(line)
-new_lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n")
-
     with open(output_file, "w", encoding="utf-8") as f:
         f.writelines(updated_lines)
 
