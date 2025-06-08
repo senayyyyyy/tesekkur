@@ -315,7 +315,7 @@ def fetch_m3u8_links(base_url, channel_ids, referer):
     
     return m3u8_links
 
-def update_m3u_file_with_referer_and_links(m3u8_list, filename="5.m3u", referer=""):
+def write_m3u_file(m3u8_links, filename="selcuksports.m3u", referer=""):
     # Eğer dosya yoksa oluştur, varsa varolan #EXTINF satırlarını koru, link kısmını güncelle
     try:
         lines = []
@@ -451,7 +451,7 @@ def fetch_m3u8_links(base_url, channel_ids, referer):
 
     return m3u8_links
 
-def update_m3u_file_with_referer_and_links(m3u8_links, filename="5.m3u", referer=""):
+def write_m3u_file(m3u8_links, filename="selcuksports.m3u", referer=""):
     try:
         with open(filename, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -564,7 +564,7 @@ def build_m3u8_links(base_stream_url, channel_ids):
         m3u8_links.append((cid, full_url))
     return m3u8_links
 
-def update_m3u_file_with_referer_and_links(m3u8_list, filename="5.m3u", referer=referer_url)
+def write_m3u_file(m3u8_links, filename="selcuksports.m3u", referer=""):
 
     try:
         with open(filename, "r", encoding="utf-8") as f:
