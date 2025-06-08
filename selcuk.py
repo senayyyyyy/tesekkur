@@ -1,6 +1,5 @@
 import requests
 import re
-import os
 
 def find_working_selcuksportshd(start=1825, end=1850):
     print("🧭 Selcuksportshd domainleri taranıyor...")
@@ -20,43 +19,68 @@ def find_working_selcuksportshd(start=1825, end=1850):
 
 def find_dynamic_player_domain(page_html):
     match = re.search(r'https?://(main\.uxsyplayer[0-9a-zA-Z\-]+\.click)', page_html)
-    return f"https://{match.group(1)}" if match else None
+    if match:
+        return f"https://{match.group(1)}"
+    return None
 
 def extract_base_stream_url(html):
     match = re.search(r'this\.baseStreamUrl\s*=\s*[\'"]([^\'"]+)', html)
-    return match.group(1) if match else None
+    if match:
+        return match.group(1)
+    return None
 
-def build_m3u8_links(base_stream_url, channel_ids):
-    return [(cid, f"{base_stream_url}{cid}/playlist.m3u8") for cid in channel_ids]
+def build_m3u8_dict(base_stream_url, channel_ids):
+    links = {}
+    for cid in channel_ids:
+        url = f"{base_stream_url}{cid}/playlist.m3u8"
+        print(f"✅ M3U8 link oluşturuldu: {url}")
+        links[cid] = url
+    return links
 
-def write_m3u_file(m3u8_links, filename="5.m3u", referer=""):
-    existing_extinf = {}
+def update_existing_m3u_file(input_file, output_file, m3u8_links, referer):
+    updated_lines = []
+    current_channel = None
+    skip_next = False
 
-    # Mevcut dosyadaki EXTINF satırlarını koru
-    if os.path.exists(filename):
-        with open(filename, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-        for i in range(len(lines)):
-            if lines[i].startswith("#EXTINF:-1"):
-                if i + 1 < len(lines):
-                    next_line = lines[i + 1].strip()
-                    if next_line.startswith("#EXTVLCOPT") or next_line.startswith("http"):
-                        channel_url = next_line if next_line.startswith("http") else lines[i + 2].strip()
-                        channel_id = channel_url.split("/")[-2] if "/playlist.m3u8" in channel_url else None
-                        if channel_id:
-                            existing_extinf[channel_id] = lines[i]
+    with open(input_file, "r", encoding="utf-8") as f:
+        lines = f.readlines()
 
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for cid, url in m3u8_links:
-            extinf_line = existing_extinf.get(cid, f"#EXTINF:-1,{cid}\n")
-            f.write(extinf_line)
-            f.write("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n")
-            f.write(f"#EXTVLCOPT:http-referrer={referer}\n")
-            f.write(f"{url}\n")
-    print(f"💾 M3U dosyası güncellendi: {filename}")
+    for i, line in enumerate(lines):
+        if line.startswith("#EXTINF:-1"):
+            updated_lines.append(line)
+            current_channel = None
+            skip_next = False
 
-# Kanal ID listesi
+        elif "selcukbeinsports" in line and ".m3u8" in line:
+            for cid in m3u8_links:
+                if cid in line:
+                    current_channel = cid
+                    break
+            if current_channel:
+                # önceki satır EXTVLCOPT ise güncelle
+                if i > 0 and lines[i - 1].startswith("#EXTVLCOPT:http-referrer="):
+                    updated_lines[-1] = f"#EXTVLCOPT:http-referrer={referer}\n"
+                updated_lines.append(f"{m3u8_links[current_channel]}\n")
+            else:
+                updated_lines.append(line)
+
+        elif line.startswith("#EXTVLCOPT:http-referrer="):
+            # EXTVLCOPT varsa ama bir sonraki satırda m3u8 yoksa, güncelleme
+            if i + 1 < len(lines) and ".m3u8" in lines[i + 1]:
+                updated_lines.append(f"#EXTVLCOPT:http-referrer={referer}\n")
+            else:
+                updated_lines.append(line)
+
+        else:
+            updated_lines.append(line)
+new_lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)\n")
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.writelines(updated_lines)
+
+    print(f"\n💾 Güncellenmiş M3U dosyası yazıldı: {output_file}")
+
+# Kanal ID'leri
 channel_ids = [
     "selcukbeinsports1",
     "selcukbeinsports2",
@@ -76,9 +100,13 @@ if html:
             })
             base_stream_url = extract_base_stream_url(player_page.text)
             if base_stream_url:
-                print(f"📡 baseStreamUrl bulundu: {base_stream_url}")
-                m3u8_list = build_m3u8_links(base_stream_url, channel_ids)
-                write_m3u_file(m3u8_list, referer=referer_url)
+                m3u8_links = build_m3u8_dict(base_stream_url, channel_ids)
+                update_existing_m3u_file(
+                    input_file="5.m3u",     # El ile düzenlediğin orijinal dosya
+                    output_file="5.m3u",  # Yeni çıktı dosyası
+                    m3u8_links=m3u8_links,
+                    referer=referer_url
+                )
             else:
                 print("❌ baseStreamUrl bulunamadı.")
         except Exception as e:
