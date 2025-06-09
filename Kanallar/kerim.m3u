@@ -1,70 +1,76 @@
 #EXTM3U
-#EXTINF:-1,selcukbeinsports1
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports1" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports1/playlist.m3u8
-#EXTINF:-1,selcukbeinsports2
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports1/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports2" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports2/playlist.m3u8
-#EXTINF:-1,selcukbeinsports3
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports2/playlist.m3u8
+
+#EXTINF:-1,#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports3" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports3/playlist.m3u8
-#EXTINF:-1,selcukbeinsports4
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports3/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports4" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports4/playlist.m3u8
-#EXTINF:-1,selcukbeinsports5
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports4/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports5" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports5/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports5/playlist.m3u8
+
 #EXTINF:-1,selcukbeinsportsmax1
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsportsmax1/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 #EXTINF:-1,selcukbeinsportsmax2
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsportsmax2/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
 #EXTINF:-1,selcukssport
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukssport/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukssport/playlist.m3u8
 #EXTINF:-1,selcukssport2
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukssport2/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukssport2/playlist.m3u8
 #EXTINF:-1,selcuksmartspor
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcuksmartspor/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcuksmartspor/playlist.m3u8
 #EXTINF:-1,selcuksmartspor2
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcuksmartspor2/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcuksmartspor2/playlist.m3u8
 #EXTINF:-1,selcuktivibuspor1
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcuktivibuspor1/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcuktivibuspor1/playlist.m3u8
 #EXTINF:-1,selcuktivibuspor2
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcuktivibuspor2/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcuktivibuspor2/playlist.m3u8
 #EXTINF:-1,selcuktivibuspor3
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcuktivibuspor3/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcuktivibuspor3/playlist.m3u8
 #EXTINF:-1,selcuktivibuspor4
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcuktivibuspor4/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcuktivibuspor4/playlist.m3u8
 #EXTINF:-1,selcukbeinsportshaber
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsportshaber/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsportshaber/playlist.m3u8
 #EXTINF:-1,selcukaspor
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukaspor/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukaspor/playlist.m3u8
 #EXTINF:-1,selcukeurosport1
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukeurosport1/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukeurosport1/playlist.m3u8
 #EXTINF:-1,selcukeurosport2
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukeurosport2/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukeurosport2/playlist.m3u8
 #EXTINF:-1,selcuksf1
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcuksf1/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcuksf1/playlist.m3u8
 #EXTINF:-1,selcuktabiispor
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcuktabiispor/playlist.m3u8
-#EXTINF:-1,ssportplus1
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcuktabiispor/playlist.m3u8
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssportplus1" tvg-logo="" group-title="Ulusal",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/ssportplus1/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/ssportplus1/playlist.m3u8
+
 
 #EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="Ulusal",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
