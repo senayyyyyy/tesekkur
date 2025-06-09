@@ -1,23 +1,23 @@
 #EXTM3U
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports1" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports1/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports1/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports2" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports2/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports2/playlist.m3u8
 
 #EXTINF:-1,#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports3" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports3/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports3/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports4" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports4/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports4/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports5" tvg-logo="" group-title="Spor",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/selcukbeinsports5/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/selcukbeinsports5/playlist.m3u8
 
 #EXTINF:-1,selcukbeinsportsmax1
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
@@ -69,7 +69,7 @@ https://r0.4928d54d950ee70q17.lat/live/selcuksf1/playlist.m3u8
 https://r0.4928d54d950ee70q17.lat/live/selcuktabiispor/playlist.m3u8
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssportplus1" tvg-logo="" group-title="Ulusal",deneme
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://r0.4928d54d950ee70q17.lat/live/ssportplus1/playlist.m3u8
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/ssportplus1/playlist.m3u8
 
 
 #EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80196fc2-f4f6-4e35-ae29-7925a5885a20.png" group-title="Ulusal",TRT 1
