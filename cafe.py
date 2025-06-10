@@ -58,7 +58,7 @@ def build_m3u8_links(stream_domain, referer, channel_ids):
             print(f"⚠️ Hata ({cid}): {e}")
     return m3u8_links
 
-def write_m3u_file(m3u8_links, filename="cafe.m3u", referer=""):
+def write_m3u_file(m3u8_links, filename="Kanallar/kerim.m3u", referer=""):
     if not os.path.exists(filename):
         print("⛔ Dosya bulunamadı. Yeni dosya oluşturulamaz çünkü eski içerik korunmalı.")
         return
