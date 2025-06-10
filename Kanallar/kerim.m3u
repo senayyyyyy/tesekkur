@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-1" tvg-logo="" group-title="Ulusal",deneme
-#EXTVLCOPT:http-referrer= https://www.sporcafe111.xyz/
-https://alpha.cf-worker-eterterte.workers.dev/live/sbeinsports-1/playlist.m3u8
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/sbeinsports-1/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-2" tvg-logo="" group-title="Ulusal",deneme
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
@@ -56,8 +56,8 @@ https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/stivibuspor-2/playlist.m
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/stivibuspor-3/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-4" tvg-logo="" group-title="Ulusal",deneme
-#EXTVLCOPT:http-referrer= https://www.sporcafe6222.xyz/
-https://alpha.cf-worker-1212121212.workers.dev/live/stivibuspor-4/playlist.m3u8
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/stivibuspor-4/playlist.m3u8
 
 
 
