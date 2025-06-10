@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-1" tvg-logo="" group-title="Ulusal",deneme1
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-1" tvg-logo="" group-title="Ulusal",deneme
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/sbeinsports-1/playlist.m3u8
 
@@ -18,6 +18,62 @@ https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/sbeinsports-4/playlist.m
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-5" tvg-logo="" group-title="Ulusal",deneme
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/sbeinsports-5/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsportsmax-1" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/sbeinsportsmax-1/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsportsmax-2" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/sbeinsportsmax-2/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sssport" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/sssport/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sssport2" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/sssport2/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/ssmartspor/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor2" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/ssmartspor2/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-1" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/stivibuspor-1/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-2" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/stivibuspor-2/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-3" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/stivibuspor-3/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-4" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/stivibuspor-4/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsportshaber" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/sbeinsportshaber/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="saspor" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/saspor/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="seurosport1" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/seurosport1/playlist.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="seurosport2" tvg-logo="" group-title="Ulusal",deneme
+#EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
+https://alpha.cf-worker-7df90b083f9d09.workers.dev/live/seurosport2/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports1" tvg-logo="" group-title="Spor",Bein Sports 1|C
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
