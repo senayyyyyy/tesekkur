@@ -425,47 +425,47 @@ https://tv.arectv34.sbs/live/t3.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/t4.m3u8
-#EXTINF:-1 tvg-id="97" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/a7ee2263901d79464e2249d0b23217cf.jpg" tvg-name="24 HABER HD" group-title="Ulusal Haberi",24 HABER HD
+#EXTINF:-1 tvg-id="97" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/a7ee2263901d79464e2249d0b23217cf.jpg" tvg-name="24 HABER HD" group-title="Ulusal Haber",24 HABER HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.ensonhaber.com/tv24/tv24.m3u8
-#EXTINF:-1 tvg-id="100" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/dc748243e0ce52f5315946c0f26f50fe.jpg" tvg-name="A HABER HD" group-title="Ulusal Haberi",A HABER HD [HD]
+#EXTINF:-1 tvg-id="100" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/dc748243e0ce52f5315946c0f26f50fe.jpg" tvg-name="A HABER HD" group-title="Ulusal Haber",A HABER HD [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/ahaber.m3u8
-#EXTINF:-1 tvg-id="96" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/fe34ebd140199c087be663e2c57ceb2f.jpg" tvg-name="BLOOMBERG HT HD" group-title="Ulusal Haberi",BLOOMBERG HT HD
+#EXTINF:-1 tvg-id="96" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/fe34ebd140199c087be663e2c57ceb2f.jpg" tvg-name="BLOOMBERG HT HD" group-title="Ulusal Haber",BLOOMBERG HT HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
-#EXTINF:-1 tvg-id="99" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/59310b5017a91855a65fd3993f085710.jpg" tvg-name="CNN TURK HD" group-title="Ulusal Haberi",CNN TURK HD [HD]
+#EXTINF:-1 tvg-id="99" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/59310b5017a91855a65fd3993f085710.jpg" tvg-name="CNN TURK HD" group-title="Ulusal Haber",CNN TURK HD [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/cnnturk.m3u8
-#EXTINF:-1 tvg-id="94" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/aa5d0e853efaf9070117c772c4db6358.jpg" tvg-name="HABER GLOBAL" group-title="Ulusal Haberi",HABER GLOBAL
+#EXTINF:-1 tvg-id="94" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/aa5d0e853efaf9070117c772c4db6358.jpg" tvg-name="HABER GLOBAL" group-title="Ulusal Haber",HABER GLOBAL
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
-#EXTINF:-1 tvg-id="101" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/8cc654161cccc4a0b183615672809444.jpg" tvg-name="HABER TURK HD" group-title="Ulusal Haberi",HABER TURK HD [HD]
+#EXTINF:-1 tvg-id="101" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/8cc654161cccc4a0b183615672809444.jpg" tvg-name="HABER TURK HD" group-title="Ulusal Haber",HABER TURK HD [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8
-#EXTINF:-1 tvg-id="95" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/ba872632eff716bff680517fd72de5fd.jpg" tvg-name="HALK TV" group-title="Ulusal Haberi",HALK TV
+#EXTINF:-1 tvg-id="95" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/ba872632eff716bff680517fd72de5fd.jpg" tvg-name="HALK TV" group-title="Ulusal Haber",HALK TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
-#EXTINF:-1 tvg-id="98" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/fc2233de54eddcc4b38e07e8eedb8446.jpg" tvg-name="NTV HD" group-title="Ulusal Haberi",NTV HD
+#EXTINF:-1 tvg-id="98" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/fc2233de54eddcc4b38e07e8eedb8446.jpg" tvg-name="NTV HD" group-title="Ulusal Haber",NTV HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://dogus-live.daioncdn.net/ntv/ntv.m3u8
-#EXTINF:-1 tvg-id="26" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/d2b37e56c23f53095350038e36c1c8ce.png" tvg-name="SÖZCÜ TV" group-title="Ulusal Haberi",SÖZCÜ TV
+#EXTINF:-1 tvg-id="26" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/d2b37e56c23f53095350038e36c1c8ce.png" tvg-name="SÖZCÜ TV" group-title="Ulusal Haber",SÖZCÜ TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://ythls.kekikakademi.org/youtube/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
-#EXTINF:-1 tvg-id="93" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/fb4488783f29ccc9b6873395f6c001bd.jpg" tvg-name="TGRT HABER HD" group-title="Ulusal Haberi",TGRT HABER HD
+#EXTINF:-1 tvg-id="93" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/fb4488783f29ccc9b6873395f6c001bd.jpg" tvg-name="TGRT HABER HD" group-title="Ulusal Haber",TGRT HABER HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8
-#EXTINF:-1 tvg-id="102" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/d066e7368bc1ea6388e912650ec7354c.png" tvg-name="TRT HABER HD" group-title="Ulusal Haberi",TRT HABER HD
+#EXTINF:-1 tvg-id="102" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/d066e7368bc1ea6388e912650ec7354c.png" tvg-name="TRT HABER HD" group-title="Ulusal Haber",TRT HABER HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
@@ -533,79 +533,79 @@ https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/tv85.m3u8
-#EXTINF:-1 tvg-id="76" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/1883f1dfa1e69b6788849eaab4b1f8e7.png" tvg-name="BS ACTION 1" group-title="Sinema & Dizi",BS ACTION 1
+#EXTINF:-1 tvg-id="76" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/1883f1dfa1e69b6788849eaab4b1f8e7.png" tvg-name="BS ACTION 1" group-title="Sinema ve Dizi",BS ACTION 1
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/bsaction1.m3u8
-#EXTINF:-1 tvg-id="70" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/a5e035e5aad903052fdb35a3a7984518.jpg" tvg-name="BS BOX OFFİCE 1" group-title="Sinema & Dizi",BS BOX OFFİCE 1
+#EXTINF:-1 tvg-id="70" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/a5e035e5aad903052fdb35a3a7984518.jpg" tvg-name="BS BOX OFFİCE 1" group-title="Sinema ve Dizi",BS BOX OFFİCE 1
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/box1.m3u8
-#EXTINF:-1 tvg-id="69" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aec5f81a9d58714b840be9a285928224.png" tvg-name="BS BOX OFFİCE 2" group-title="Sinema & Dizi",BS BOX OFFİCE 2
+#EXTINF:-1 tvg-id="69" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aec5f81a9d58714b840be9a285928224.png" tvg-name="BS BOX OFFİCE 2" group-title="Sinema ve Dizi",BS BOX OFFİCE 2
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/box2.m3u8
-#EXTINF:-1 tvg-id="68" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/7c52499be2693a149616127f02cc633a.png" tvg-name="BS BOX OFFİCE 3" group-title="Sinema & Dizi",BS BOX OFFİCE 3
+#EXTINF:-1 tvg-id="68" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/7c52499be2693a149616127f02cc633a.png" tvg-name="BS BOX OFFİCE 3" group-title="Sinema ve Dizi",BS BOX OFFİCE 3
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/box3.m3u8
-#EXTINF:-1 tvg-id="74" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/a2f7541d9a7a2947275ba3b3d3b6cb47.png" tvg-name="BS FAMILY" group-title="Sinema & Dizi",BS FAMILY
+#EXTINF:-1 tvg-id="74" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/a2f7541d9a7a2947275ba3b3d3b6cb47.png" tvg-name="BS FAMILY" group-title="Sinema ve Dizi",BS FAMILY
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/bsfamily.m3u8
-#EXTINF:-1 tvg-id="71" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/05607925151ae07d26cdf2c93b99e006.png" tvg-name="BS PREMIER" group-title="Sinema & Dizi",BS PREMIER
+#EXTINF:-1 tvg-id="71" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/05607925151ae07d26cdf2c93b99e006.png" tvg-name="BS PREMIER" group-title="Sinema ve Dizi",BS PREMIER
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/bspremier1.m3u8
-#EXTINF:-1 tvg-id="72" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/45d92ce49a65dd1e9823a55694fe2a7e.png" tvg-name="BS STARS" group-title="Sinema & Dizi",BS STARS
+#EXTINF:-1 tvg-id="72" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/45d92ce49a65dd1e9823a55694fe2a7e.png" tvg-name="BS STARS" group-title="Sinema ve Dizi",BS STARS
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/bsstars.m3u8
-#EXTINF:-1 tvg-id="75" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b2d030cf4ca567bf7c8358b15c8177a9.png" tvg-name="BS TURK" group-title="Sinema & Dizi",BS TURK
+#EXTINF:-1 tvg-id="75" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b2d030cf4ca567bf7c8358b15c8177a9.png" tvg-name="BS TURK" group-title="Sinema ve Dizi",BS TURK
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/bsturk.m3u8
-#EXTINF:-1 tvg-id="65" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/6c4faa576fe3d2fe9e850efd5c57005d.jpg" tvg-name="FX Kanalı" group-title="Sinema & Dizi",FX Kanalı
+#EXTINF:-1 tvg-id="65" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/6c4faa576fe3d2fe9e850efd5c57005d.jpg" tvg-name="FX Kanalı" group-title="Sinema ve Dizi",FX Kanalı
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://saran-live.ercdn.net/fx/index.m3u8
-#EXTINF:-1 tvg-id="67" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/771bc3c19a6cfa2187001771d74ba63c.jpg" tvg-name="Moviesmart Turk" group-title="Sinema & Dizi",Moviesmart Turk
+#EXTINF:-1 tvg-id="67" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/771bc3c19a6cfa2187001771d74ba63c.jpg" tvg-name="Moviesmart Turk" group-title="Sinema ve Dizi",Moviesmart Turk
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/mvturk.m3u8
-#EXTINF:-1 tvg-id="61" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/40b261b65aeef4696661f2b497c55c89.png" tvg-name="Sinema TV" group-title="Sinema & Dizi",Sinema TV
+#EXTINF:-1 tvg-id="61" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/40b261b65aeef4696661f2b497c55c89.png" tvg-name="Sinema TV" group-title="Sinema ve Dizi",Sinema TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinema.m3u8
-#EXTINF:-1 tvg-id="53" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/8c31ff828bc07a09eb52fb8312f23abb.png" tvg-name="Sinema TV 1001" group-title="Sinema & Dizi",Sinema TV 1001
+#EXTINF:-1 tvg-id="53" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/8c31ff828bc07a09eb52fb8312f23abb.png" tvg-name="Sinema TV 1001" group-title="Sinema ve Dizi",Sinema TV 1001
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinema1001.m3u8
-#EXTINF:-1 tvg-id="52" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/96603c9e4ba10ae864380f670e210cf0.png" tvg-name="Sinema TV 1002" group-title="Sinema & Dizi",Sinema TV 1002
+#EXTINF:-1 tvg-id="52" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/96603c9e4ba10ae864380f670e210cf0.png" tvg-name="Sinema TV 1002" group-title="Sinema ve Dizi",Sinema TV 1002
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinema1002.m3u8
-#EXTINF:-1 tvg-id="60" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/389d982cb693a94e1c6aae2ee5e34594.png" tvg-name="Sinema TV 2" group-title="Sinema & Dizi",Sinema TV 2
+#EXTINF:-1 tvg-id="60" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/389d982cb693a94e1c6aae2ee5e34594.png" tvg-name="Sinema TV 2" group-title="Sinema ve Dizi",Sinema TV 2
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinema2.m3u8
-#EXTINF:-1 tvg-id="55" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/5959572ddb15da121258c8eaa756f7c9.png" tvg-name="Sinema TV Aile" group-title="Sinema & Dizi",Sinema TV Aile [HD]
+#EXTINF:-1 tvg-id="55" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/5959572ddb15da121258c8eaa756f7c9.png" tvg-name="Sinema TV Aile" group-title="Sinema ve Dizi",Sinema TV Aile [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemaaile.m3u8
-#EXTINF:-1 tvg-id="59" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/11ae72baa495a639e5193cbed5fd92da.png" tvg-name="Sinema TV Aksiyon" group-title="Sinema & Dizi",Sinema TV Aksiyon [HD]
+#EXTINF:-1 tvg-id="59" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/11ae72baa495a639e5193cbed5fd92da.png" tvg-name="Sinema TV Aksiyon" group-title="Sinema ve Dizi",Sinema TV Aksiyon [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemaaksiyon2.m3u8
-#EXTINF:-1 tvg-id="57" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/bb0d39dbbdee543eb42f4e77fd30c324.png" tvg-name="Sinema TV Komedi" group-title="Sinema & Dizi",Sinema TV Komedi [HD]
+#EXTINF:-1 tvg-id="57" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/bb0d39dbbdee543eb42f4e77fd30c324.png" tvg-name="Sinema TV Komedi" group-title="Sinema ve Dizi",Sinema TV Komedi [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemakomedi.m3u8
-#EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema & Dizi",Sinema TV Yerli [HD]
+#EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema ve Dizi",Sinema TV Yerli [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemayerli.m3u8
-#EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema & Dizi",Sinema TV Yerli [HD]
+#EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema ve Dizi",Sinema TV Yerli [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemayerli2.m3u8
