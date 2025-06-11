@@ -27,37 +27,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -U setuptools wheel Kekik httpx parsel requests
           
-      - name: TRGoals.py Çalıştır
-        run: python TRGoals.py
+      - name: sentv.py Çalıştır
+        run: python sentv.py
 
-      - name: TRGoal.py Çalıştır
-        run: python trgoal.py
-        
-      - name: MonoTV.py Çalıştır
-        run: python MonoTV.py
-
-      
-
-      - name: Alive 1
-        run: curl https://kerimmkirac-dproxy.hf.space
-
-      - name: Alive 2
-        run: curl https://kerimmkirac-daddylive.hf.space
-
-      - name: Alive 3
-        run: curl https://kerimmkirac-daddyliveevents.hf.space
-
-      - name: Alive 4
-        run: curl https://kerimmkirac-vavoo.hf.space/
-
-      
-
-      - name: Daddylive
-        run: python daddylive.py
-
-      
-      - name: Daddylive Events
-        run: python daddyliveevents.py
 
 
 
@@ -77,5 +49,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "🔄 Tüm listeler güncellendi (TRGoals, MonoTV & CanliTV)" -m "📺 Domain kontrolü ve M3U güncellemeleri tamamlandı" -m "🕒 Otomatik işlem - $GITHUB_SHA"
+          git commit -m "🔄 Sen Tv Güncellendi" -m "📺 Domain kontrolü ve M3U güncellemeleri tamamlandı" -m "🕒 Otomatik işlem - $GITHUB_SHA"
           git push
