@@ -39,8 +39,7 @@ KANAL_ADLARI = {
     "Eurosport 2": "1809",
     "S Sport": "1810",
     "S Sport 2": "3901",
-    "Tv 8,5": "26",
-    "S Sport 2": "3901"
+    "Tv 8,5": "1901"
 }
 
 def parse_m3u(file_path):
