@@ -846,7 +846,7 @@ https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv8-live.daioncdn.net/tv8/tv8.m3u8
-#EXTINF:-1 tvg-id="108" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/48ec74f19b2e7707d89f70ace71eae1c.jpg" tvg-name="TV 8.5" group-title="Ulusal",TV 8.5 [HD]
+#EXTINF:-1 tvg-id="108" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/48ec74f19b2e7707d89f70ace71eae1c.jpg" group-title="Ulusal",TV 8.5 [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/tv85.m3u8
