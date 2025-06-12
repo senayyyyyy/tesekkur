@@ -93,7 +93,7 @@ def get_canli_tv_m3u():
         updated_channels = merge_channels(old_channels, new_channels)
 
         output_lines = ["#EXTM3U\n"]
-        for idx, ch in enumerate(updated_channels, 1):
+        for idx, ch in enumerate(updated_channels, 1000):
             name, url, logo, group = ch
             output_lines.append(f'#EXTINF:-1 tvg-id="{idx}" tvg-logo="{logo}" group-title="{group}",{name}\n')
             output_lines.append(f'{url}\n')
