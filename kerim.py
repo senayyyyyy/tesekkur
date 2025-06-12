@@ -45,6 +45,12 @@ KANAL_ADLARI = {
     "Myzen Tv": "3003",
     "Classical Harmony": "3804",
     "Discovery Channel": "2211",
+    "ID": "2511",
+    "Viasat History": "2806",
+    "Love Nature": "3503",
+    "Docu Screen": "3502",
+    "Viasat Explore": "2807",
+    "Cgtn Documentary": "2607",
     "Film Screen": "3509"
     
 }
