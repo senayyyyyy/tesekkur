@@ -40,6 +40,7 @@ KANAL_ADLARI = {
     "S Sport": "1810",
     "S Sport 2": "3901",
     "Epic Drama": "2802",
+    "Mezzo": "3501",
     "Film Screen": "3509"
     
 }
