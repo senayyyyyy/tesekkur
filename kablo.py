@@ -10,16 +10,14 @@ def merge_channels(old_channels, new_channels):
 
     existing_names = set()
 
-    # Önce eski kanallar üzerinden geçiyoruz
     for old_ch in old_channels:
         name = old_ch[0]
         if name in new_dict:
-            merged.append(new_dict[name])  # Güncellenmiş kanal
+            merged.append(new_dict[name])
             existing_names.add(name)
         else:
-            merged.append(old_ch)  # Eski haliyle kalıyor
+            merged.append(old_ch)
 
-    # Sonra yeni listede olup eskide olmayanları ekliyoruz
     for name, ch in new_dict.items():
         if name not in existing_names:
             merged.append(ch)
@@ -33,12 +31,11 @@ def get_canli_tv_m3u():
         "Referer": "https://tvheryerde.com",
         "Origin": "https://tvheryerde.com",
         "Accept-Encoding": "gzip",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbnYiOiJMSVZFIiwiaXBiIjoiMCIsImNnZCI6IjA5M2Q3MjBhLTUwMmMtNDFlZC1hODBmLTJiODE2OTg0ZmI5NSIsImNzaCI6IlRSS1NUIiwiZGN0IjoiM0VGNzUiLCJkaSI6ImE2OTliODNmLTgyNmItNGQ5OS05MzYxLWM4YTMxMzIxOGQ0NiIsInNnZCI6Ijg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCIsInNwZ2QiOiIxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgiLCJpY2giOiIwIiwiaWRtIjoiMCIsImlhIjoiOjpmZmZmOjEwLjAuMC4yMDYiLCJhcHYiOiIxLjAuMCIsImFibiI6IjEwMDAiLCJuYmYiOjE3NDUxNTI4MjUsImV4cCI6MTc0NTE1Mjg4NSwiaWF0IjoxNzQ1MTUyODI1fQ.OSlafRMxef4EjHG5t6TqfAQC7y05IiQjwwgf6yMUS9E"  # Token'ı kendi sistemine göre doldur
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbnYiOiJMSVZFIiwiaXBiIjoiMCIsImNnZCI6IjA5M2Q3MjBhLTUwMmMtNDFlZC1hODBmLTJiODE2OTg0ZmI5NSIsImNzaCI6IlRSS1NUIiwiZGN0IjoiM0VGNzUiLCJkaSI6ImE2OTliODNmLTgyNmItNGQ5OS05MzYxLWM4YTMxMzIxOGQ0NiIsInNnZCI6Ijg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCIsInNwZ2QiOiIxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgiLCJpY2giOiIwIiwiaWRtIjoiMCIsImlhIjoiOjpmZmZmOjEwLjAuMC4yMDYiLCJhcHYiOiIxLjAuMCIsImFibiI6IjEwMDAiLCJuYmYiOjE3NDUxNTI4MjUsImV4cCI6MTc0NTE1Mjg4NSwiaWF0IjoxNzQ1MTUyODI1fQ.OSlafRMxef4EjHG5t6TqfAQC7y05IiQjwwgf6yMUS9E"
     }
 
     try:
         print("📡 CanliTV API'den veri alınıyor...")
-
         response = requests.get(url, headers=headers, timeout=30)
         response.raise_for_status()
 
@@ -51,14 +48,13 @@ def get_canli_tv_m3u():
         data = json.loads(content)
 
         if not data.get('IsSucceeded') or not data.get('Data', {}).get('AllChannels'):
-            print("❌ CanliTV API'den geçerli veri alınamadı!")
+            print("❌ Geçerli veri alınamadı!")
             return False
 
         channels = data['Data']['AllChannels']
         print(f"✅ {len(channels)} kanal bulundu")
 
         new_channels = []
-        kanal_index = 1
         for channel in channels:
             name = channel.get('Name')
             stream_data = channel.get('StreamData', {})
@@ -71,17 +67,18 @@ def get_canli_tv_m3u():
                 continue
 
             new_channels.append([name, hls_url, logo, group])
-            kanal_index += 1
 
+        # Mevcut dosyadan oku
         old_channels = []
+        m3u_lines = []
         if os.path.exists("1.m3u"):
             with open("1.m3u", "r", encoding="utf-8") as f:
-                lines = f.readlines()
-                for i in range(0, len(lines), 2):
-                    if lines[i].startswith("#EXTINF"):
-                        name_line = lines[i].strip()
+                m3u_lines = f.readlines()
+                for i in range(0, len(m3u_lines), 2):
+                    if m3u_lines[i].startswith("#EXTINF"):
+                        name_line = m3u_lines[i].strip()
                         name = name_line.split(",")[-1]
-                        url = lines[i+1].strip()
+                        url = m3u_lines[i+1].strip()
                         logo = ""
                         group = "Genel"
                         try:
@@ -92,17 +89,23 @@ def get_canli_tv_m3u():
                         except: pass
                         old_channels.append([name, url, logo, group])
 
-        # 🔁 Sadece burada birleştirme yapılıyor
-        final_channels = merge_channels(old_channels, new_channels)
+        # Güncelleme işlemi (değişiklik varsa satır bazında yapılacak)
+        updated_channels = merge_channels(old_channels, new_channels)
 
-        with open("1.m3u", "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
-            for idx, ch in enumerate(final_channels, 1):
-                name, url, logo, group = ch
-                f.write(f'#EXTINF:-1 tvg-id="{idx}" tvg-logo="{logo}" group-title="{group}",{name}\n')
-                f.write(f'{url}\n')
+        output_lines = ["#EXTM3U\n"]
+        for idx, ch in enumerate(updated_channels, 1):
+            name, url, logo, group = ch
+            output_lines.append(f'#EXTINF:-1 tvg-id="{idx}" tvg-logo="{logo}" group-title="{group}",{name}\n')
+            output_lines.append(f'{url}\n')
 
-        print(f"📺 1.m3u dosyası oluşturuldu! ({len(final_channels)} kanal)")
+        # Eğer dosya içeriği zaten aynıysa yazma
+        if m3u_lines == output_lines:
+            print("🟢 Hiçbir değişiklik yok, dosya güncellenmedi.")
+        else:
+            with open("1.m3u", "w", encoding="utf-8") as f:
+                f.writelines(output_lines)
+            print(f"✅ 1.m3u dosyası güncellendi! ({len(updated_channels)} kanal)")
+
         return True
 
     except Exception as e:
