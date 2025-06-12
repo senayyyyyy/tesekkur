@@ -367,6 +367,21 @@ https://kerimmkirac-dproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/16912230
 #EXTINF:-1 tvg-name="Discovery Channel"  tvg-language="Turkish" tvg-country="TR" tvg-id="Discovery Channel" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/aaac1290-6d58-4036-b106-a7026a4c1bfc.png" group-title="Belgesel",Discovery Channel
 https://ottcdn.kablowebtv.net/live_turksat_sub3/discoverychannel_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDQ6NTk6NTUgUE0maGFzaF92YWx1ZT1pQTVkMDUxVDZrbEJtWWZPajY1U3V3PT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC42
 
+#EXTINF:-1 tvg-name="ID"  tvg-language="Turkish" tvg-country="TR" tvg-id="ID" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/539be808-86e7-4ed2-aa0b-130dbc1ac450.png" group-title="Belgesel",ID 
+
+#EXTINF:-1 tvg-name="Viasat History"  tvg-language="Turkish" tvg-country="TR" tvg-id="Viasat History" #EXTINF:-1 tvg-id="86" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c9bbb2de-204b-48f6-a62f-94fa4252a6b0.png" group-title="Belgesel",Viasat History
+
+#EXTINF:-1 tvg-name="Viasat Explore"  tvg-language="Turkish" tvg-country="TR" tvg-id="Viasat Explore" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d39dd182-c195-4025-976d-10af0b08335e.png" group-title="Belgesel",Viasat Explore
+
+#EXTINF:-1 tvg-name="Love Nature"  tvg-language="Turkish" tvg-country="TR" tvg-id="Love Nature" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f297ad42-3a86-42b7-90fd-ba2339a7a6d5.png" group-title="Belgesel",Love Nature 
+
+#EXTINF:-1 tvg-name="Docu Screen"  tvg-language="Turkish" tvg-country="TR" tvg-id="Docu Screen" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7194b74e-4b67-4ec6-83ef-09af3669a515.png" group-title="Belgesel",Docu Screen  
+
+#EXTINF:-1 tvg-name="Cgtn Documentary"  tvg-language="Turkish" tvg-country="TR" tvg-id="Cgtn Documentary" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/08bd982f-08e2-4e05-8f80-892a74c4d143.png" group-title="Belgesel",Cgtn Documentary 
+
+
+
+
 #EXTINF:-1 tvg-name="DMax" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_DMax" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png" group-title="Belgesel",DMax
 https://dogus-live.daioncdn.net/dmax/dmax.m3u8
 
@@ -1180,7 +1195,7 @@ https://dogus-live.daioncdn.net/tlc/tlc.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/viasatexplore.m3u8
-#EXTINF:-1 tvg-id="30" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png" tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY [HD]
+#EXTINF:-1 tvg-id="30" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png" tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/viasatexplore.m3u8
