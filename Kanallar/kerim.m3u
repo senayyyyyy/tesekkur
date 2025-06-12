@@ -489,10 +489,7 @@ https://tv.arectv34.sbs/live/sinemayerli2.m3u8
 #EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema",Sinema TV Yerli [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/sinemayerli2.m3u8#EXTINF:-1 tvg-id="76" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/1883f1dfa1e69b6788849eaab4b1f8e7.png" tvg-name="BS ACTION 1" group-title="Sinema",BS ACTION 1
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bsaction1.m3u8
+https://tv.arectv34.sbs/live/sinemayerli2.m3u8
 #EXTINF:-1 tvg-id="70" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/a5e035e5aad903052fdb35a3a7984518.jpg" tvg-name="BS BOX OFFİCE 1" group-title="Sinema",BS BOX OFFİCE 1
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -565,8 +562,6 @@ https://tv.arectv34.sbs/live/sinemayerli2.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemayerli2.m3u8
-
-
 #EXTINF:-1 tvg-name="Tabii TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_TabiiTV" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Sinema",Tabii TV
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
 
@@ -1141,8 +1136,6 @@ https://trtturk.blutv.com/blutv_trtturk2/live_720p2000000kbps/index.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
-
-
 #EXTINF:-1 tvg-id="86" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/9ed6faa15f968198d17c0362658f6b50.jpg" tvg-name="BBC EARTH HD" group-title="Belgesel",BBC EARTH HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
