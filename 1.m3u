@@ -10,6 +10,15 @@ https://r0.4928d54d950ee70q17.lat/yayinzirve.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinzirve.m3u8
 
+#EXTINF:-1 tvg-id="149" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs1.m3u8
+#EXTINF:-1 tvg-id="149" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs1.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports1" tvg-logo="" group-title="Spor",Bein Sports 1|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports1/playlist.m3u8
@@ -27,6 +36,12 @@ https://r0.4928d54d950ee70q17.lat/yayinb2.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinb2.m3u8
+
+#EXTINF:-1 tvg-id="148" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/6e235279a86721ccf20f97237669c15b.png" tvg-name="Bein Sports 2" group-title="Spor",Bein Sports 2 [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs2.m3u8
+
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports2" tvg-logo="" group-title="Spor",Bein Sports 2|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
@@ -47,6 +62,11 @@ https://r0.4928d54d950ee70q17.lat/yayinb3.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinb3.m3u8
 
+#EXTINF:-1 tvg-id="147" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/cc82d1d3295bbdabd4b0f7ddaa0321b7.png" tvg-name="Bein Sports 3" group-title="Spor",Bein Sports 3 [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs3.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports3" tvg-logo="" group-title="Spor",Bein Sports 3|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports3/playlist.m3u8
@@ -65,6 +85,12 @@ https://r0.4928d54d950ee70q17.lat/yayinb4.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinb4.m3u8
+
+#EXTINF:-1 tvg-id="146" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/2ff145f33c044ec8e7e11fdde18aa844.png" tvg-name="Bein Sports 4" group-title="Spor",Bein Sports 4 [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs4.m3u8
+
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports1" tvg-logo="" group-title="Spor",Bein Sports 4|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
@@ -85,6 +111,11 @@ https://r0.4928d54d950ee70q17.lat/yayinb5.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinb5.m3u8
 
+#EXTINF:-1 tvg-id="145" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/abff4cbc62b84597225b664e0e9c64f1.png" tvg-name="Bein Sports 5" group-title="Spor",Bein Sports 5 [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs5.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports5" tvg-logo="" group-title="Spor",Bein Sports 5|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports5/playlist.m3u8
@@ -104,6 +135,11 @@ https://r0.4928d54d950ee70q17.lat/yayinbm1.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinbm1.m3u8
 
+#EXTINF:-1 tvg-id="144" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/45e029fab41029ba5aa986cf157ab30e.png" tvg-name="Bein Sports Max 1" group-title="Spor",Bein Sports Max 1
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/bm1.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsportsmax1" tvg-logo="" group-title="Spor",Bein Sports Max1|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
@@ -121,6 +157,11 @@ https://r0.4928d54d950ee70q17.lat/yayinbm2.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinbm2.m3u8
+
+#EXTINF:-1 tvg-id="142" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/e0de03768014baae665e79af69d5198f.png" tvg-name="Bein Sports Max 2" group-title="Spor",Bein Sports Max 2
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/bm2.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsportsmax2" tvg-logo="" group-title="Spor",Bein Sports Max2|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
@@ -331,6 +372,11 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="A Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_ASPOR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/9d28401f-2d4e-4862-85e2-69773f6f45f4.png" group-title="Spor",A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+
+#EXTINF:-1 tvg-id="130" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/b8582c521e6d1bf91ef06f34b7c58c37.jpg" tvg-name="A Spor HD" group-title="Spor",A Spor HD [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/aspor.m3u8
 
 #EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="Spor",Sports TV
 https://live.sportstv.com.tr/hls/low/sportstv.m3u8
@@ -842,84 +888,86 @@ https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Trt Çocuk" tvg-id="Trt Çocuk"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3261c5eb-0e08-4c96-b8fc-58211e3da29c.png" group-title="Çocuk",Trt Çocuk
 https://ottcdn.kablowebtv.net/live_turksat_sub3/trtcocuk_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="Minika Çocuk" tvg-id="Minika Çocuk"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/12a9b581-f79c-41ba-b1e4-2f13f0087776.png" group-title="Çocuk",Minika Çocuk
 https://ottcdn.kablowebtv.net/live_turksat_sub3/minikacocuk_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="Minika Go" tvg-id="Minika Go"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7dfb3c14-3837-4c82-9c30-88edefebe4bd.png" group-title="Çocuk",Minika Go
 https://ottcdn.kablowebtv.net/live_turksat_sub3/minikago_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="Trt Diyanet Çocuk" tvg-id="Trt Diyanet Çocuk"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7e733bf8-6c0e-4d6e-b18a-5864e571894b.png" group-title="Çocuk",Trt Diyanet Çocuk
 https://ottcdn.kablowebtv.net/live_turksat_sub3/trtdiyanetcocuk_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="Spacetoon" tvg-id="Spacetoon" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1e92ccd2-d2f4-48e5-a886-164389511271.png" group-title="Çocuk",Spacetoon
 https://ottcdn.kablowebtv.net/live_turksat_sub3/spacetoon_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzkgUE0maGFzaF92YWx1ZT02YmFVUVhQQ1pvZjRVSjQxVVVwUEp3PT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="Azoomee" tvg-id="Azoomee"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1cc6ebf5-4e01-407d-8a88-94dcdf2d5ddd.png" group-title="Çocuk",Azoomee
 https://ottcdn.kablowebtv.net/live_turksat_sub3/gamescreen_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="Baby Tv" tvg-id="Baby Tv"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/2442b7b7-04da-41c1-a7ca-03466853040e.png" group-title="Çocuk",Baby Tv
 https://ottcdn.kablowebtv.net/live_turksat_sub3/babytv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="Disney Junior" tvg-id="Disney Junior"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/51d3a383-2842-4a4c-b622-20f09b309973.png" group-title="Çocuk",Disney Junior
 https://ottcdn.kablowebtv.net/live_turksat_sub3/disneyjunior_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
+#EXTINF:-1 tvg-id="33" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/4a33046f4748f1d987b710da68d7b58f.png" tvg-name="Disney JR" group-title="Çocuk",Disney JR
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://saran-live.ercdn.net/disneyjunior/index.m3u8
+
 #EXTINF:-1 tvg-name="Cartoon Network" tvg-id="Cartoon Network"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/4c47b639-2916-4563-9e40-0f2a7925b2ea.png" group-title="Çocuk",Cartoon Network
 https://ottcdn.kablowebtv.net/live_turksat_sub3/cartoonnetwork_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
+#EXTINF:-1 tvg-id="36" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/1a8262974a202c19d6543b82335e39de.jpg" tvg-name="CARTON NETWORK" group-title="Çocuk",CARTON NETWORK
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/cartoonnetwork.m3u8
+
 #EXTINF:-1 tvg-name="Duck Tv" tvg-id="Duck Tv"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/d8107e33-52b1-4ba0-a7d4-bb877d5658c4.png" group-title="Çocuk",Duck Tv
 https://ottcdn.kablowebtv.net/live_turksat_sub3/ducktv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="English Club" tvg-id="English Club"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/31a93dde-3b2e-4be7-b684-43ee9c2a5442.png" group-title="Çocuk",English Club
 https://ottcdn.kablowebtv.net/live_turksat_sub3/englishclub_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="Da Vinci" tvg-id="Da Vinci"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/f2ed966d-693e-40b4-a737-740817d4eb2f.png" group-title="Çocuk",Da Vinci
 https://ottcdn.kablowebtv.net/live_turksat_sub3/davinci_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
+#EXTINF:-1 tvg-id="34" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/30ba57a0576414dcd86aef719e92edb0.jpg" tvg-name="DA VINCI LEARNING" group-title="Çocuk",DA VINCI LEARNING
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/davinci.m3u8
+
 #EXTINF:-1 tvg-name="LangLab" tvg-id="LangLab"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/97f5f9c6-70e1-4326-a046-43d6fdd0d81c.png" group-title="Çocuk",LangLab
 https://ottcdn.kablowebtv.net/live_turksat_sub3/langlab_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="LingoToons" tvg-id="LingoToons"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a29ccf28-73b8-48ef-a055-ddb1820c9d57.png" group-title="Çocuk",LingoToons
 https://ottcdn.kablowebtv.net/live_turksat_sub3/lingotoons_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="TinyTeen" tvg-id="TinyTeen"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1b0a8967-61ef-4066-a422-2e4eccd18ec5.png" group-title="Çocuk",TinyTeen
 https://ottcdn.kablowebtv.net/live_turksat_sub3/tinyteen_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzkgUE0maGFzaF92YWx1ZT02YmFVUVhQQ1pvZjRVSjQxVVVwUEp3PT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
+
 #EXTINF:-1 tvg-name="Trt Eba TV" tvg-id="Trt Eba TV"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/47fcca43-c2ac-4ab8-ae92-2b007655be9f.png" group-title="Çocuk",Trt Eba TV
 https://ottcdn.kablowebtv.net/live_turksat_sub3/trteba_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
 
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-id="130" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/b8582c521e6d1bf91ef06f34b7c58c37.jpg" tvg-name="A Spor HD" group-title="Spor",A Spor HD [HD]
+#EXTINF:-1 tvg-id="35" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/4a6d8c2049dd4c014cd443a9cd411f3b.png" tvg-name="Nickelodeon HD" group-title="Çocuk",Nickelodeon HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/aspor.m3u8
-#EXTINF:-1 tvg-id="149" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs1.m3u8
-#EXTINF:-1 tvg-id="149" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs1.m3u8
-#EXTINF:-1 tvg-id="148" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/6e235279a86721ccf20f97237669c15b.png" tvg-name="Bein Sports 2" group-title="Spor",Bein Sports 2 [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs2.m3u8
-#EXTINF:-1 tvg-id="147" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/cc82d1d3295bbdabd4b0f7ddaa0321b7.png" tvg-name="Bein Sports 3" group-title="Spor",Bein Sports 3 [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs3.m3u8
-#EXTINF:-1 tvg-id="146" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/2ff145f33c044ec8e7e11fdde18aa844.png" tvg-name="Bein Sports 4" group-title="Spor",Bein Sports 4 [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs4.m3u8
-#EXTINF:-1 tvg-id="145" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/abff4cbc62b84597225b664e0e9c64f1.png" tvg-name="Bein Sports 5" group-title="Spor",Bein Sports 5 [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs5.m3u8
-#EXTINF:-1 tvg-id="144" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/45e029fab41029ba5aa986cf157ab30e.png" tvg-name="Bein Sports Max 1" group-title="Spor",Bein Sports Max 1
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bm1.m3u8
-#EXTINF:-1 tvg-id="142" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/e0de03768014baae665e79af69d5198f.png" tvg-name="Bein Sports Max 2" group-title="Spor",Bein Sports Max 2
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bm2.m3u8
+http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="137" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/f40c9c2ad62bd4e3ff87d5859ea2bb54.jpg" tvg-name="Euro Sport 1" group-title="Spor",Euro Sport 1 [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -1184,22 +1232,7 @@ https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="36" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/1a8262974a202c19d6543b82335e39de.jpg" tvg-name="CARTON NETWORK" group-title="Çocuk",CARTON NETWORK
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/cartoonnetwork.m3u8
-#EXTINF:-1 tvg-id="34" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/30ba57a0576414dcd86aef719e92edb0.jpg" tvg-name="DA VINCI LEARNING" group-title="Çocuk",DA VINCI LEARNING
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/davinci.m3u8
-#EXTINF:-1 tvg-id="33" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/4a33046f4748f1d987b710da68d7b58f.png" tvg-name="Disney JR" group-title="Çocuk",Disney JR
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://saran-live.ercdn.net/disneyjunior/index.m3u8
-#EXTINF:-1 tvg-id="35" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/4a6d8c2049dd4c014cd443a9cd411f3b.png" tvg-name="Nickelodeon HD" group-title="Çocuk",Nickelodeon HD
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+
 
 
 
