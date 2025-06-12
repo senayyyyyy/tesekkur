@@ -41,6 +41,9 @@ KANAL_ADLARI = {
     "S Sport 2": "3901",
     "Epic Drama": "2802",
     "Mezzo": "3501",
+    "Kitchen TV": "3710",
+    "Myzen Tv": "3003",
+    "Classical Harmony": "3804",
     "Film Screen": "3509"
     
 }
