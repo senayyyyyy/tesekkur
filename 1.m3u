@@ -432,7 +432,7 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="Kanal D" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_KanalD" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7c5d3d5-2942-4715-872f-73be070dc201.png" group-title="Ulusal",Kanald
 https://demiroren-live.daioncdn.net/kanald/kanald_1080p.m3u8
 
-#EXTINF:-1 tvg-language="Turkish" tvg-country="TR" tvg-id="kanald" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7c5d3d5-2942-4715-872f-73be070dc201.png" group-title="Ulusal", Kanal D | K
+#EXTINF:-1 tvg-language="Turkish" tvg-country="TR" tvg-id="kanald" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/d7c5d3d5-2942-4715-872f-73be070dc201.png" group-title="Ulusal", Kanal D-K
 https://ottcdn.kablowebtv.net/live_turksat_sub3/kanald_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDI1IDU6MTU6MzggUE0maGFzaF92YWx1ZT1JSlROS2xwWW80WXZnRWhlaE9HUG5BPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
 
 #EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_ShowTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/04fb743d-4a72-4907-8c54-f53b72c3600a.png" group-title="Ulusal",Show TV
@@ -442,6 +442,11 @@ https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 # ? https://c.fulltvizle.com/aytv/index.m3u8
 # ? http://stream.tvcdn.net/ulusal/atv.m3u8
+
+#EXTINF:-1 tvg-id="110" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/50f26ac81150eb251be02f16e329d5ff.jpg" tvg-name="ATV" group-title="Ulusal",ATV-AR
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/atv.m3u8
 
 #EXTINF:-1 tvg-name="Star TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_StarTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/4a7901e4-dbc5-491d-b014-6da6fa236e99.png" group-title="Ulusal",Star TV
 https://dogus-live.daioncdn.net/startv/startv.m3u8
@@ -587,6 +592,8 @@ https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
 #EXTINF:-1 tvg-name="TRT World" tvg-language="English" tvg-country="USA" tvg-id="TRT_World" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/acd68840-492b-43c5-9635-bbaf32148e2a.png" group-title="Haber",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+
+
 
 
 # * » Belgesel « * #
@@ -1057,10 +1064,7 @@ https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 tvg-id="110" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/50f26ac81150eb251be02f16e329d5ff.jpg" tvg-name="ATV" group-title="Ulusal",ATV
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/atv.m3u8
+
 
 #EXTINF:-1 tvg-id="105" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/f52aae2d29699a04cf4209cbe7367996.png" tvg-name="BEYAZ TV" group-title="Ulusal",BEYAZ TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
