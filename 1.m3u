@@ -570,8 +570,14 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/cnbce_stream/index.m3u8?wmsAuthS
 #EXTINF:-1 tvg-id="" tvg-name="finans" tvg-logo="https://i.imgur.com/G7uDQBv.png" group-title="Haber",FİNANS TÜRK
 https://yayin30.haber100.com/live/finansturk/chunklist_w1412138656.m3u8
 
-#EXTINF:-1 tvg-name="tyttürk" tvg-logo="https://images.openai.com/thumbnails/66ebb55ef19f7686af88c86fe7e351ae.jpeg" group-title="TR ▹ HABER KANALLARI",TYT TÜRK HABER
+#EXTINF:-1 tvg-name="tyttürk" tvg-logo="https://images.openai.com/thumbnails/66ebb55ef19f7686af88c86fe7e351ae.jpeg" group-title="Haber",TYT TÜRK HABER
 https://cdn-tytturk.yayin.com.tr/tytturk/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-name="lider" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPetOFCn_nsYX6EVJwnZujeJFxlUHLm-Htgw&s" group-title="TR ▹ HABER KANALLARI",LİDER HABER
+http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="mk TV" tvg-logo="https://www.mktv.com.tr/uploads/logos/logo.jpg" group-title="TR ▹ HABER KANALLARI",MK HABER
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Dim TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_DimTV" tvg-logo="https://dimtv.tv/wp-content/uploads/2020/08/LOGO.png" group-title="Haber",Dim TV
 https://canli.dimtv.tv/hls/dim/index.m3u8
