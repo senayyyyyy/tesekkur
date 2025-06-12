@@ -42,7 +42,7 @@ def get_canli_tv_m3u():
             f.write("#EXTM3U\n")
             
             kanal_sayisi = 0
-            kanal_index = 1  
+            kanal_index = 1000  
             
             for channel in channels:
                 name = channel.get('Name')
