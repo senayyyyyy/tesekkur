@@ -1043,7 +1043,7 @@ https://tv.arectv34.sbs/live/sinemakomedi.m3u8
 #EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema",Sinema TV Yerli [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/sinemayerli.m3u8
+https://tv.arectv34.sbs/live/sinemayerli2.m3u8
 #EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema",Sinema TV Yerli [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -1099,7 +1099,7 @@ https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="30" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png" tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/viasathistory.m3u8
+https://tv.arectv34.sbs/live/viasatexplore.m3u8
 #EXTINF:-1 tvg-id="30" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png" tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -1111,7 +1111,7 @@ https://tv.arectv34.sbs/live/yaban.m3u8
 #EXTINF:-1 tvg-id="10" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png" tvg-name="FASHION TV" group-title="Diğer",FASHION TV [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
-https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
+https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="10" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png" tvg-name="FASHION TV" group-title="Diğer",FASHION TV [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
