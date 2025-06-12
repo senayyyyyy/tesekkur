@@ -6,7 +6,7 @@ KANAL_ADLARI = {
     "Sinema Tv": "1908",
     "FX": "313131",
     "Now": "2213",
-    "Tv 8,5":"1901",
+    "Tv 8,5": "1901",
     "Sinema Yerli": "3304",
     "Sinema Aile": "1911",
     "Sinema 1001": "2602",
