@@ -732,10 +732,10 @@ https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master_1080p.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/aspor.m3u8
-#EXTINF:-1 tvg-id="149" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [FHD]
+#EXTINF:-1 tvg-id="149" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs11.m3u8
+https://bs.arectv33.sbs/static/bs1.m3u8
 #EXTINF:-1 tvg-id="149" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -928,7 +928,6 @@ https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
-
 #EXTINF:-1 tvg-id="28" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/da2883f3f44910691413d14b610a698f.png" tvg-name="KON TV" group-title="Ulusal",KON TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
