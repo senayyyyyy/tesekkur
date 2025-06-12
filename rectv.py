@@ -89,7 +89,7 @@ def extract_m3u8_links(channels):
 
     return playlist_lines
 
-def save_to_file(new_lines, filename="Kanallar/kerim.m3u"):
+def save_to_file(new_lines, filename="1.m3u"):
     if os.path.exists(filename):
         with open(filename, "r", encoding="utf-8") as f:
             old_content = f.read().splitlines()
