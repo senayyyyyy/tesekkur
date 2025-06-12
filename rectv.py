@@ -56,7 +56,7 @@ def get_all_channels(base_domain):
 
 def extract_m3u8_links(channels):
     playlist_lines = ['#EXTM3U']
-    priority_order = ["Spor", "Haber", "Ulusal", "Sinema ", "Çocuk", "Belgesel","Yaşam & Eğlence", "Müzik"]
+    priority_order = ["Spor", "Haber", "Ulusal", "Sinema ", "Çocuk", "Belgesel", "Yaşam & Eğlence", "Müzik"]
     grouped_channels = {}
 
     for channel in channels:
