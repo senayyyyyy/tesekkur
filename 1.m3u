@@ -364,6 +364,8 @@ https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 https://kerimmkirac-dproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1691223078/index.m3u8
 
 
+#EXTINF:-1 tvg-name="Discovery Channel"  tvg-language="Turkish" tvg-country="TR" tvg-id="Discovery Channel" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/aaac1290-6d58-4036-b106-a7026a4c1bfc.png" group-title="Belgesel",Discovery Channel
+
 
 #EXTINF:-1 tvg-name="DMax" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_DMax" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png" group-title="Belgesel",DMax
 https://dogus-live.daioncdn.net/dmax/dmax.m3u8
@@ -1164,14 +1166,7 @@ https://tv.arectv34.sbs/live/history.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/lovenature.m3u8
-#EXTINF:-1 tvg-id="89" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/666cbc1feac437aea3fc2c8218b9539e.jpg" tvg-name="NATIONAL GEO HD" group-title="Belgesel",NATIONAL GEO HD
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://saran-live.ercdn.net/natgeohd/index.m3u8
-#EXTINF:-1 tvg-id="88" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/ae18d42e87a266954420b315bb23c749.jpg" tvg-name="NATIONAL GEO WILD" group-title="Belgesel",NATIONAL GEO WILD
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://saran-live.ercdn.net/natgeowild/index.m3u8
+
 #EXTINF:-1 tvg-id="85" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/b61d518744b390174e6f672d7171107d.png" tvg-name="TARİH TV" group-title="Belgesel",TARİH TV [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -1180,10 +1175,7 @@ https://tv.arectv34.sbs/live/tarihtv.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://dogus-live.daioncdn.net/tlc/tlc.m3u8
-#EXTINF:-1 tvg-id="77" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/cee1ae3bfe067fe869b8e20c0272938b.jpg" tvg-name="TRT BELGESEL HD" group-title="Belgesel",TRT BELGESEL HD
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+
 #EXTINF:-1 tvg-id="30" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png" tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
