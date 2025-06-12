@@ -102,9 +102,12 @@ def get_canli_tv_m3u():
         if m3u_lines == output_lines:
             print("🟢 Hiçbir değişiklik yok, dosya güncellenmedi.")
         else:
-            with open("1.m3u", "w", encoding="utf-8") as f:
-                f.writelines(output_lines)
-            print(f"✅ 1.m3u dosyası güncellendi! ({len(updated_channels)} kanal)")
+           with open("1.m3u", "w", encoding="utf-8") as f:
+    f.write("#EXTM3U\n")
+    for idx, ch in enumerate(final_channels, 1000):  # <-- Burada index 1000'den başlıyor
+        name, url, logo, group = ch
+        f.write(f'#EXTINF:-1 tvg-id="{idx}" tvg-logo="{logo}" group-title="{group}",{name}\n')
+        f.write(f'{url}\n')
 
         return True
 
