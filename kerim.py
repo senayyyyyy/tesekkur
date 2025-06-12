@@ -2,7 +2,6 @@ import re
 import os
 
 KANAL_ADLARI = {
-    "Tv 8,5": "1901",
     "Szc Tv": "3002",
     "Sinema Tv": "1908",
     "FX": "313131",
