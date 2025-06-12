@@ -131,23 +131,24 @@ def is_rectv_id(tvg_id):
     return tvg_id and re.fullmatch(r"\d+", tvg_id)
 
 def merge_channels(old_channels, new_channels):
-    old_dict = {}
+    # Yeni RecTV kanallarını ID'ye göre sözlüğe al
+    new_dict = {
+        get_id_from_info(ch[0]): ch
+        for ch in new_channels
+        if is_rectv_id(get_id_from_info(ch[0]))
+    }
+
+    # Eski sıralamayı koruyarak RecTV kanalları güncelle
     final_channels = []
-
-    for ch in old_channels:
-        ch_id = get_id_from_info(ch[0])
-        if is_rectv_id(ch_id):
-            old_dict[ch_id] = ch  # eski rectv yayınları
+    for old_ch in old_channels:
+        ch_id = get_id_from_info(old_ch[0])
+        if is_rectv_id(ch_id) and ch_id in new_dict:
+            final_channels.append(new_dict[ch_id])  # Güncellenmiş RecTV kanalı
         else:
-            final_channels.append(ch)  # diğer yayınları koru
-
-    # RecTV yayınıysa güncelle
-    for ch in new_channels:
-        ch_id = get_id_from_info(ch[0])
-        if is_rectv_id(ch_id):
-            final_channels.append(ch)
+            final_channels.append(old_ch)  # Diğer kanal veya güncellenemeyen RecTV
 
     return final_channels
+
 
 # ------------------------ 🔚 ------------------------
 
