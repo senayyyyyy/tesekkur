@@ -44,6 +44,7 @@ KANAL_ADLARI = {
     "Kitchen TV": "3710",
     "Myzen Tv": "3003",
     "Classical Harmony": "3804",
+    "Discovery Channel": "2211",
     "Film Screen": "3509"
     
 }
