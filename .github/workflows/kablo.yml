@@ -34,8 +34,7 @@ jobs:
       - name: API'den M3U Listesini Al
         run: python kablo.py  
 
-      - name: M3U Güncellemelerini Yap
-        run: |
+  
           
           python kerim.py
 
