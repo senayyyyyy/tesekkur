@@ -67,5 +67,5 @@ class MonoTV:
             log.log(f"[green][✓] Tüm yayınlar zaten günceldi, dosya yazılmadı.")
 
 if __name__ == "__main__":
-    guncelle = MonoTV("Kanallar/kerim.m3u")
+    guncelle = MonoTV("1.m3u")
     guncelle.m3u_guncelle()
