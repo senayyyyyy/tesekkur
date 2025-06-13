@@ -1188,5 +1188,13 @@ https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr
 
 # * » DİNİ « * #
 
-#EXTINF:-1 tvg-name="Lalegül TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8322c403-9f7c-4b5a-aef1-7c65e56ee8a6.png" group-title="Dini",Lalegül TV
+#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8322c403-9f7c-4b5a-aef1-7c65e56ee8a6.png" group-title="Dini",Lalegül TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
+
+#EXTINF:-1 tvg-name="diyanettv" tvg-logo="https://i.ibb.co/k9phm3v/diyanettv.png" group-title="Dini",DİYANET TV
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/mt_0.m3u8
+
+#EXTINF:-1 tvg-name="SEMERKAND TV" tvg-logo="https://www.semerkandtv.com.tr/Content/img/logo.png" group-title="Dini",SEMERKAND TV
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_0.m3u8
+
