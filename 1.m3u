@@ -462,10 +462,21 @@ https://solhtvhls.wns.live/hls/stream.m3u8
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 
+
 #EXTINF:-1 tvg-id="126" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/4c02bd56395b0a27eab964656b1bb379.jpg" tvg-name="FightBox" group-title="Spor",FightBox [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/fight.m3u8
+
+
+#EXTINF:-1 tvg-id="128" tvg-name="FB TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3aA60FVFIXh6a9yPc-PWVXOWjk0T7YGkBg&s" group-title="TR ▹ SPOR KANALLARI",BRİÇ VE SATRANÇ TV
+http://139.162.182.79/live/test/index.m3u8
+
+#EXTINF:-1 tvg-id="128" tvg-name="FB TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTw7oCLD4wZA2oSiuKTS4zKwUrYriED_gVKw&s" group-title="TR ▹ SPOR KANALLARI",TR SPOR
+http://116.202.117.244/gzcspor/gzcspor/playlist.m3u8
+
+#EXTINF:-1 tvg-id="128" tvg-name="FB TV" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0012/1084/brand.gif?itok=ihptOuEm" group-title="TR ▹ SPOR KANALLARI",FİT YAŞA TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist/0.m3u8
 
 #EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43023.jpeg" group-title="Spor",Tabii Spor
 # ? #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -554,6 +565,7 @@ https://tv.arectv34.sbs/live/pl3.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/pl2.m3u8
+
 
 
 
