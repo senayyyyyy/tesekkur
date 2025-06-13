@@ -188,7 +188,6 @@ https://lll.istekbet3.tv/yayinss.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/static/ss11.m3u8
-
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukssport" tvg-logo="" group-title="Spor",S Sport|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukssport/playlist.m3u8
@@ -215,7 +214,6 @@ https://lll.istekbet3.tv/yayinss2.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/static/ss2.m3u8
-
 #EXTINF:-1,tvg-name="S Sport 2" tvg-country="TR" tvg-id="selcukssport2" tvg-logo="" group-title="Spor",S Sport 2|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukssport2/playlist.m3u8
