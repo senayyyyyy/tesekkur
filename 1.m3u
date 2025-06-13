@@ -277,6 +277,11 @@ https://r0.4928d54d950ee70q17.lat/yayint1.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayint1.m3u8
 
+#EXTINF:-1 tvg-id="134" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/e0837009bbe1e595a7c7364aa45d02f7.jpg" tvg-name="Tivibu Spor 1" group-title="Spor",Tivibu Spor 1 [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/t1.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcuktivibuspor1" tvg-logo="" group-title="Spor",Tivibu Spor 1|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuktivibuspor1/playlist.m3u8
@@ -296,6 +301,11 @@ https://r0.4928d54d950ee70q17.lat/yayint2.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayint2.m3u8
 
+#EXTINF:-1 tvg-id="133" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/8c23cd76a1f7c2b12ab4e757b45ca87f.jpg" tvg-name="Tivibu Spor 2" group-title="Spor",Tivibu Spor 2 [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/t2.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcuktivibuspor2" tvg-logo="" group-title="Spor",Tivibu Spor 2|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuktivibuspor2/playlist.m3u8
@@ -314,6 +324,11 @@ https://r0.4928d54d950ee70q17.lat/yayint3.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayint3.m3u8
 
+#EXTINF:-1 tvg-id="132" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/2dd58a06227ac0410461a0be92123f12.jpg" tvg-name="Tivibu Spor 3" group-title="Spor",Tivibu Spor 3 [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/t3.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcuktivibuspor3" tvg-logo="" group-title="Spor",Tivibu Spor 3|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuktivibuspor3/playlist.m3u8
@@ -331,6 +346,11 @@ https://r0.4928d54d950ee70q17.lat/yayint4.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayint4.m3u8
+
+#EXTINF:-1 tvg-id="13" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg" tvg-name="TİVİBU SPOR 4" group-title="Spor",TİVİBU SPOR 4
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/t4.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcuktivibuspor4" tvg-logo="" group-title="Spor",Tivibu Spor 4|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
@@ -631,6 +651,11 @@ https://dogus-live.daioncdn.net/ntv/ntv.m3u8
 
 #EXTINF:-1 tvg-name="A Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="A Haber" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1c207549-826b-4c8e-8dd3-bbd488258430.png" group-title="Haber",A Haber
 https://ottcdn.kablowebtv.net/live_turksat_sub3/ahaber_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMy8yMDI1IDY6MTU6NDEgQU0maGFzaF92YWx1ZT00S1ZVMzNEcStmR0ZtUUZTMm1mTU13PT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
+
+#EXTINF:-1 tvg-id="100" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/dc748243e0ce52f5315946c0f26f50fe.jpg" tvg-name="A HABER HD" group-title="Haber",A HABER HD [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/ahaber.m3u8
 
 #EXTINF:-1 tvg-name="Haber Global" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_HaberGlobal" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/ecb65a51-f5ad-440f-9c21-a4db8cbc9398.png" group-title="Haber",Haber Global
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
@@ -1025,39 +1050,13 @@ http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="122" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/d3fa136e0548a46e2b55393a00a93296.jpg" tvg-name="Sports TV" group-title="Spor",Sports TV [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://live.sportstv.com.tr/hls/low/sportstv.m3u8
 
-#EXTINF:-1 tvg-id="134" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/e0837009bbe1e595a7c7364aa45d02f7.jpg" tvg-name="Tivibu Spor 1" group-title="Spor",Tivibu Spor 1 [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/t1.m3u8
-#EXTINF:-1 tvg-id="133" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/8c23cd76a1f7c2b12ab4e757b45ca87f.jpg" tvg-name="Tivibu Spor 2" group-title="Spor",Tivibu Spor 2 [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/t2.m3u8
-#EXTINF:-1 tvg-id="132" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/2dd58a06227ac0410461a0be92123f12.jpg" tvg-name="Tivibu Spor 3" group-title="Spor",Tivibu Spor 3 [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/t3.m3u8
-#EXTINF:-1 tvg-id="13" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg" tvg-name="TİVİBU SPOR 4" group-title="Spor",TİVİBU SPOR 4
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/t4.m3u8
 #EXTINF:-1 tvg-id="97" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/a7ee2263901d79464e2249d0b23217cf.jpg" tvg-name="24 HABER HD" group-title="Haber",24 HABER HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.ensonhaber.com/tv24/tv24.m3u8
-#EXTINF:-1 tvg-id="100" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/dc748243e0ce52f5315946c0f26f50fe.jpg" tvg-name="A HABER HD" group-title="Haber",A HABER HD [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/ahaber.m3u8
-#EXTINF:-1 tvg-id="96" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/fe34ebd140199c087be663e2c57ceb2f.jpg" tvg-name="BLOOMBERG HT HD" group-title="Haber",BLOOMBERG HT HD
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
+
+
 #EXTINF:-1 tvg-id="99" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/59310b5017a91855a65fd3993f085710.jpg" tvg-name="CNN TURK HD" group-title="Haber",CNN TURK HD [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
