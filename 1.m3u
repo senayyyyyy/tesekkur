@@ -1173,7 +1173,6 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/mezzohd_stream/index.m3u8?wmsAut
 #EXTINF:-1 tvg-name="Classical Harmony" tvg-id="Classical Harmony" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/d8abc330-f38a-4a81-b555-c5fef692f63e.png" group-title="Yaşam & Eğlence",Classical Harmony
 https://ottcdn.kablowebtv.net/live_turksat_sub3/classical_harmony_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMy8yMDI1IDY6MTU6NDIgQU0maGFzaF92YWx1ZT02dnFqNWFxWjRnM3dIajNLMVJ1dllnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC41
 
-
 #EXTINF:-1 tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png" tvg-name="FASHION TV" group-title="Yaşam & Eğlence",FASHION TV [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
@@ -1183,6 +1182,17 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="FASHION TV" tvg-logo="https://www.modelingportfoliosnyc.com/wp-content/uploads/2019/05/03Nh_t0G_400x400.png" group-title="Yaşam & Eğlence",FASHION ONE
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="FASHION TV" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEim2Z3fOlbld89c9io-_JBadvCDwXkKIbFTRoV_6Y1Om8_OfG_w3zRw1AfnpU9Jh5X004puoh2zWzztMDivyCCegO7--45QP61dwfuk7xqgVS3CKO5LB_BmehXV6-fb-Uf2GALd3fdI9os7DavgKF1oF3TGON1RLqrsA4MkBWKsBFtpRX_B9OZysZpnGqU=s250" group-title="Yaşam & Eğlence",FORTUNA TV
+https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="FASHION TV" tvg-logo="https://i.ibb.co/DKHDfbr/wmtv.png" group-title="Yaşam & Eğlence",WOMAN TV
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+https://s01.webcaster.cloud/wmtv/live_1080p.m3u8
+
 
 
 
