@@ -230,7 +230,7 @@ https://lll.istekbet3.tv/yayinsmarts.m3u8
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuksmartspor/playlist.m3u8
 
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor" tvg-logo="" group-title="Ulusal",Smart Spor|CF
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor" tvg-logo="" group-title="Spor",Smart Spor|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/ssmartspor/playlist.m3u8
 
@@ -623,16 +623,16 @@ https://yayin30.haber100.com/live/finansturk/chunklist_w1412138656.m3u8
 #EXTINF:-1 tvg-name="tyttürk" tvg-logo="https://images.openai.com/thumbnails/66ebb55ef19f7686af88c86fe7e351ae.jpeg" group-title="Haber",TYT TÜRK HABER
 https://cdn-tytturk.yayin.com.tr/tytturk/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-name="lider" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPetOFCn_nsYX6EVJwnZujeJFxlUHLm-Htgw&s" group-title="TR ▹ HABER KANALLARI",LİDER HABER
+#EXTINF:-1 tvg-name="lider" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPetOFCn_nsYX6EVJwnZujeJFxlUHLm-Htgw&s" group-title="Haber",LİDER HABER
 http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="mk TV" tvg-logo="https://www.mktv.com.tr/uploads/logos/logo.jpg" group-title="TR ▹ HABER KANALLARI",MK HABER
+#EXTINF:-1 tvg-id="" tvg-name="mk TV" tvg-logo="https://www.mktv.com.tr/uploads/logos/logo.jpg" group-title="Haber",MK HABER
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Dim TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_DimTV" tvg-logo="https://dimtv.tv/wp-content/uploads/2020/08/LOGO.png" group-title="Haber",Dim TV
 https://canli.dimtv.tv/hls/dim/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="EKOTÜRK TV" tvg-logo="https://yesilgazete.org/wp-content/uploads/2011/07/screen-capture-12.png" group-title="TR ▹ HABER KANALLARI",MECLİS TV
+#EXTINF:-1 tvg-id="" tvg-name="EKOTÜRK TV" tvg-logo="https://yesilgazete.org/wp-content/uploads/2011/07/screen-capture-12.png" group-title="Haber",MECLİS TV
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8
 
 #EXTINF:-1 tvg-name="TRT World" tvg-language="English" tvg-country="USA" tvg-id="TRT_World" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/acd68840-492b-43c5-9635-bbaf32148e2a.png" group-title="Haber",TRT World
