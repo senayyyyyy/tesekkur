@@ -49,5 +49,5 @@ jobs:
         if: steps.git-check.outputs.changed == 'true'
         run: |
           git add 1.m3u
-          git commit -m " Kanallar/kerim.m3u güncellendi - $(date +'%Y-%m-%d %H:%M:%S')"
+          git commit -m " 1.m3u güncellendi - $(date +'%Y-%m-%d %H:%M:%S')"
           git push origin HEAD:main
