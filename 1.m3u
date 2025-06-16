@@ -848,18 +848,22 @@ https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
 
 
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_Cine1" tvg-logo="https://i.ibb.co/zhxTBMR/cine1.png" group-title="Sinema",CINE6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 https://radyotelekomtv.com/player/m3u8/5ca5d92515b99f2e20ee0a40c0a3031d/5ca5d92515b99f2e20ee0a40c0a3031d.m3u8
 
-#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_Cine1" tvg-logo="https://i.ibb.co/zhxTBMR/cine1.png" group-title="Sinema",CINE6 MAX
+#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_Cine1" tvg-logo="https://i.ibb.co/zhxTBMR/cine1.png" group-title="Sinema",CINE6 MAX1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 https://radyotelekomtv.com/player/m3u8/f32f2929378506f7952c6c3806669118/f32f2929378506f7952c6c3806669118.m3u8
 
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_Cine1" tvg-logo="https://i.ibb.co/zhxTBMR/cine1.png" group-title="Sinema",Cine1
 https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_CINE5" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/0/04/Cine5_logosu.png" group-title="Sinema",CINE 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_CINE5" tvg-logo="https://pbs.twimg.com/profile_images/757332945694777344/KmJxdn4g_400x400.jpg" group-title="Sinema",Tivi Türk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 https://stream.tiviturk.de/live/tiviturk.m3u8
 
 
