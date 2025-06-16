@@ -1077,6 +1077,9 @@ https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 #EXTINF:0,POWER LOVE HD
 https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://tmb.tv/wp-content/themes/techvio/assets/images/logo.png" tvg-name="TEMPO TV" group-title="Müzik",TMB TV
+http://149.255.152.199/tmbtv.m3u8?bandwidth=2096&e=1750148538&playlistlength=5&shift=0&sid=coder_52&token=0ce66397b50927623787ac9851731a6a&user=37076
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo7dzPcBxmP9HkryOyE2y5KqjJGYNJ7iRrEaMDkm-pVTnncXOfnFagBBTLxwjB0GHm0Ks&usqp=CAU" tvg-name="4KPOP" group-title="Müzik",4 TÜRK POP [HD]
 https://cdn-4turkpop.yayin.com.tr/4turkpop/4turkpop/playlist.m3u8
 
