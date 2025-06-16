@@ -1031,8 +1031,6 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/trteba_stream/index.m3u8?wmsAuth
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
-
-
 #EXTINF:-1 tvg-id="" tvg-logo="http://www.kralpoptv.com.tr/Content/Logo/kral.png" tvg-name="Number 1 HD" group-title="Müzik",KRAL TV
 https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8.
 
@@ -1044,12 +1042,10 @@ https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-id="46" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/7160f6b2568df0a9d1da11f02c1f866b.jpg" tvg-name="Number 1 HD" group-title="Müzik",Number 1 HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8
-
 #EXTINF:-1, #EXTINF:-1 tvg-id="" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/7160f6b2568df0a9d1da11f02c1f866b.jpg" tvg-name="Number 1 HD" group-title="Müzik",NR 1 DAMAR HD
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/chunklist_b400000.m3u8?md5=api5VtN5dEXl5cvRHMQBNQ&expires=1696713505
 
@@ -1065,7 +1061,6 @@ https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-
 #EXTINF:0,POWER TURK SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:0,POWER TV AKUSTiK
