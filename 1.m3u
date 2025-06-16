@@ -1081,14 +1081,6 @@ https://s01.webcaster.cloud/wmtv/live_1080p.m3u8
 
 # * » DİNİ « * #
 
-#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://res.cloudinary.com/rehbertv/image/upload/v1709735756/rehber_Logo_Yeni_20e8e49a20.png" group-title="Dini",Rehber TV
-https://cdn4.yayin.com.tr/rehbertv/video.m3u8
-
-#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://res.cloudinary.com/rehbertv/image/upload/v1709735756/rehber_Logo_Yeni_20e8e49a20.png" group-title="Dini",Dost TV
-https://dost.stream.emsal.im/tv/live.m3u8
-
-#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8322c403-9f7c-4b5a-aef1-7c65e56ee8a6.png" group-title="Dini",Lalegül TV
-https://lbl.netmedya.net/hls/lalegultv.m3u8
 
 #EXTINF:-1 tvg-name="diyanettv" tvg-logo="https://i.ibb.co/k9phm3v/diyanettv.png" group-title="Dini",DİYANET TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/mt_0.m3u8
@@ -1096,3 +1088,16 @@ https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95
 #EXTINF:-1 tvg-name="SEMERKAND TV" tvg-logo="https://www.semerkandtv.com.tr/Content/img/logo.png" group-title="Dini",SEMERKAND TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_0.m3u8
+
+#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://res.cloudinary.com/rehbertv/image/upload/v1709735756/rehber_Logo_Yeni_20e8e49a20.png" group-title="Dini",Rehber TV
+https://cdn4.yayin.com.tr/rehbertv/video.m3u8
+
+#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://images.seeklogo.com/logo-png/26/1/dost-tv-logo-png_seeklogo-260819.png" group-title="Dini",Dost TV
+https://dost.stream.emsal.im/tv/live.m3u8
+
+#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://www.ikratv.com/templates/default/images/logo.png" group-title="Dini",İkra TV
+https://yayin30.haber100.com/live/diyartv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LalegulTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8322c403-9f7c-4b5a-aef1-7c65e56ee8a6.png" group-title="Dini",Lalegül TV
+https://lbl.netmedya.net/hls/lalegultv.m3u8
+
