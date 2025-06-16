@@ -29,8 +29,8 @@ jobs:
 
       
 
-      - name: rectvorjinal
-        run: python rectvorjinal.py
+      - name: rectvana
+        run: python rectvana.py
 
       
 
