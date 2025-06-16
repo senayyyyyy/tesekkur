@@ -1055,6 +1055,10 @@ https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo7dzPcBxmP9HkryOyE2y5KqjJGYNJ7iRrEaMDkm-pVTnncXOfnFagBBTLxwjB0GHm0Ks&usqp=CAU" tvg-name="TRT MUZIK HD" group-title="Müzik",4 TÜRK POP [HD]
+https://cdn-4turkpop.yayin.com.tr/4turkpop/4turkpop/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Bein Gurme" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_BEİNGURME" tvg-logo="https://images.seeklogo.com/logo-png/36/2/bein-gurme-logo-png_seeklogo-367814.png" group-title="Yaşam & Eğlence",Bein Gurme
 https://kerimmkirac-dproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3583230858/index.m3u8
 
