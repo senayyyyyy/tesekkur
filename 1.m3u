@@ -1122,6 +1122,9 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTINF:-1 tvg-name="SEMERKAND TV" tvg-logo="https://yt3.googleusercontent.com/eMIcu6v6cddCN3-ZWrWNwzNNmi82g_YONDdHoDpw1BBfwszOuBtO-YN2eAkgVivkbK0-qzZJ=s160-c-k-c0x00ffffff-no-rj" group-title="Dini",MELTEM TV
 https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
 
+#EXTINF:-1 tvg-name="SEMERKAND TV" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_256.png?v=7" group-title="Dini",KANAL 12
+https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
+
 #EXTINF:-1 tvg-name="SEMERKAND TV" tvg-logo="https://kudustv.com.tr/images/logo/logo.png" group-title="Dini",KUDÜS TV
 https://yayin30.haber100.com/live/kudustv/playlist.m3u8
 
