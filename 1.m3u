@@ -1204,7 +1204,7 @@ http://45.32.154.169:8008/;stream.mp3
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://2.bp.blogspot.com/-4k0929w4kCo/WZ8DHjaKsJI/AAAAAAAAT1I/iZvWGKgRRSIoPrAMjWzVIIBpViB3WYGfQCLcBGAs/s1600/05.jpg"group-title="Radyo",BEST FM
 https://stream2.rtvtakip.com:7005/;stream.mp3
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://2.bp.blogspot.com/-O8Ac0fHK28E/WZ8GKPOPg5I/AAAAAAAAT1g/yEIxX5mCnf4bv6DS3lCM4vKnZKFALfTXgCLcBGAs/s1600/08.jpg"group-title="Radyo",BEY FM
-http://45.32.154.169:9304/;;
+https://radyodinle1.turkhosted.com/yayin?uri=5.9.155.141:5022/stream?/&tkn=vD9bx6pltalq98kyl5Ordg&tms=1750290729
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://2.bp.blogspot.com/-eYkVv9MUAtQ/WZ8INOQJRUI/AAAAAAAAT10/XRwOVnHUHekGPuHqnFSoUoEynb3-ECovgCLcBGAs/s1600/10.jpg"group-title="Radyo",BİGA FM
 http://radyo.yayin.com.tr:5896/;stream.mp3
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://2.bp.blogspot.com/-edZ1Pup4v_o/WZ8IoosUR6I/AAAAAAAAT14/F6PBLVZIU9EI2phfN9yyLydnBZ03iFsTgCLcBGAs/s1600/11.jpg"group-title="Radyo",BİLECİK FM
@@ -1218,17 +1218,16 @@ http://stream.radyolarburada.com/radio/8280/1
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://2.bp.blogspot.com/-CJbLR6aS9Gw/WaAhum8YotI/AAAAAAAAT40/vQglkM7jgCYM4Bm_v3a97Bi5WmHiGEnsACLcBGAs/s1600/1001.jpg"group-title="Radyo",BURSA 1001 FM
 https://stream.radyolarburada.com/radio/8280/1
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://2.bp.blogspot.com/-VdaHDnFi5pI/XMRLP2qjjcI/AAAAAAAAXQI/9b3f9YIfSdgHqC6bHJuU3Uxj5bhjAzVnwCLcBGAs/s1600/bursafm.jpg"group-title="Radyo",BURSA FM
-http://yayin.bursafm.com.tr:1055/;
+https://radyo.yayin.com.tr:1055/stream/1/?icy=http/;stream.mp3
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://4.bp.blogspot.com/-n9o7m5JMG5I/WaA6ukfDWEI/AAAAAAAAT7I/F3Ng12uqo5cmS_B0Dv0krAmwexmH8XiCgCLcBGAs/s1600/s.jpg"group-title="Radyo",BURSA RADYO S
 http://icecast.netmedya.net/radyos
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://2.bp.blogspot.com/-kqCl6mFOhuU/WaFPCZaRADI/AAAAAAAAT8o/n0_eFwzXbMIvQVvvN1bQyrzIvhSWed0PACLcBGAs/s1600/b.jpg"group-title="Radyo",BURSADA BUGÜN RADYO
 https://radyo.bursadabugun.com/stream
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://2.bp.blogspot.com/-gniUt3aL8Q0/WaFjmtoPnOI/AAAAAAAAT-I/fwozxvupcb0laTdgOqZ3-kvdALKKh8qgwCLcBGAs/s1600/cnn.jpg"group-title="Radyo",CNN TÜRK RADYO
-https://radyo.duhnet.tv/cnnturk
+https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://3.bp.blogspot.com/-xYWSJ-O_WhE/WaF5Bm7ztSI/AAAAAAAAT_g/nln19UuWJywHnmGdEQ89sI3biisU6HvZgCLcBGAs/s1600/d.jpg"group-title="Radyo",DAMAR FM
 http://yayin.damarfm.com:8080/;
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://2.bp.blogspot.com/-bviXwN1AD6M/WtooRtUu6PI/AAAAAAAAWDQ/xbTIkgEsIpEiHVBjjsoDFRTU3d0JcsarQCLcBGAs/s1600/k.jpg"group-title="Radyo",DAMAR KRAL FM
-http://37.59.205.232:9358/;
+
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://4.bp.blogspot.com/-O_5SAaCmQ3I/Wj0I6ICeSXI/AAAAAAAAVok/Qz2J8ztudZw8Ufelnj0l4IyAkJdX8_8ewCLcBGAs/s1600/08.jpg"group-title="Radyo",DAMLA FM
 http://yayin.rtmp.org:8750/;
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://3.bp.blogspot.com/-zyEUMclTIX0/WaF_Fmt8TOI/AAAAAAAAUAQ/RslstCGSI9AfLGuXd3sZf6-6hK1GBR3NACLcBGAs/s1600/d.jpg"group-title="Radyo",DEM RADYO
@@ -1253,16 +1252,44 @@ http://37.247.98.8/stream/19/
 http://37.247.98.8/stream/29/
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://3.bp.blogspot.com/-mM75U7S2s0w/WaO2foN2qTI/AAAAAAAAUIA/SXrgKMQpDBwahViHrkgF_Edop_TqweSSACLcBGAs/s1600/e.jpg"group-title="Radyo",EKİN RADYO
 http://yayin.turkhosted.com:6006/;
+
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://4.bp.blogspot.com/-Yovc1dbCO64/WaO3DwdPeqI/AAAAAAAAUII/LGLw5izmSy49C8k7puiOndZ3DXZZTYphwCLcBGAs/s1600/2000.jpg"group-title="Radyo",ELAZIĞ RADYO 2000
 http://yayin.turkiletisim.com.tr:1092/;
+
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://4.bp.blogspot.com/-wfj5IekgVvk/WaQeCJXPHWI/AAAAAAAAUOY/gI8Vkr6LixAW2AKWK8TCNh83wrkKDTvTQCLcBGAs/s1600/23.jpg"group-title="Radyo",ELAZIĞ FM 23
+http://radyofm23.canliyayinda.com:8280/;
+
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://www.canliradyodinle.fm/wp-content/uploads/elazig-ert-fm.jpg"group-title="Radyo",ELAZIĞ ERT FM
+https://radyo.yayin.com.tr:8012/stream?
+
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://www.canliradyodinle.fm/wp-content/uploads/ezgi-radyo.jpg"group-title="Radyo",ELAZIĞ EZGİ RADYO
+https://sslyayin.netyayin.net/elazigezgiradyo/stream/;stream.mp3
+
+
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://www.canliradyodinle.fm/wp-content/uploads/radyo-firat.jpg"group-title="Radyo",ELAZIĞ RADYO FIRAT
+https://listen.powerapp.com.tr/radyofirat/mpeg/icecast.audio?/;
+
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://4.bp.blogspot.com/-4e1srtlSYMo/Wto-6HrLoCI/AAAAAAAAWDo/tmfANNIgfR4CfDV92IprjuZKRwRequpcwCLcBGAs/s1600/h.jpg"group-title="Radyo",ELAZIĞ RADYO HAZAR
 http://radyohazar.canliyayinda.com:8286/;
+
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://www.canliradyodinle.fm/wp-content/uploads/hit-fm-elazig.jpg"group-title="Radyo",ELAZIĞ HİT FM
+https://radyodinle1.turkhosted.com/yayin?uri=yayin.turkiletisim.com.tr:1094/&tkn=yb4W-LxHVt2Do9lL8KGJnA&tms=1750266218
+
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://www.canliradyodinle.fm/wp-content/uploads/radyo-kulup.jpg"group-title="Radyo",ELAZIĞ RADYO KULÜP
+https://radyodinle1.turkhosted.com/yayin?uri=radyokulup.canliyayinda.com:8282/&tkn=tKSH90_myY_J2-EBi7Ys8w&tms=1750291669
+
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://www.canliradyodinle.fm/wp-content/uploads/mavi-radyo-elazig.jpg"group-title="Radyo",ELAZIĞ MAVİ RADYO
+https://yayin.turkhosted.com/elazigmaviradyo/stream
+
+
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://4.bp.blogspot.com/-bHwdXj_VxUk/WaPuW_VNkEI/AAAAAAAAUKo/8-U1U7QC1pgDLQ6BM_sOr4Xwe6ntRR5lQCLcBGAs/s1600/i.jpg"group-title="Radyo",ERZURUM İMAJ FM
 http://sunucu.radyodinle.com:9797/;
+
+
+
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://3.bp.blogspot.com/-Cju1Rg4ea-o/WaQMyIMuc7I/AAAAAAAAUMc/muzAW8RGi4cpa-lHu5NySFHOXsR4-1qcgCLcBGAs/s1600/mr.jpg"group-title="Radyo",EYNESİL MERCAN FM
 https://ip169.ozelip.com:10975/;
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://4.bp.blogspot.com/-wfj5IekgVvk/WaQeCJXPHWI/AAAAAAAAUOY/gI8Vkr6LixAW2AKWK8TCNh83wrkKDTvTQCLcBGAs/s1600/23.jpg"group-title="Radyo",FM 23
-http://radyofm23.canliyayinda.com:8280/;
+
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://2.bp.blogspot.com/-s_BSJ1TyNYE/WaQoFu6VXPI/AAAAAAAAUPM/sl5xj8Ng9AYz4k7NvrPYg3eXwjFCa_5rQCLcBGAs/s1600/g.jpg"group-title="Radyo",GENÇ RADYO Konya
 http://dijimedya.radyotvonline.net/gncradyo
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://3.bp.blogspot.com/-8w-fi41JR-g/WbFSiV8cEPI/AAAAAAAAVRY/SO58ihjIQZY4zWlIdT0oPAQodVYo9Q4UwCLcBGAs/s1600/g.jpg"group-title="Radyo",GAZİANTEP RADYO KİLİM
@@ -1287,6 +1314,8 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/SC004_SO1_SC?/
 http://radyo.hamsi.fm:8050/;
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://3.bp.blogspot.com/-CcKRPprkuwM/WbFTrO8anCI/AAAAAAAAVRk/qwg3Rktm9jIqeHAr_sT91R2B1NW3xpyrwCLcBGAs/s1600/h.jpg"group-title="Radyo",HARBİ RADYO
 https://anadolu.liderhost.com.tr:10958/;
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a3/Kral_FM.jpg"group-title="Radyo",KRAL FM
+https://www.kralmuzik.com.tr/radyo/kral-fm
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://3.bp.blogspot.com/-9fa-On78B4E/WafitaNkIdI/AAAAAAAAUfY/lZ6ShIKRzRMMxbKo63vYOTjA7g-pSiObQCLcBGAs/s1600/ms.jpg"group-title="Radyo",MARAŞ SULTAN RADYO
 http://yayin.turkhosted.com:4949/;
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="http://2.bp.blogspot.com/-nH-9kB-mzig/WaftIHbnxzI/AAAAAAAAUgo/7-Dv6-JDigc9kwYkdr0SNYOB3rT0YK-jQCLcBGAs/s1600/mb.jpg"group-title="Radyo",MAZİDEN BİR DEMET
