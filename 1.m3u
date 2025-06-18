@@ -401,8 +401,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/aspor.m3u8
-#EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="Spor",Sports TV
-https://live.sportstv.com.tr/hls/low/sportstv.m3u8
 
 #EXTINF:-1 tvg-name="beIN Sports Haber"  tvg-language="Turkish" tvg-country="TR" tvg-id="beIN Sports Haber" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bc458b63-fe9e-40c2-b8a3-d56dc7189e0a.png" group-title="Spor",beIN Sports Haber
 https://ottcdn.kablowebtv.net/live_turksat_sub3/beinsportshaber_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xOC8yMDI1IDEwOjEwOjEwIEFNJmhhc2hfdmFsdWU9NlJJVjNRdXZKc3IzbHErVlNPQVVCQT09JnZhbGlkbWludXRlcz0yODgwJmlkPTA5M2Q3MjBhLTUwMmMtNDFlZC1hODBmLTJiODE2OTg0ZmI5NSw4OTc0MWZlYy0xZDMzLTRjMDAtYWZjZC0zZmRhZmUwYjZhMmQsMTUyYmQ1MzktNjIyMC00NDI3LWE5MTUtYmY0YmQwNjhkN2U4LGE2OTliODNmLTgyNmItNGQ5OS05MzYxLWM4YTMxMzIxOGQ0NiwwLDo6ZmZmZjoxMC4wLjAuMjA2
@@ -410,6 +408,36 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/beinsportshaber_stream/index.m3u
 #EXTINF:-1 tvg-name="HT Spor " tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Ht_Spor" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" group-title="Spor",Ht spor
 https://ciner-live.daioncdn.net/ht-spor/ht-spor_1080p.m3u8
 
+#EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="Spor",Sports TV
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="FB TV" group-title="Spor",FB TV [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="TR SPOR" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTw7oCLD4wZA2oSiuKTS4zKwUrYriED_gVKw&s" group-title="Spor",TR SPOR
+http://116.202.117.244/gzcspor/gzcspor/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TJK TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
+https://tjktv-live.tjk.org/tjktv/tjktv.m3u8
+
+#EXTINF:-1 tvg-name="TJK TV 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV_2" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV 2
+https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="BRİÇ TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3aA60FVFIXh6a9yPc-PWVXOWjk0T7YGkBg&s" group-title="Spor",BRİÇ VE SATRANÇ TV
+http://139.162.182.79/live/test/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="FİT TV" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0012/1084/brand.gif?itok=ihptOuEm" group-title="Spor",FİT YAŞA TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist/0.m3u8
+
+#EXTINF:-1 tvg-name="Solh Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SolhSport" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/solhsports.png" group-title="Spor",Solh Sport
+https://solhtvhls.wns.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-id="126" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/4c02bd56395b0a27eab964656b1bb379.jpg" tvg-name="FightBox" group-title="Spor",FightBox [HD]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/fight.m3u8
 
 #EXTINF:-1 tvg-name="Nba Tv A" tvg-language="English" tvg-country="USA" tvg-id="Nba Tv" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="Spor",Nba Tv 
 https://ottcdn.kablowebtv.net/live_turksat_sub3/nbatv_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xOC8yMDI1IDEwOjEwOjEwIEFNJmhhc2hfdmFsdWU9NlJJVjNRdXZKc3IzbHErVlNPQVVCQT09JnZhbGlkbWludXRlcz0yODgwJmlkPTA5M2Q3MjBhLTUwMmMtNDFlZC1hODBmLTJiODE2OTg0ZmI5NSw4OTc0MWZlYy0xZDMzLTRjMDAtYWZjZC0zZmRhZmUwYjZhMmQsMTUyYmQ1MzktNjIyMC00NDI3LWE5MTUtYmY0YmQwNjhkN2U4LGE2OTliODNmLTgyNmItNGQ5OS05MzYxLWM4YTMxMzIxOGQ0NiwwLDo6ZmZmZjoxMC4wLjAuMjA2
@@ -428,38 +456,14 @@ https://lll.istekbet3.tv/yayinnbatv.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/list/yayinnbatv.m3u8
+
 #EXTINF:-1 tvg-name="Sky Sports F1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SKYSPORTSF1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Sky_Sports_F1_logo_2020.svg/375px-Sky_Sports_F1_logo_2020.svg.png" group-title="Spor",Sky Sports f1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://hakunamatata5.org
 https://hakunamatata5.org:8088/hls/sky-f1.m3u8
 
-#EXTINF:-1 tvg-name="TJK TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
-https://tjktv-live.tjk.org/tjktv/tjktv.m3u8
-
-#EXTINF:-1 tvg-name="TJK TV 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV_2" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV 2
-https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
-
-#EXTINF:-1 tvg-name="Solh Sport" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SolhSport" tvg-logo="https://raw.githubusercontent.com/kerimmkirac/CanliTvListe/refs/heads/main/solhsports.png" group-title="Spor",Solh Sport
-https://solhtvhls.wns.live/hls/stream.m3u8
-
-#EXTINF:-1 tvg-logo="" tvg-name="FB TV" group-title="Spor",FB TV [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="126" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/4c02bd56395b0a27eab964656b1bb379.jpg" tvg-name="FightBox" group-title="Spor",FightBox [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/fight.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BRİÇ TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3aA60FVFIXh6a9yPc-PWVXOWjk0T7YGkBg&s" group-title="Spor",BRİÇ VE SATRANÇ TV
-http://139.162.182.79/live/test/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="TR SPOR" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTw7oCLD4wZA2oSiuKTS4zKwUrYriED_gVKw&s" group-title="Spor",TR SPOR
-http://116.202.117.244/gzcspor/gzcspor/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="FİT TV" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0012/1084/brand.gif?itok=ihptOuEm" group-title="Spor",FİT YAŞA TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/fit-yasa-tv/playlist/0.m3u8
 
 #EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TABII" tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q84/43023.jpeg" group-title="Spor",Tabii Spor
 # ? #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
