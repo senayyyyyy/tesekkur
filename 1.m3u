@@ -873,7 +873,8 @@ https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_Cine1" tvg-logo="https://oncurtvcom.teimg.com/oncurtv-com/images/banner/oncu_logo.png" group-title="Sinema",ÖNCÜ RTV
 http://45.150.174.26:1935/oncurtv/bant1/chunks.m3u8
 
-
+#EXTINF:-1 tvg-name="Şaban Tv" tvg-logo="https://resim.tavsiyeforumu.com/images/icon.png" group-title="Sinema", Şaban Tv
+https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/saban-tv
 
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_CINE5" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/0/04/Cine5_logosu.png" group-title="Sinema",CINE 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
