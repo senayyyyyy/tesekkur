@@ -839,11 +839,11 @@ https://tv.arectv34.sbs/live/sinema.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinema1001.m3u8
-#EXTINF:-1 tvg-id="52" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/96603c9e4ba10ae864380f670e210cf0.png" tvg-name="Sinema TV 1002" group-title="Sinema",Sinema TV 1002
+#EXTINF:-1 tvg-id="52" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/96603c9e4ba10ae864380f670e210cf0.png" tvg-name="Sinema TV 1002" group-title="Sinema",TÜRK SİNEMA
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinema1002.m3u8
-#EXTINF:-1 tvg-id="60" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/389d982cb693a94e1c6aae2ee5e34594.png" tvg-name="Sinema TV 2" group-title="Sinema",Sinema TV 2
+#EXTINF:-1 tvg-id="60" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/389d982cb693a94e1c6aae2ee5e34594.png" tvg-name="Sinema TV 2" group-title="Sinema",TÜRK SİNEMA 2
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinema2.m3u8
@@ -851,22 +851,19 @@ https://tv.arectv34.sbs/live/sinema2.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemaaile.m3u8
-#EXTINF:-1 tvg-id="59" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/11ae72baa495a639e5193cbed5fd92da.png" tvg-name="Sinema TV Aksiyon" group-title="Sinema",Sinema TV Aksiyon [HD]
+#EXTINF:-1 tvg-id="59" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/11ae72baa495a639e5193cbed5fd92da.png" tvg-name="Sinema TV Aksiyon" group-title="Sinema",Byz Box Aksiyon [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemaaksiyon2.m3u8
-#EXTINF:-1 tvg-id="57" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/bb0d39dbbdee543eb42f4e77fd30c324.png" tvg-name="Sinema TV Komedi" group-title="Sinema",Sinema TV Komedi [HD]
+#EXTINF:-1 tvg-id="57" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/bb0d39dbbdee543eb42f4e77fd30c324.png" tvg-name="Sinema TV Komedi" group-title="Sinema",Byz Box Komedi [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemakomedi.m3u8
-#EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema",Sinema TV Yerli [HD]
+#EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema",Eno Türk [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemayerli2.m3u8
-#EXTINF:-1 tvg-id="56" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" tvg-name="Sinema TV Yerli" group-title="Sinema",Sinema TV Yerli [HD]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/sinemayerli2.m3u8
+
 #EXTINF:-1 tvg-name="Tabii TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_TabiiTV" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Sinema",Tabii TV
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
 
