@@ -709,6 +709,8 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 
 #EXTINF:-1 tvg-name="" tvg-logo="https://yt3.googleusercontent.com/eMIcu6v6cddCN3-ZWrWNwzNNmi82g_YONDdHoDpw1BBfwszOuBtO-YN2eAkgVivkbK0-qzZJ=s160-c-k-c0x00ffffff-no-rj" group-title="Haber",MELTEM TV
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="mk TV" tvg-logo="https://x.com/UretenTurkiye1/photo" group-title="Haber",ÜRETEN TÜRKİYE
+https://live.euromediacenter.com/uretenturkiye/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-name="Dim TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_DimTV" tvg-logo="https://dimtv.tv/wp-content/uploads/2020/08/LOGO.png" group-title="Haber",Dim TV
 https://canli.dimtv.tv/hls/dim/index.m3u8
