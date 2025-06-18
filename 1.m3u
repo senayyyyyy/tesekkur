@@ -1081,6 +1081,8 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/trteba_stream/index.m3u8?wmsAuth
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+
+
 #EXTINF:-1 tvg-id="" tvg-logo="http://www.kralpoptv.com.tr/Content/Logo/kral.png" tvg-name="Number 1 HD" group-title="Müzik",KRAL TV
 https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8.
 
@@ -1111,15 +1113,17 @@ https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:0,POWER TURK SLOW
+
+
+#EXTINF:-1 group-title="Müzik", POWER TURK SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:0,POWER TV AKUSTiK
+#EXTINF:-1 group-title="Müzik", POWER TV AKUSTiK
 https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:0,POWER TURK TAPTAZE
+#EXTINF:-1 group-title="Müzik", POWER TURK TAPTAZE
 https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:0,POWER DANCE HD
+#EXTINF:-1 group-title="Müzik", POWER DANCE HD
 https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:0,POWER LOVE HD
+#EXTINF:-1 group-title="Müzik", POWER LOVE HD
 https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://tmb.tv/wp-content/themes/techvio/assets/images/logo.png" tvg-name="TEMPO TV" group-title="Müzik",TMB TV
