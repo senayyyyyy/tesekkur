@@ -2,7 +2,7 @@
 #EXTINF:-1,tvg-name="TRT" tvg-country="TR" tvg-id="" tvg-logo="" group-title="Spor",Bein Sports 1-REAL
 http://raalbatros.serv00.net/Freeshot.php?ID=bein-sports-1-turkey/158
 
-#EXTINF:-1,tvg-name="TRT" tvg-country="TR" tvg-id="" tvg-logo="" group-title="Spor",Bein Sports 1-İP
+#EXTINF:-1,tvg-name="TRT" tvg-country="TR" tvg-id="" tvg-logo="" group-title="Spor",Bein Sports 1|İP
 http://95.174.71.114:80/TR-BEINSPORT1/index.m3u8
 
 
@@ -50,8 +50,8 @@ https://bs.arectv33.sbs/static/bs2.m3u8
 #EXTINF:-1,tvg-name="TRT" tvg-country="TR" tvg-id="" tvg-logo="" group-title="Spor",Bein Sports 2-REAL
 http://raalbatros.serv00.net/Freeshot.php?ID=bein-sports-2-turkey/159
 
-#EXTINF:-1,tvg-name="TRT" tvg-country="TR" tvg-id="" tvg-logo="" group-title="Spor",Bein Sports 2-İP
-http://95.174.71.114:80/TR-BEINSPORT1/index.m3u8
+#EXTINF:-1,tvg-name="TRT" tvg-country="TR" tvg-id="" tvg-logo="" group-title="Spor",Bein Sports 2|İP
+http://95.174.71.114:80/TR-BEINSPORT2/index.m3u8
 
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports2" tvg-logo="" group-title="Spor",Bein Sports 2|SS
@@ -77,6 +77,9 @@ https://lll.istekbet3.tv/yayinb3.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/static/bs3.m3u8
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="" tvg-logo="" group-title="Spor",Bein Sports 3|İP
+http://95.174.71.114:80/TR-BEINSPORT3/index.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports3" tvg-logo="" group-title="Spor",Bein Sports 3|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports3/playlist.m3u8
@@ -100,6 +103,10 @@ https://lll.istekbet3.tv/yayinb4.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/static/bs4.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="" tvg-logo="" group-title="Spor",Bein Sports 4|İP
+http://95.174.71.114:80/TR-BEINSPORT4/index.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports4" tvg-logo="" group-title="Spor",Bein Sports 4|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports4/playlist.m3u8
