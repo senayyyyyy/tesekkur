@@ -568,6 +568,9 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/now_stream/index.m3u8?wmsAuthSig
 #EXTINF:-1 tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/50824b68e8d4a1377f0d6ed9242d68d7.jpg" tvg-name="FOX TV" group-title="Ulusal",NOW TV [HD]
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 
+#EXTINF:-1 tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/50824b68e8d4a1377f0d6ed9242d68d7.jpg" tvg-name="FOX TV" group-title="Ulusal",NOW TV-3
+http://116.202.238.88/FOXTV_TR/index.m3u8
+
 #EXTINF:-1 tvg-name="Beyaz TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_BeyazTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/a92329d7-3d4c-4631-ab3e-c7d36a3f1a6f.png" group-title="Ulusal",Beyaz TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
 
