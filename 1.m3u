@@ -100,9 +100,9 @@ https://lll.istekbet3.tv/yayinb4.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/static/bs4.m3u8
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports1" tvg-logo="" group-title="Spor",Bein Sports 4|SS
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports4" tvg-logo="" group-title="Spor",Bein Sports 4|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
-https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports1/playlist.m3u8
+https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports4/playlist.m3u8
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-4" tvg-logo="" group-title="Spor",Bein Sports 4|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
