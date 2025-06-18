@@ -673,6 +673,9 @@ https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTINF:-1 tvg-name="Tele 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_Tele1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/50921da2-0f81-40cf-971b-1b3db26245d7.png" group-title="Haber",Tele 1
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="EKOTÜRK TV" tvg-logo="https://scontent.ferz3-1.fna.fbcdn.net/v/t39.30808-6/484503666_627877493332532_4225663316536945172_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=TcNbxamjNs0Q7kNvwHRSFRb&_nc_oc=AdlJudFab1xG8iBJxK87gU9YkcHbexgVQSEOSXSgeFRF-Ee2ByhssQrR8uUY3gAlt6I&_nc_zt=23&_nc_ht=scontent.ferz3-1.fna&_nc_gid=kAKGkgjSUUrSQltX45SL2A&oh=00_AfMLRDzgLoIdWZEvlaeD_E6pXfr0t9vXXBQjq0e5TpM11g&oe=68588261" group-title="Haber",FLASH HABER
+https://flashhaber-live.ercdn.net/flashhaber/flashhaber_1080p.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="EKOTÜRK TV" tvg-logo="https://www.haber61.net/d/assets/facebook-default-share.png" group-title="Haber",HABER 61
 https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
 
