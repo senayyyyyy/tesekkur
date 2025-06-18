@@ -952,17 +952,16 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTINF:-1 tvg-name="Agro TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_LifeTV" tvg-logo="https://agrotvcomtr.teimg.com/agrotv-com-tr/uploads/2024/09/100x400.png" group-title="Belgesel",Agro TV
 http://185.234.111.229:8000/play/a01
 
-
+#EXTINF:-1 tvg-id="" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/717339637240b8d0ade5063ae8a18fcd.png" tvg-name="" group-title="Belgesel",YABAN TV
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://uzunmuhalefet.serv00.net/canlitv2.php?id=12044&.m3u8
 
 
 # * » Çocuk « * #
 
 
 
-#EXTINF:-1 tvg-id="80" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/717339637240b8d0ade5063ae8a18fcd.png" tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/yaban.m3u8
 #EXTINF:-1 tvg-name="Trt Çocuk" tvg-id="Trt Çocuk"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/3261c5eb-0e08-4c96-b8fc-58211e3da29c.png" group-title="Çocuk",Trt Çocuk
 https://ottcdn.kablowebtv.net/live_turksat_sub3/trtcocuk_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xOC8yMDI1IDEyOjI2OjQzIFBNJmhhc2hfdmFsdWU9bXpvZU5NWHdQU1VzcUNoRTBmUVVMQT09JnZhbGlkbWludXRlcz0yODgwJmlkPTA5M2Q3MjBhLTUwMmMtNDFlZC1hODBmLTJiODE2OTg0ZmI5NSw4OTc0MWZlYy0xZDMzLTRjMDAtYWZjZC0zZmRhZmUwYjZhMmQsMTUyYmQ1MzktNjIyMC00NDI3LWE5MTUtYmY0YmQwNjhkN2U4LGE2OTliODNmLTgyNmItNGQ5OS05MzYxLWM4YTMxMzIxOGQ0NiwwLDo6ZmZmZjoxMC4wLjAuNg==
 
