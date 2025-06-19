@@ -23,6 +23,11 @@ https://bs.arectv33.sbs/static/bs1.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/static/bs1.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M4E5tMg.png" group-title="Spor", Bein Sports 1| JS
+#EXTVLCOPT:http-referrer=https://worldradio.online/proxy/?q=https://mactadi62.blogspot.com
+https://cdn2.freednsserc.xyz/assets/5.js
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports1" tvg-logo="https://i.imgur.com/M4E5tMg.png" group-title="Spor",Bein Sports 1|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports1/playlist.m3u8
@@ -30,6 +35,8 @@ https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports1/playli
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-1" tvg-logo="https://i.imgur.com/M4E5tMg.png" group-title="Spor",Bein Sports 1|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/sbeinsports-1/playlist.m3u8
+
+
 
 #EXTINF:-1 tvg-name="beIN SPORTS 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS2_A" tvg-logo="https://i.imgur.com/id4WBnX.png" group-title="Spor",beIN SPORTS 2 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -89,6 +96,9 @@ https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports3/playli
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/sbeinsports-3/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b9niIDX.png" group-title="Spor", Bein Sports 3|JS
+#EXTVLCOPT:http-referrer=https://worldradio.online/proxy/?q=https://mactadi62.blogspot.com
+https://cdn2.freednsserc.xyz/assets/8.js
 
 #EXTINF:-1 tvg-name="beIN SPORTS 4 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_b eINSPORTS4_A" tvg-logo="https://i.imgur.com/2QsXsk3.png" group-title="Spor",beIN SPORTS 4 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -252,52 +262,62 @@ https://alpha.cf-worker-f9865672506d71.workers.dev/live/sssport2/playlist.m3u8
 https://cdn2.freednsserc.xyz/assets/9.js
 
 
-#EXTINF:-1 tvg-name="Spor Smart 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart_1A" tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/1920/content/p/el/11909/Thumbnail.png" group-title="Spor",Spor Smart 1 A
+#EXTINF:-1 tvg-name="Spor Smart 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart_1A" tvg-logo="https://i.imgur.com/dcUhTEp.png" group-title="Spor",Spor Smart 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
 https://r0.4928d54d950ee70q17.lat/yayinsmarts.m3u8
 
-#EXTINF:-1 tvg-name="Spor Smart 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart_1B" tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/1920/content/p/el/11909/Thumbnail.png" group-title="Spor",Spor Smart 1 B
+#EXTINF:-1 tvg-name="Spor Smart 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart_1B" tvg-logo="https://i.imgur.com/dcUhTEp.png" group-title="Spor",Spor Smart 1 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinsmarts.m3u8   
 
 
-#EXTINF:-1 tvg-id="139" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/e4e94b5f588beff702dfe39729379251.png" tvg-name="Spor Smart 1" group-title="Spor",Spor Smart 1 [HD]
+#EXTINF:-1 tvg-id="139" tvg-logo="https://i.imgur.com/dcUhTEp.png" tvg-name="Spor Smart 1" group-title="Spor",Spor Smart 1 [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/smart1.m3u8
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcuksmartspor" tvg-logo="" group-title="Spor",Spor Smart|SS
+
+#EXTINF:-1  tvg-name="Spor Smart 1" tvg-logo="https://i.imgur.com/dcUhTEp.png" group-title="Spor",Spor Smart| E
+https://217.30.11.74/e/155.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcuksmartspor" tvg-logo="https://i.imgur.com/dcUhTEp.png" group-title="Spor",Spor Smart|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuksmartspor/playlist.m3u8
 
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor" tvg-logo="" group-title="Spor",Spor Smart|CF
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor" tvg-logo="https://i.imgur.com/dcUhTEp.png" group-title="Spor",Spor Smart|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/ssmartspor/playlist.m3u8
 
+#EXTINF:-1  tvg-name="Spor Smart 1" tvg-logo="https://i.imgur.com/dcUhTEp.png" group-title="Spor",Spor Smart| JS
+#EXTVLCOPT:http-referrer=https://worldradio.online/proxy/?q=https://mactadi62.blogspot.com
+https://cdn2.freednsserc.xyz/assets/10.js
 
 
 
-
-#EXTINF:-1 tvg-name="Spor Smart 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart2_A" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/SPORSMART2-gri.png" group-title="Spor",Spor Smart 2 A
+#EXTINF:-1 tvg-name="Spor Smart 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart2_A" tvg-logo="https://i.imgur.com/GACi3nS.png" group-title="Spor",Spor Smart 2 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
 https://r0.4928d54d950ee70q17.lat/yayinsms2.m3u8
 
-#EXTINF:-1 tvg-name="Spor Smart 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart2_B" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/SPORSMART2-gri.png" group-title="Spor",Spor Smart 2 B
+#EXTINF:-1 tvg-name="Spor Smart 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart2_B" tvg-logo="https://i.imgur.com/GACi3nS.png" group-title="Spor",Spor Smart 2 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinsms2.m3u8
 
-#EXTINF:-1 tvg-id="138" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/cabc0eca8d8333d022305c01b433f367.png" tvg-name="Spor Smart 2" group-title="Spor",Spor Smart 2 [SD]
+#EXTINF:-1 tvg-id="138" tvg-logo="https://i.imgur.com/GACi3nS.png" tvg-name="Spor Smart 2" group-title="Spor",Spor Smart 2 [AR]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/smart2.m3u8
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcuksmartspor2" tvg-logo="" group-title="Spor",Spor Smart 2|SS
+
+#EXTINF:-1  tvg-name="Spor Smart 2" tvg-logo="https://i.imgur.com/GACi3nS.png" group-title="Spor",Spor Smart 2| E
+https://217.30.11.74/e/156.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcuksmartspor2" tvg-logo="https://i.imgur.com/GACi3nS.png" group-title="Spor",Spor Smart 2|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcuksmartspor2/playlist.m3u8
 
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor2" tvg-logo="" group-title="Spor",Spor Smart 2|CF
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor2" tvg-logo="https://i.imgur.com/GACi3nS.png" group-title="Spor",Spor Smart 2|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/ssmartspor2/playlist.m3u8
 
