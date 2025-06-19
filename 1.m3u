@@ -52,11 +52,11 @@ http://raalbatros.serv00.net/Freeshot.php?ID=bein-sports-2-turkey/159
 http://95.174.71.114:80/TR-BEINSPORT2/index.m3u8
 
 
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports2" tvg-logo="" group-title="Spor",Bein Sports 2|SS
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports2" tvg-logo="https://i.imgur.com/id4WBnX.png" group-title="Spor",Bein Sports 2|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsports2/playlist.m3u8
 
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-2" tvg-logo="" group-title="Spor",Bein Sports 2|CF
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-2" tvg-logo="https://i.imgur.com/id4WBnX.png" group-title="Spor",Bein Sports 2|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/sbeinsports-2/playlist.m3u8
 
@@ -181,54 +181,62 @@ https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukbeinsportsmax2/pla
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/sbeinsportsmax-2/playlist.m3u8
 
 
-#EXTINF:-1 tvg-name="S Sport 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="S Sport" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport
+#EXTINF:-1 tvg-name="S Sport 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="S Sport" tvg-logo="https://i.imgur.com/0LMUDsc.png" group-title="Spor",S Sport
 https://ottcdn.kablowebtv.net/live_turksat_sub3/ssport_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xOS8yMDI1IDQ6MTc6MzkgQU0maGFzaF92YWx1ZT1JRWxmU29PZExTbTJSNkZUSnFpbmRBPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
 
-#EXTINF:-1 tvg-name="S Sport 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORTB" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport 1 B
+#EXTINF:-1 tvg-name="S Sport 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORTB" tvg-logo="https://i.imgur.com/0LMUDsc.png" group-title="Spor",S Sport 1 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
 https://r0.4928d54d950ee70q17.lat/yayinss.m3u8
 
-#EXTINF:-1 tvg-name="S Sport 1 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT1C" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport 1 C
+#EXTINF:-1 tvg-name="S Sport 1 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT1C" tvg-logo="https://i.imgur.com/0LMUDsc.png" group-title="Spor",S Sport 1 C
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinss.m3u8
 
-#EXTINF:-1 tvg-id="141" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/29b3ca0f04190b3727b3d8255cbb5d2a.jpg" tvg-name="S SPORT 1" group-title="Spor",S SPORT 1 [HD]
+#EXTINF:-1 tvg-id="141" tvg-logo="https://i.imgur.com/0LMUDsc.png" tvg-name="S SPORT 1" group-title="Spor",S SPORT 1 [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/static/ss11.m3u8
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukssport" tvg-logo="" group-title="Spor",S Sport|SS
+
+#EXTINF:-1  tvg-name="S SPORT 1" tvg-logo="https://i.imgur.com/0LMUDsc.png" group-title="Spor",S SPORT| E
+https://217.30.11.74/e/3030.m3u8
+
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukssport" tvg-logo="https://i.imgur.com/0LMUDsc.png" group-title="Spor",S Sport|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukssport/playlist.m3u8
 
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sssport" tvg-logo="" group-title="Spor",S Sport|CF
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sssport" tvg-logo="https://i.imgur.com/0LMUDsc.png" group-title="Spor",S Sport|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/sssport/playlist.m3u8
 
 
-#EXTINF:-1 tvg-name="S Sport 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="S Sport 2" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2
+#EXTINF:-1 tvg-name="S Sport 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="S Sport 2" tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor",S Sport 2
 https://ottcdn.kablowebtv.net/live_turksat_sub3/ssport2_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xOS8yMDI1IDQ6MTc6MzkgQU0maGFzaF92YWx1ZT1JRWxmU29PZExTbTJSNkZUSnFpbmRBPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
 
-#EXTINF:-1 tvg-name="S Sport 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2B" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2 B
+#EXTINF:-1 tvg-name="S Sport 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2B" tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor",S Sport 2 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
 https://r0.4928d54d950ee70q17.lat/yayinss2.m3u8
 
-#EXTINF:-1 tvg-name="S Sport 2 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2C" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2 C
+#EXTINF:-1 tvg-name="S Sport 2 C" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2C" tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor",S Sport 2 C
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinss2.m3u8
 
-#EXTINF:-1 tvg-id="140" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/46e2f65ec582fdbc8edfd01899eca2a1.jpg" tvg-name="S SPORT 2" group-title="Spor",S SPORT 2 [HD]
+#EXTINF:-1 tvg-id="140" tvg-logo="https://i.imgur.com/HyfCOif.png" tvg-name="S SPORT 2" group-title="Spor",S SPORT 2 [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/static/ss2.m3u8
-#EXTINF:-1,tvg-name="S Sport 2" tvg-country="TR" tvg-id="selcukssport2" tvg-logo="" group-title="Spor",S Sport 2|SS
+
+#EXTINF:-1  tvg-name="S SPORT 2" tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor",S SPORT2| E
+https://217.30.11.74/e/3031.m3u8
+
+#EXTINF:-1,tvg-name="S Sport 2" tvg-country="TR" tvg-id="selcukssport2" tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor",S Sport 2|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukssport2/playlist.m3u8
 
-#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sssport2" tvg-logo="" group-title="Spor",S Sport 2|CF
+#EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sssport2" tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor",S Sport 2|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/sssport2/playlist.m3u8
 
