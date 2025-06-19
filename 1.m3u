@@ -240,6 +240,10 @@ https://alpha.cf-worker-f9865672506d71.workers.dev/live/selcukssport2/playlist.m
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-f9865672506d71.workers.dev/live/sssport2/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor", S SPORT 2| JS
+#EXTVLCOPT:http-referrer=https://worldradio.online/proxy/?q=https://mactadi62.blogspot.com
+https://cdn2.freednsserc.xyz/assets/9.js
+
 
 #EXTINF:-1 tvg-name="Spor Smart 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SporSmart_1A" tvg-logo="https://dsmart-static-v2.ercdn.net//resize-width/1920/content/p/el/11909/Thumbnail.png" group-title="Spor",Spor Smart 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
