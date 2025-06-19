@@ -41,7 +41,7 @@ https://r0.4928d54d950ee70q17.lat/yayinb2.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinb2.m3u8
 
-#EXTINF:-1 tvg-id="148" tvg-logo="https://i.imgur.com/id4WBnX.png tvg-name="Bein Sports 2" group-title="Spor",Bein Sports 2 [HD]
+#EXTINF:-1 tvg-id="148" tvg-logo="https://i.imgur.com/id4WBnX.png" tvg-name="Bein Sports 2" group-title="Spor",Bein Sports 2 [HD]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://bs.arectv33.sbs/static/bs2.m3u8
