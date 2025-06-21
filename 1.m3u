@@ -33,7 +33,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports1/playli
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-1" tvg-logo="https://i.imgur.com/M4E5tMg.png" group-title="Spor",Bein Sports 1|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/sbeinsports-1/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-1/playlist.m3u8
 
 
 
@@ -67,7 +67,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports2/playli
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-2" tvg-logo="https://i.imgur.com/id4WBnX.png" group-title="Spor",Bein Sports 2|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/sbeinsports-2/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-2/playlist.m3u8
 
 
 #EXTINF:-1 tvg-name="beIN SPORTS 3 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS3_A" tvg-logo="https://i.imgur.com/b9niIDX.png" group-title="Spor",beIN SPORTS 3 A
@@ -93,7 +93,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports3/playli
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-3" tvg-logo="https://i.imgur.com/b9niIDX.png" group-title="Spor",Bein Sports 3|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/sbeinsports-3/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-3/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/b9niIDX.png" group-title="Spor", Bein Sports 3|JS
 #EXTVLCOPT:http-referrer=https://worldradio.online/proxy/?q=https://mactadi62.blogspot.com
@@ -122,7 +122,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports4/playli
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-4" tvg-logo="https://i.imgur.com/2QsXsk3.png" group-title="Spor",Bein Sports 4|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/sbeinsports-4/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-4/playlist.m3u8
 
 
 #EXTINF:-1 tvg-name="beIN SPORTS 5 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS5_A" tvg-logo="https://i.imgur.com/EwNK4DC.png" group-title="Spor",beIN SPORTS 5 A
@@ -145,7 +145,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports5/playli
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsports-5" tvg-logo="https://i.imgur.com/EwNK4DC.png" group-title="Spor",Bein Sports 5|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/sbeinsports-5/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-5/playlist.m3u8
 
 
 #EXTINF:-1 tvg-name="beIN SPORTS Max 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax_1A" tvg-logo="https://i.imgur.com/KL6JYkN.png" group-title="Spor",beIN SPORTS 1 Max A
@@ -168,7 +168,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsportsmax1/pla
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsportsmax-1" tvg-logo="https://i.imgur.com/KL6JYkN.png" group-title="Spor",Bein Sports Max1|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/sbeinsportsmax-1/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsportsmax-1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS Max 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax2_A" tvg-logo="https://i.imgur.com/VDLNMwL.png" group-title="Spor",beIN SPORTS Max 2 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -190,7 +190,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsportsmax2/pla
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsportsmax-2" tvg-logo="https://i.imgur.com/VDLNMwL.png" group-title="Spor",Bein Sports Max2|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/sbeinsportsmax-2/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsportsmax-2/playlist.m3u8
 
 
 #EXTINF:-1 tvg-name="S Sport 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="S Sport" tvg-logo="https://i.imgur.com/0LMUDsc.png" group-title="Spor",S Sport
@@ -223,7 +223,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukssport/playlist.m3
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sssport" tvg-logo="https://i.imgur.com/0LMUDsc.png" group-title="Spor",S Sport|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/sssport/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/sssport/playlist.m3u8
 
 
 #EXTINF:-1 tvg-name="S Sport 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="S Sport 2" tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor",S Sport 2
@@ -252,7 +252,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukssport2/playlist.m
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sssport2" tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor",S Sport 2|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/sssport2/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/sssport2/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HyfCOif.png" group-title="Spor", S SPORT 2| JS
 #EXTVLCOPT:http-referrer=https://worldradio.online/proxy/?q=https://mactadi62.blogspot.com
@@ -283,7 +283,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcuksmartspor/playlist
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor" tvg-logo="https://i.imgur.com/dcUhTEp.png" group-title="Spor",Spor Smart|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/ssmartspor/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/ssmartspor/playlist.m3u8
 
 #EXTINF:-1  tvg-name="Spor Smart 1" tvg-logo="https://i.imgur.com/dcUhTEp.png" group-title="Spor",Spor Smart| JS
 #EXTVLCOPT:http-referrer=https://worldradio.online/proxy/?q=https://mactadi62.blogspot.com
@@ -314,7 +314,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcuksmartspor2/playlis
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="ssmartspor2" tvg-logo="https://i.imgur.com/GACi3nS.png" group-title="Spor",Spor Smart 2|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/ssmartspor2/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/ssmartspor2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tivibu Spor 1 A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor1A" tvg-logo="https://i.imgur.com/mzqFWqH.png" group-title="Spor",Tivibu Spor 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -336,7 +336,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcuktivibuspor1/playli
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-1" tvg-logo="https://i.imgur.com/mzqFWqH.png" group-title="Spor",Tivibu Spor 1|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/stivibuspor-1/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/stivibuspor-1/playlist.m3u8
 
 
 #EXTINF:-1 tvg-name="Tivibu Spor 2 A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor2A" tvg-logo="https://i.imgur.com/jde7ngi.png" group-title="Spor",Tivibu Spor 2 A
@@ -359,7 +359,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcuktivibuspor2/playli
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-2" tvg-logo="https://i.imgur.com/jde7ngi.png" group-title="Spor",Tivibu Spor 2|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/stivibuspor-2/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/stivibuspor-2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tivibu Spor 3 A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor3A" tvg-logo="https://i.imgur.com/7qbg2sk.png" group-title="Spor",Tivibu Spor 3 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -381,7 +381,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcuktivibuspor3/playli
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-3" tvg-logo="https://i.imgur.com/7qbg2sk.png" group-title="Spor",Tivibu Spor 3|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/stivibuspor-3/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/stivibuspor-3/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Tivibu Spor 4 A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor4A" tvg-logo="https://i.imgur.com/7qbg2sk.png" group-title="Spor",Tivibu Spor 4 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -403,7 +403,7 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcuktivibuspor4/playli
 
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="stivibuspor-4" tvg-logo="https://i.imgur.com/7qbg2sk.png" group-title="Spor",Tivibu Spor 4|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
-https://alpha.cf-worker-02ad07cbb64a3a.workers.dev/live/stivibuspor-4/playlist.m3u8
+https://alpha.cf-worker-682d9769acd167.workers.dev/live/stivibuspor-4/playlist.m3u8
 
 
 
