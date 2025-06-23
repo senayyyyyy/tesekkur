@@ -15,14 +15,7 @@ https://r0.4928d54d950ee70q17.lat/yayinzirve.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinzirve.m3u8
 
-#EXTINF:-1 tvg-id="149" tvg-logo="https://i.imgur.com/M4E5tMg.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [REC]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs1.m3u8
-#EXTINF:-1 tvg-id="149" tvg-logo="https://i.imgur.com/M4E5tMg.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [REC]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs1.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/M4E5tMg.png" group-title="Spor", Bein Sports 1| JS
 #EXTVLCOPT:http-referrer=https://worldradio.online/proxy/?q=https://mactadi62.blogspot.com
 https://cdn2.freednsserc.xyz/assets/5.js
@@ -35,7 +28,15 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports1/playli
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-1/playlist.m3u8
 
+#EXTINF:-1 tvg-id="149" tvg-logo="https://i.imgur.com/M4E5tMg.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [REC]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs1.m3u8
 
+#EXTINF:-1 tvg-id="149" tvg-logo="https://i.imgur.com/M4E5tMg.png" tvg-name="Bein Sports 1" group-title="Spor",Bein Sports 1 [REC]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS2_A" tvg-logo="https://i.imgur.com/id4WBnX.png" group-title="Spor",beIN SPORTS 2 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -47,10 +48,7 @@ https://r0.4928d54d950ee70q17.lat/yayinb2.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinb2.m3u8
 
-#EXTINF:-1 tvg-id="148" tvg-logo="https://i.imgur.com/id4WBnX.png" tvg-name="Bein Sports 2" group-title="Spor",Bein Sports 2 [REC]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs2.m3u8
+
 #EXTINF:-1,tvg-name="TRT" tvg-country="TR" tvg-id="" tvg-logo="https://i.imgur.com/id4WBnX.png" group-title="Spor",Bein Sports 2-REAL
 http://raalbatros.serv00.net/Freeshot.php?ID=bein-sports-2-turkey/159
 
@@ -69,6 +67,10 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports2/playli
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-2/playlist.m3u8
 
+#EXTINF:-1 tvg-id="148" tvg-logo="https://i.imgur.com/id4WBnX.png" tvg-name="Bein Sports 2" group-title="Spor",Bein Sports 2 [REC]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs2.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 3 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS3_A" tvg-logo="https://i.imgur.com/b9niIDX.png" group-title="Spor",beIN SPORTS 3 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -80,10 +82,7 @@ https://r0.4928d54d950ee70q17.lat/yayinb3.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinb3.m3u8
 
-#EXTINF:-1 tvg-id="147" tvg-logo="https://i.imgur.com/b9niIDX.png" tvg-name="Bein Sports 3" group-title="Spor",Bein Sports 3 [REC]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs3.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="" tvg-logo="https://i.imgur.com/b9niIDX.png" group-title="Spor",Bein Sports 3|İP
 http://95.174.71.114:80/TR-BEINSPORT3/index.m3u8
 
@@ -99,6 +98,11 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-3/playlist.m
 #EXTVLCOPT:http-referrer=https://worldradio.online/proxy/?q=https://mactadi62.blogspot.com
 https://cdn2.freednsserc.xyz/assets/8.js
 
+#EXTINF:-1 tvg-id="147" tvg-logo="https://i.imgur.com/b9niIDX.png" tvg-name="Bein Sports 3" group-title="Spor",Bein Sports 3 [REC]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs3.m3u8
+
 #EXTINF:-1 tvg-name="beIN SPORTS 4 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_b eINSPORTS4_A" tvg-logo="https://i.imgur.com/2QsXsk3.png" group-title="Spor",beIN SPORTS 4 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
@@ -109,10 +113,7 @@ https://r0.4928d54d950ee70q17.lat/yayinb4.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinb4.m3u8
 
-#EXTINF:-1 tvg-id="146" tvg-logo="https://i.imgur.com/2QsXsk3.png" tvg-name="Bein Sports 4" group-title="Spor",Bein Sports 4 [REC]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs4.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="" tvg-logo="https://i.imgur.com/2QsXsk3.png" group-title="Spor",Bein Sports 4|İP
 http://95.174.71.114:80/TR-BEINSPORT4/index.m3u8
 
@@ -124,6 +125,10 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports4/playli
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-4/playlist.m3u8
 
+#EXTINF:-1 tvg-id="146" tvg-logo="https://i.imgur.com/2QsXsk3.png" tvg-name="Bein Sports 4" group-title="Spor",Bein Sports 4 [REC]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs4.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS 5 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS5_A" tvg-logo="https://i.imgur.com/EwNK4DC.png" group-title="Spor",beIN SPORTS 5 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -135,10 +140,7 @@ https://r0.4928d54d950ee70q17.lat/yayinb5.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinb5.m3u8
 
-#EXTINF:-1 tvg-id="145" tvg-logo="https://i.imgur.com/EwNK4DC.png" tvg-name="Bein Sports 5" group-title="Spor",Bein Sports 5 [REC]
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://bs.arectv33.sbs/static/bs5.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsports5" tvg-logo="https://i.imgur.com/EwNK4DC.png" group-title="Spor",Bein Sports 5|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports5/playlist.m3u8
@@ -147,6 +149,10 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsports5/playli
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsports-5/playlist.m3u8
 
+#EXTINF:-1 tvg-id="145" tvg-logo="https://i.imgur.com/EwNK4DC.png" tvg-name="Bein Sports 5" group-title="Spor",Bein Sports 5 [REC]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://bs.arectv33.sbs/static/bs5.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS Max 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax_1A" tvg-logo="https://i.imgur.com/KL6JYkN.png" group-title="Spor",beIN SPORTS 1 Max A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -158,10 +164,7 @@ https://r0.4928d54d950ee70q17.lat/yayinbm1.m3u8
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayinbm1.m3u8
 
-#EXTINF:-1 tvg-id="144" tvg-logo="https://i.imgur.com/KL6JYkN.png" tvg-name="Bein Sports Max 1" group-title="Spor",Bein Sports Max 1
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bm1.m3u8
+
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="selcukbeinsportsmax1" tvg-logo="https://i.imgur.com/KL6JYkN.png" group-title="Spor",Bein Sports Max1|SS
 #EXTVLCOPT:http-referrer= https://www.selcuksportshd1825.xyz/
 https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
@@ -169,6 +172,11 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/selcukbeinsportsmax1/pla
 #EXTINF:-1,tvg-name="TRT Türk" tvg-country="TR" tvg-id="sbeinsportsmax-1" tvg-logo="https://i.imgur.com/KL6JYkN.png" group-title="Spor",Bein Sports Max1|CF
 #EXTVLCOPT:http-referrer= https://www.sporcafe6.xyz/
 https://alpha.cf-worker-682d9769acd167.workers.dev/live/sbeinsportsmax-1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="144" tvg-logo="https://i.imgur.com/KL6JYkN.png" tvg-name="Bein Sports Max 1" group-title="Spor",Bein Sports Max 1  [REC]
+#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-referrer=https://twitter.com
+https://tv.arectv34.sbs/live/bm1.m3u8
 
 #EXTINF:-1 tvg-name="beIN SPORTS Max 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTSMax2_A" tvg-logo="https://i.imgur.com/VDLNMwL.png" group-title="Spor",beIN SPORTS Max 2 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
