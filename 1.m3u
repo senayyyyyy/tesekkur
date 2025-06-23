@@ -471,7 +471,7 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="A Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_ASPOR" tvg-logo="https://img.logo-cdn.cc/aspor.png" group-title="Spor",A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 
-#EXTINF:-1 tvg-id="130" tvg-logo="https://img.logo-cdn.cc/aspor.png" tvg-name="A Spor HD" group-title="Spor",A Spor HD [REC]
+#EXTINF:-1 tvg-id="130" tvg-logo="https://img.logo-cdn.cc/aspor.png" tvg-name="A Spor HD" group-title="Spor",A Spor [REC]
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/aspor.m3u8
