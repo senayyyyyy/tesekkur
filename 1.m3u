@@ -400,12 +400,12 @@ https://alpha.cf-worker-682d9769acd167.workers.dev/live/stivibuspor-3/playlist.m
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/t3.m3u8
 
-#EXTINF:-1 tvg-name="Tivibu Spor 4 A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor4A" tvg-logo="https://i.imgur.com/z5NvepB.png" group-title="Spor",Tivibu Spor 4 A
+#EXTINF:-1,tvg-name="Tivibu Spor 4 A" tvg-country="TR" tvg-id="Spor_TivibuSpor4A" tvg-logo="https://i.imgur.com/z5NvepB.png" group-title="Spor",Tivibu Spor 4 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
 https://r0.4928d54d950ee70q17.lat/yayint4.m3u8
 
-#EXTINF:-1 tvg-name="Tivibu Spor 4 B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TivibuSpor4B" tvg-logo="https://i.imgur.com/z5NvepB.png" group-title="Spor",Tivibu Spor 4 B
+#EXTINF:-1,tvg-name="Tivibu Spor 4 B" tvg-language="Turkish" tvg-id="Spor_TivibuSpor4B" tvg-logo="https://i.imgur.com/z5NvepB.png" group-title="Spor",Tivibu Spor 4 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv523.com/
 https://lll.istekbet3.tv/yayint4.m3u8
