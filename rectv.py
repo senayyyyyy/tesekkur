@@ -106,7 +106,7 @@ def save_to_file(new_lines, filename="1.m3u"):
 
     print(f"💾 M3U dosyası güncellendi: {filename}")
 
-# ------------------------ 🔽 Eklenen Yardımcı Fonksiyonlar 🔽 ------------------------
+# ------------------------ 🔽 Yardımcı Fonksiyonlar 🔽 ------------------------
 
 def extract_entries(lines):
     entries = []
@@ -130,25 +130,27 @@ def get_id_from_info(info_line):
 def is_rectv_id(tvg_id):
     return tvg_id and re.fullmatch(r"\d+", tvg_id)
 
+# 🔄 Sadece linkleri güncelleyen versiyon
 def merge_channels(old_channels, new_channels):
-    # Yeni RecTV kanallarını ID'ye göre sözlüğe al
     new_dict = {
         get_id_from_info(ch[0]): ch
         for ch in new_channels
         if is_rectv_id(get_id_from_info(ch[0]))
     }
 
-    # Eski sıralamayı koruyarak RecTV kanalları güncelle
     final_channels = []
     for old_ch in old_channels:
         ch_id = get_id_from_info(old_ch[0])
         if is_rectv_id(ch_id) and ch_id in new_dict:
-            final_channels.append(new_dict[ch_id])  # Güncellenmiş RecTV kanalı
+            # EXTINF satırı korunur, link ve opsiyonel HTTP ayarları güncellenir
+            old_extinf = old_ch[0]
+            new_lines = list(new_dict[ch_id])
+            final_entry = [old_extinf] + new_lines[1:]
+            final_channels.append(tuple(final_entry))
         else:
-            final_channels.append(old_ch)  # Diğer kanal veya güncellenemeyen RecTV
+            final_channels.append(old_ch)
 
     return final_channels
-
 
 # ------------------------ 🔚 ------------------------
 
