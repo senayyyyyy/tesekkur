@@ -625,10 +625,10 @@ https://dogus-live.daioncdn.net/startv/startv.m3u8
 #EXTINF:-1 tvg-name="Now"  tvg-language="Turkish" tvg-country="TR" tvg-id="Now" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/25c7c620-dfe4-4c78-9d9b-185d8a91885f.png" group-title="Ulusal",Now
 https://ottcdn.kablowebtv.net/live_turksat_sub3/now_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yNC8yMDI1IDY6MTY6MzEgQU0maGFzaF92YWx1ZT02aEdnNVoyc2VwOURoVVMySUk0UEtnPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4y
 
-#EXTINF:-1 tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/50824b68e8d4a1377f0d6ed9242d68d7.jpg" tvg-name="FOX TV" group-title="Ulusal",NOW TV
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/25c7c620-dfe4-4c78-9d9b-185d8a91885f.png" tvg-name="FOX TV" group-title="Ulusal",NOW TV
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 
-#EXTINF:-1 tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/jpg/50824b68e8d4a1377f0d6ed9242d68d7.jpg" tvg-name="FOX TV" group-title="Ulusal",NOW TV-3
+#EXTINF:-1 tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/25c7c620-dfe4-4c78-9d9b-185d8a91885f.png" tvg-name="FOX TV" group-title="Ulusal",NOW TV-3
 http://116.202.238.88/FOXTV_TR/index.m3u8
 
 #EXTINF:-1 tvg-name="Beyaz TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_BeyazTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/a92329d7-3d4c-4631-ab3e-c7d36a3f1a6f.png" group-title="Ulusal",Beyaz TV
