@@ -658,7 +658,7 @@ https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
 #EXTINF:-1 tvg-name="A2" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_A2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/fee44d61-2476-40ae-89eb-f51a7428789d.png" group-title="Ulusal",A2
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
 
-#EXTINF:-1 tvg-name="TRT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_2" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/14a65b49-958f-497f-be22-52d958ef8498.png" group-title="Ulusal",TRT 2
+#EXTINF:-1 tvg-name="TRT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_2" tvg-logo="https://i.ibb.co/TB5N8cN/trt2.png" group-title="Ulusal",TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT Türk" tvg-language="Turkish" tvg-country="TR" tvg-id="TRT_Turk" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/0acb34e5-4b37-434e-b555-c7eb0271ba9d.png" group-title="Ulusal",TRT Türk
@@ -670,10 +670,6 @@ https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="Show Max TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_ShowTVMAX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Show_MAX_logo.svg/768px-Show_MAX_logo.svg.png" group-title="Ulusal",Show Max TV
 https://ciner-live.daioncdn.net/showmax/showmax.m3u8
 
-#EXTINF:-1 tvg-id="28" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/da2883f3f44910691413d14b610a698f.png" tvg-name="KON TV" group-title="Ulusal",KON TV
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://kontv.blutv.com/blutv_kontv2/live_720p2000000kbps/index.m3u8
 #EXTINF:-1 tvg-name="TRT Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_TRT" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/8c07dd0b-0100-4a56-9a8c-9f810a184bd4.png" group-title="Haber",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
 
