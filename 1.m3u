@@ -466,7 +466,7 @@ https://ciner-live.daioncdn.net/ht-spor/ht-spor_1080p.m3u8
 #EXTINF:-1 tvg-name="Sports TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SportsTV" tvg-logo="http://assets.tvcdn.net/96bc5554-741b-4e91-8b4f-7b3bcc1e4c1d.png" group-title="Spor",Sports TV
 https://live.sportstv.com.tr/hls/low/sportstv.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="FB TV" group-title="Spor",FB TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/867fC4z/fbtv22a.png" tvg-name="FB TV" group-title="Spor",FB TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
