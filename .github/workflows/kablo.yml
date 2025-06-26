@@ -52,4 +52,3 @@ jobs:
           git add .
           git commit -m "📡 Kablo ve M3U güncellemesi yapıldı" -m "🕒 Otomatik işlem - $GITHUB_SHA"
           git push
-
