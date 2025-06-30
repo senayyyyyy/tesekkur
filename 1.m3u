@@ -1146,8 +1146,11 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/trteba_stream/index.m3u8?wmsAuth
 http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="" group-title="Müzik",RELAX TV
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="" group-title="Müzik",GÜNCEL PAYLAŞIMLAR TV
 https://koprulu4.global.ssl.fastly.net/yt.m3u8/?id=EmdtE7sRMSY.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="" group-title="Müzik",RELAX TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/chill-tv/playlist/0.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://www.kralpoptv.com.tr/Content/Logo/kral.png" tvg-name="Number 1 HD" group-title="Müzik",KRAL TV
 https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8.
