@@ -471,6 +471,9 @@ https://live.sportstv.com.tr/hls/low/sportstv.m3u8
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="CBC SPORT" tvg-logo="" group-title="Spor",CBC SPORT
+http://0e770a63.ucomist.net/iptv/ZWZ54NWQ78NYQX/2193/index&extension=m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0b/CBC_Sport_Logo.png" group-title="Spor",CBC SPORT
 https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/cbcsportcanli-hd
 
