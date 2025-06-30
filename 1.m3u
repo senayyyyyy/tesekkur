@@ -898,9 +898,12 @@ https://tv.arectv34.sbs/live/sinemakomedi.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemayerli2.m3u8
+
 #EXTINF:-1 tvg-name="Tabii TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_TabiiTV" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Sinema",Tabii TV
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="TRT NOSTALJİ" tvg-logo="" group-title="Sinema",TRT NOSTALJİ
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8
 
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_Cine1" tvg-logo="https://www.cine6tv.com.tr/uploads/logo/Kadir-Gecesi-3000-x-1080-piksel-3000-x-3000-piksel-Kopyası-200-x-200-piksel-200-x-200-piksel-1.png" group-title="Sinema",CINE6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -918,8 +921,7 @@ https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_Cine1" tvg-logo="https://oncurtvcom.teimg.com/oncurtv-com/images/banner/oncu_logo.png" group-title="Sinema",ÖNCÜ RTV
 http://45.150.174.26:1935/oncurtv/bant1/chunks.m3u8
 
-#EXTINF:-1 tvg-name="Şaban Tv" tvg-logo="https://resim.tavsiyeforumu.com/images/icon.png" group-title="Sinema", Şaban Tv
-https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/saban-tv
+
 
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_CINE5" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/0/04/Cine5_logosu.png" group-title="Sinema",CINE 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -928,6 +930,18 @@ https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/playlist.m3u8
 #EXTINF:-1 tvg-name="" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_CINE5" tvg-logo="https://pbs.twimg.com/profile_images/757332945694777344/KmJxdn4g_400x400.jpg" group-title="Sinema",Tivi Türk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 https://stream.tiviturk.de/live/tiviturk.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="SÜPER TÜRK TV" tvg-logo="" group-title="Sinema",SÜPER TÜRK TV
+http://75.119.144.48/SUPERTURK_TV_STREAM/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="SÜPER TÜRK MAX TV" tvg-logo="" group-title="Sinema",SÜPER TÜRK MAX TV
+http://75.119.144.48/SUPERTURK_MAX_HD/index.m3u8
+
+
+
+#EXTINF:-1 tvg-name="Şaban Tv" tvg-logo="https://resim.tavsiyeforumu.com/images/icon.png" group-title="Sinema", Şaban Tv
+https://koprulu4.global.ssl.fastly.net/ctv/?url=https://tv.canlitv.vip/saban-tv
+
 
 
 # * » Belgesel « * #
