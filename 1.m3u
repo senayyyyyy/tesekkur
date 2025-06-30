@@ -463,7 +463,7 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/beinsportshaber_stream/index.m3u
 #EXTINF:-1 tvg-name=""  tvg-language="Turkish" tvg-country="TR" tvg-id="" tvg-logo="https://img.logo-cdn.cc/beinsportshaber.png" group-title="Spor",beIN Sports Haber-YT
 https://koprulu4.global.ssl.fastly.net/ythls/?kanal_id=UCPe9vNjHF1kEExT5kHwc7aw.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Spor",TİVİBU SPOR
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/3/36/Tivibu_spor_logosu.jpg/250px-Tivibu_spor_logosu.jpg" group-title="Spor",TİVİBU SPOR
 https://live-cdn-65984.varplaycdn.cfd/700/index.m3u8
 
 #EXTINF:-1 tvg-name="HT Spor " tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Ht_Spor" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" group-title="Spor",Ht spor
