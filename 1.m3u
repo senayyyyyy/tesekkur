@@ -1154,15 +1154,10 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/trteba_stream/index.m3u8?wmsAuth
 http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="" group-title="Müzik",GÜNCEL PAYLAŞIMLAR TV
-https://koprulu4.global.ssl.fastly.net/yt.m3u8/?id=EmdtE7sRMSY.m3u8
 
-
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="" group-title="Müzik",RELAX TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/chill-tv/playlist/0.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://www.kralpoptv.com.tr/Content/Logo/kral.png" tvg-name="Number 1 HD" group-title="Müzik",KRAL TV
-https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8.
+https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8
 
 #EXTINF:-1 tvg-id="51" tvg-logo="https://m.prectv49.sbs/uploads/cache/channel_thumb/uploads/png/9756196c45fab27cf682ca813c12ceee.png" tvg-name="DREAM TÜRK TV HD" group-title="Müzik",DREAM TÜRK TV HD
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
@@ -1210,6 +1205,19 @@ https://cdn-4turkpop.yayin.com.tr/4turkpop/4turkpop/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_130.png?v=3" tvg-name="TEMPO TV" group-title="Müzik",TEMPO TV
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="" group-title="Müzik",Türkçe Pop Remix
+https://koprulu4.global.ssl.fastly.net/yt.m3u8/?id=VFSQiZAjPmU.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="" group-title="Müzik",GÜNCEL PAYLAŞIMLAR TV
+https://koprulu4.global.ssl.fastly.net/yt.m3u8/?id=EmdtE7sRMSY.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="" group-title="Müzik",RELAX TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/chill-tv/playlist/0.m3u8
+
+
 
 #EXTINF:-1 tvg-name="Bein Gurme" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_BEİNGURME" tvg-logo="https://images.seeklogo.com/logo-png/36/2/bein-gurme-logo-png_seeklogo-367814.png" group-title="Yaşam & Eğlence",Bein Gurme
 https://sinetech-nettv-1.hf.space/proxy/m3u?url=https://vavoo.to/play/3583230858/index.m3u8
