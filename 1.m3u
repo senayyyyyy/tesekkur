@@ -1144,6 +1144,11 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/trteba_stream/index.m3u8?wmsAuth
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="" group-title="Müzik",RELAX TV
+https://koprulu4.global.ssl.fastly.net/yt.m3u8/?id=EmdtE7sRMSY.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="http://www.kralpoptv.com.tr/Content/Logo/kral.png" tvg-name="Number 1 HD" group-title="Müzik",KRAL TV
 https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8.
 
