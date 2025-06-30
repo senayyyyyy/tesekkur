@@ -913,7 +913,6 @@ https://tv.arectv34.sbs/live/sinemakomedi.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/sinemayerli2.m3u8
-
 #EXTINF:-1 tvg-name="Tabii TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Ulusal_TabiiTV" tvg-logo="https://cms-tabii-assets.tabii.com/thumbnails/23963_781e9dee-cbd8-491a-b166-0b1df25b3bd0_720.jpeg" group-title="Sinema",Tabii TV
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
 
@@ -1128,7 +1127,6 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/englishclub_stream/index.m3u8?wm
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 https://tv.arectv34.sbs/live/davinci.m3u8
-
 #EXTINF:-1 tvg-name="LangLab" tvg-id="LangLab"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/97f5f9c6-70e1-4326-a046-43d6fdd0d81c.png" group-title="Çocuk",LangLab
 https://ottcdn.kablowebtv.net/live_turksat_sub3/langlab_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8zMC8yMDI1IDY6MTg6MjEgUE0maGFzaF92YWx1ZT1xVm9OOTB6RnpqSnhWcE1hQkVmZ0NRPT0mdmFsaWRtaW51dGVzPTI4ODAmaWQ9MDkzZDcyMGEtNTAyYy00MWVkLWE4MGYtMmI4MTY5ODRmYjk1LDg5NzQxZmVjLTFkMzMtNGMwMC1hZmNkLTNmZGFmZTBiNmEyZCwxNTJiZDUzOS02MjIwLTQ0MjctYTkxNS1iZjRiZDA2OGQ3ZTgsYTY5OWI4M2YtODI2Yi00ZDk5LTkzNjEtYzhhMzEzMjE4ZDQ2LDAsOjpmZmZmOjEwLjAuMC4yMDY=
 
@@ -1152,10 +1150,6 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/trteba_stream/index.m3u8?wmsAuth
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 #EXTVLCOPT:http-referrer=https://twitter.com
 http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
-
-
-
-
 #EXTINF:-1 tvg-id="" tvg-logo="http://www.kralpoptv.com.tr/Content/Logo/kral.png" tvg-name="Number 1 HD" group-title="Müzik",KRAL TV
 https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8
 
