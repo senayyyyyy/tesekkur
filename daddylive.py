@@ -303,7 +303,7 @@ def main():
     sorted_channels = turkish_bein + other_bein + other_channels
     
     
-    new_content = "#EXTM3U url-tvg=\"https://raw.githubusercontent.com/pigzillaaaaa/daddylive/refs/heads/main/epgs/daddylive-channels-epg.xml\"\n"
+    new_content = "#EXTM3U url-tvg=\"https://tinyurl.com/merged2423-epg".xml\"\n"
     for channel in sorted_channels:
         new_content += format_channel(channel) + "\n"
     
