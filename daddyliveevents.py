@@ -21,8 +21,8 @@ def get_title(entry):
 
 
 def replace_logo(entry):
-    old_logo = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/imgs/cfl-logo.png"
-    new_logo = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/imgs/cfb-logo.png"
+    old_logo = "https://tinyurl.com/merged2423-epg"
+    new_logo = "https://tinyurl.com/merged2423-epg"
     return entry.replace(old_logo, new_logo)
 
 
@@ -38,7 +38,7 @@ for group in groups:
 
 
 
-header = '#EXTM3U url-tvg="https://raw.githubusercontent.com/pigzillaaaaa/daddylive/refs/heads/main/epgs/daddylive-events-epg.xml"\n\n'
+header = '#EXTM3U url-tvg="https://tinyurl.com/merged2423-epg.xml"\n\n'
 
 sorted_content = header
 for group in sorted(groups.keys()):
